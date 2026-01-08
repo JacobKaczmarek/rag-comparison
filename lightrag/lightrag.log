@@ -1,0 +1,1711 @@
+2025-12-16 23:18:06,611 - lightrag - INFO - Ollama LLM Options: {'num_ctx': 32768}
+2025-12-16 23:18:06,611 - lightrag - INFO - Ollama Embedding Options: {'num_ctx': 8192}
+2025-12-16 23:18:06,612 - lightrag - INFO - Reranking is disabled
+2025-12-16 23:18:06,651 - lightrag - ERROR - Failed to initialize LightRAG: Failed to import ollama LLM binding: No module named 'ollama'
+2025-12-16 23:19:11,805 - lightrag - INFO - Ollama LLM Options: {'num_ctx': 32768}
+2025-12-16 23:19:11,805 - lightrag - INFO - Ollama Embedding Options: {'num_ctx': 8192}
+2025-12-16 23:19:11,805 - lightrag - INFO - Reranking is disabled
+2025-12-16 23:19:15,964 - lightrag - INFO - [_] Created new empty graph file: /Users/jacob/Code/personal/lightrag/rag_storage/graph_chunk_entity_relation.graphml
+2025-12-16 23:19:16,238 - uvicorn.error - INFO - Started server process [10608]
+2025-12-16 23:19:16,238 - uvicorn.error - INFO - Waiting for application startup.
+2025-12-16 23:19:16,238 - lightrag - INFO - [_] Process 10608 KV load full_docs with 0 records
+2025-12-16 23:19:16,238 - lightrag - INFO - [_] Process 10608 KV load text_chunks with 0 records
+2025-12-16 23:19:16,238 - lightrag - INFO - [_] Process 10608 KV load full_entities with 0 records
+2025-12-16 23:19:16,238 - lightrag - INFO - [_] Process 10608 KV load full_relations with 0 records
+2025-12-16 23:19:16,238 - lightrag - INFO - [_] Process 10608 KV load entity_chunks with 0 records
+2025-12-16 23:19:16,238 - lightrag - INFO - [_] Process 10608 KV load relation_chunks with 0 records
+2025-12-16 23:19:16,238 - lightrag - INFO - [_] Process 10608 KV load llm_response_cache with 0 records
+2025-12-16 23:19:16,238 - lightrag - INFO - [_] Process 10608 doc status load doc_status with 0 records
+2025-12-16 23:19:16,238 - uvicorn.error - INFO - Application startup complete.
+2025-12-16 23:19:16,239 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-12-16 23:22:14,609 - uvicorn.access - INFO - 127.0.0.1:58465 - "GET / HTTP/1.1" 307
+2025-12-16 23:22:14,612 - uvicorn.access - INFO - 127.0.0.1:58465 - "GET /webui HTTP/1.1" 307
+2025-12-16 23:22:14,661 - uvicorn.access - INFO - 127.0.0.1:58465 - "GET /webui/assets/index-CRtuqff2.js HTTP/1.1" 200
+2025-12-16 23:22:14,661 - uvicorn.access - INFO - 127.0.0.1:58466 - "GET /webui/assets/index-C8dNBpcg.css HTTP/1.1" 200
+2025-12-16 23:22:14,870 - uvicorn.access - INFO - 127.0.0.1:58466 - "GET /auth-status HTTP/1.1" 200
+2025-12-16 23:22:14,871 - uvicorn.access - INFO - 127.0.0.1:58465 - "GET /webui/favicon.png HTTP/1.1" 200
+2025-12-16 23:22:15,522 - uvicorn.access - INFO - 127.0.0.1:58465 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:22:15,535 - uvicorn.access - INFO - 127.0.0.1:58467 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:22:15,537 - lightrag - INFO - [_] Subgraph query successful | Node count: 0 | Edge count: 0
+2025-12-16 23:22:15,537 - uvicorn.access - INFO - 127.0.0.1:58468 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-12-16 23:22:15,618 - uvicorn.access - INFO - 127.0.0.1:58468 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 200
+2025-12-16 23:22:15,618 - uvicorn.access - INFO - 127.0.0.1:58467 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2025-12-16 23:22:15,774 - uvicorn.access - INFO - 127.0.0.1:58467 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:23:00,312 - uvicorn.access - INFO - 127.0.0.1:58477 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:23:00,319 - uvicorn.access - INFO - 127.0.0.1:58479 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:23:00,480 - uvicorn.access - INFO - 127.0.0.1:58479 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:23:08,254 - uvicorn.error - INFO - Shutting down
+2025-12-16 23:23:08,356 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-12-16 23:23:08,357 - lightrag - INFO - Successfully finalized 12 storages
+2025-12-16 23:23:08,358 - uvicorn.error - INFO - Application shutdown complete.
+2025-12-16 23:23:08,358 - uvicorn.error - INFO - Finished server process [10608]
+2025-12-16 23:23:09,624 - lightrag - INFO - Ollama LLM Options: {'num_ctx': 32768}
+2025-12-16 23:23:09,624 - lightrag - INFO - Ollama Embedding Options: {'num_ctx': 8192}
+2025-12-16 23:23:09,624 - lightrag - INFO - Reranking is disabled
+2025-12-16 23:23:09,896 - lightrag - INFO - [_] Created new empty graph file: /Users/jacob/Code/personal/lightrag/rag_storage/graph_chunk_entity_relation.graphml
+2025-12-16 23:23:09,946 - uvicorn.error - INFO - Started server process [10900]
+2025-12-16 23:23:09,946 - uvicorn.error - INFO - Waiting for application startup.
+2025-12-16 23:23:09,946 - lightrag - INFO - [_] Process 10900 KV load full_docs with 0 records
+2025-12-16 23:23:09,946 - lightrag - INFO - [_] Process 10900 KV load text_chunks with 0 records
+2025-12-16 23:23:09,946 - lightrag - INFO - [_] Process 10900 KV load full_entities with 0 records
+2025-12-16 23:23:09,946 - lightrag - INFO - [_] Process 10900 KV load full_relations with 0 records
+2025-12-16 23:23:09,946 - lightrag - INFO - [_] Process 10900 KV load entity_chunks with 0 records
+2025-12-16 23:23:09,946 - lightrag - INFO - [_] Process 10900 KV load relation_chunks with 0 records
+2025-12-16 23:23:09,946 - lightrag - INFO - [_] Process 10900 KV load llm_response_cache with 0 records
+2025-12-16 23:23:09,946 - lightrag - INFO - [_] Process 10900 doc status load doc_status with 0 records
+2025-12-16 23:23:09,947 - uvicorn.error - INFO - Application startup complete.
+2025-12-16 23:23:09,947 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-12-16 23:23:29,985 - uvicorn.access - INFO - 127.0.0.1:58483 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:23:29,995 - uvicorn.access - INFO - 127.0.0.1:58484 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:23:30,130 - uvicorn.access - INFO - 127.0.0.1:58484 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:23:31,058 - uvicorn.access - INFO - 127.0.0.1:58484 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:23:31,063 - uvicorn.access - INFO - 127.0.0.1:58483 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:23:31,098 - uvicorn.access - INFO - 127.0.0.1:58484 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:23:55,918 - uvicorn.access - INFO - 127.0.0.1:58487 - "POST /documents/upload HTTP/1.1" 200
+2025-12-16 23:24:19,143 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2025-12-16 23:24:19,157 - uvicorn.access - INFO - 127.0.0.1:58491 - "GET /webui/assets/index-CQa5nmds.js HTTP/1.1" 200
+2025-12-16 23:24:44,913 - uvicorn.access - INFO - 127.0.0.1:58502 - "POST /documents/scan HTTP/1.1" 200
+2025-12-16 23:24:44,926 - lightrag - INFO - Found 1 files to index.
+2025-12-16 23:24:44,930 - lightrag - ERROR - File processing error: - ID: error-a7bdc31506eb706f308740dde819db62 harry-potter-and-the-philosophers-stone.txt
+2025-12-16 23:24:44,931 - lightrag - ERROR - [File Extraction]File harry-potter-and-the-philosophers-stone.txt is not valid UTF-8 encoded text. Please convert it to UTF-8 before processing.
+2025-12-16 23:24:44,931 - lightrag - INFO - Scanning process completed: 1 files Processed.
+2025-12-16 23:25:03,550 - lightrag - WARNING - high_level_keywords is empty
+2025-12-16 23:25:03,550 - lightrag - WARNING - Forced low_level_keywords to origin query: Who are you?
+2025-12-16 23:25:11,586 - lightrag - INFO - Query nodes: Who are you? (top_k:40, cosine:0.2)
+2025-12-16 23:25:11,588 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-12-16 23:25:11,630 - lightrag - ERROR - Query failed: shapes (0,3072) and (768,) not aligned: 3072 (dim 1) != 768 (dim 0)
+2025-12-16 23:25:11,631 - uvicorn.access - INFO - 127.0.0.1:58490 - "POST /query/stream HTTP/1.1" 200
+2025-12-16 23:30:55,264 - uvicorn.error - INFO - Shutting down
+2025-12-16 23:30:55,366 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-12-16 23:30:55,367 - lightrag - INFO - Successfully finalized 12 storages
+2025-12-16 23:30:55,368 - uvicorn.error - INFO - Application shutdown complete.
+2025-12-16 23:30:55,368 - uvicorn.error - INFO - Finished server process [10900]
+2025-12-16 23:30:56,492 - lightrag - INFO - Ollama LLM Options: {'num_ctx': 32768}
+2025-12-16 23:30:56,492 - lightrag - INFO - Ollama Embedding Options: {'num_ctx': 8192}
+2025-12-16 23:30:56,493 - lightrag - INFO - Reranking is disabled
+2025-12-16 23:30:56,837 - lightrag - INFO - [_] Created new empty graph file: /Users/jacob/Code/personal/lightrag/rag_storage/graph_chunk_entity_relation.graphml
+2025-12-16 23:30:56,893 - uvicorn.error - INFO - Started server process [12354]
+2025-12-16 23:30:56,893 - uvicorn.error - INFO - Waiting for application startup.
+2025-12-16 23:30:56,894 - lightrag - INFO - [_] Process 12354 KV load full_docs with 0 records
+2025-12-16 23:30:56,894 - lightrag - INFO - [_] Process 12354 KV load text_chunks with 0 records
+2025-12-16 23:30:56,894 - lightrag - INFO - [_] Process 12354 KV load full_entities with 0 records
+2025-12-16 23:30:56,894 - lightrag - INFO - [_] Process 12354 KV load full_relations with 0 records
+2025-12-16 23:30:56,894 - lightrag - INFO - [_] Process 12354 KV load entity_chunks with 0 records
+2025-12-16 23:30:56,894 - lightrag - INFO - [_] Process 12354 KV load relation_chunks with 0 records
+2025-12-16 23:30:56,894 - lightrag - INFO - [_] Process 12354 KV load llm_response_cache with 0 records
+2025-12-16 23:30:56,894 - lightrag - INFO - [_] Process 12354 doc status load doc_status with 1 records
+2025-12-16 23:30:56,895 - uvicorn.error - INFO - Application startup complete.
+2025-12-16 23:30:56,895 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-12-16 23:31:08,334 - uvicorn.access - INFO - 127.0.0.1:58904 - "GET /webui/assets/index-CRtuqff2.js HTTP/1.1" 304
+2025-12-16 23:31:08,335 - uvicorn.access - INFO - 127.0.0.1:58908 - "GET /webui/assets/index-C8dNBpcg.css HTTP/1.1" 304
+2025-12-16 23:31:08,476 - uvicorn.access - INFO - 127.0.0.1:58908 - "GET /webui/favicon.png HTTP/1.1" 304
+2025-12-16 23:31:08,595 - uvicorn.access - INFO - 127.0.0.1:58904 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:31:08,613 - uvicorn.access - INFO - 127.0.0.1:58908 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:31:08,624 - uvicorn.access - INFO - 127.0.0.1:58904 - "GET /webui/assets/index-CQa5nmds.js HTTP/1.1" 304
+2025-12-16 23:31:08,626 - uvicorn.access - INFO - 127.0.0.1:58908 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 304
+2025-12-16 23:31:08,627 - uvicorn.access - INFO - 127.0.0.1:58904 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 304
+2025-12-16 23:31:08,779 - uvicorn.access - INFO - 127.0.0.1:58904 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:31:09,817 - uvicorn.access - INFO - 127.0.0.1:58904 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:31:09,824 - uvicorn.access - INFO - 127.0.0.1:58908 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:31:09,885 - uvicorn.access - INFO - 127.0.0.1:58904 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:31:38,002 - uvicorn.error - INFO - Shutting down
+2025-12-16 23:31:38,104 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-12-16 23:31:38,105 - lightrag - INFO - Successfully finalized 12 storages
+2025-12-16 23:31:38,106 - uvicorn.error - INFO - Application shutdown complete.
+2025-12-16 23:31:38,106 - uvicorn.error - INFO - Finished server process [12354]
+2025-12-16 23:32:23,317 - lightrag - INFO - Ollama LLM Options: {'num_ctx': 32768}
+2025-12-16 23:32:23,317 - lightrag - INFO - Ollama Embedding Options: {'num_ctx': 8192}
+2025-12-16 23:32:23,317 - lightrag - INFO - Reranking is disabled
+2025-12-16 23:32:23,586 - lightrag - INFO - [_] Created new empty graph file: /Users/jacob/Code/personal/lightrag/rag_storage/graph_chunk_entity_relation.graphml
+2025-12-16 23:32:23,636 - uvicorn.error - INFO - Started server process [12520]
+2025-12-16 23:32:23,636 - uvicorn.error - INFO - Waiting for application startup.
+2025-12-16 23:32:23,636 - lightrag - INFO - [_] Process 12520 KV load full_docs with 0 records
+2025-12-16 23:32:23,636 - lightrag - INFO - [_] Process 12520 KV load text_chunks with 0 records
+2025-12-16 23:32:23,637 - lightrag - INFO - [_] Process 12520 KV load full_entities with 0 records
+2025-12-16 23:32:23,637 - lightrag - INFO - [_] Process 12520 KV load full_relations with 0 records
+2025-12-16 23:32:23,637 - lightrag - INFO - [_] Process 12520 KV load entity_chunks with 0 records
+2025-12-16 23:32:23,637 - lightrag - INFO - [_] Process 12520 KV load relation_chunks with 0 records
+2025-12-16 23:32:23,637 - lightrag - INFO - [_] Process 12520 KV load llm_response_cache with 0 records
+2025-12-16 23:32:23,637 - lightrag - INFO - [_] Process 12520 doc status load doc_status with 1 records
+2025-12-16 23:32:23,637 - uvicorn.error - INFO - Application startup complete.
+2025-12-16 23:32:23,637 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-12-16 23:32:25,679 - uvicorn.access - INFO - 127.0.0.1:58946 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:32:25,696 - uvicorn.access - INFO - 127.0.0.1:58947 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:32:25,943 - uvicorn.access - INFO - 127.0.0.1:58947 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:32:36,703 - uvicorn.access - INFO - 127.0.0.1:58949 - "DELETE /documents/delete_document HTTP/1.1" 200
+2025-12-16 23:32:36,704 - lightrag - INFO - Deleting document 1/1: error-a7bdc31506eb706f308740dde819db62
+2025-12-16 23:32:36,704 - lightrag - INFO - Starting deletion process for document error-a7bdc31506eb706f308740dde819db62
+2025-12-16 23:32:36,704 - lightrag - INFO - Deleting error-a7bdc31506eb706f308740dde819db62 harry-potter-and-the-philosophers-stone.txt(previous status: FAILED)
+2025-12-16 23:32:36,704 - lightrag - WARNING - No chunks found for document error-a7bdc31506eb706f308740dde819db62
+2025-12-16 23:32:36,704 - lightrag - INFO - Document deleted without associated chunks: error-a7bdc31506eb706f308740dde819db62
+2025-12-16 23:32:36,709 - lightrag - INFO - [_] Writing graph with 0 nodes, 0 edges
+2025-12-16 23:32:36,711 - lightrag - INFO - In memory DB persist to disk
+2025-12-16 23:32:36,712 - lightrag - INFO - Document deleted 1/1: error-a7bdc31506eb706f308740dde819db62[harry-potter-and-the-philosophers-stone.txt]
+2025-12-16 23:32:38,148 - uvicorn.access - INFO - 127.0.0.1:58949 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:32:38,156 - uvicorn.access - INFO - 127.0.0.1:58950 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:32:38,228 - uvicorn.access - INFO - 127.0.0.1:58950 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:32:42,443 - uvicorn.error - INFO - Shutting down
+2025-12-16 23:32:42,545 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-12-16 23:32:42,546 - lightrag - INFO - Successfully finalized 12 storages
+2025-12-16 23:32:42,547 - uvicorn.error - INFO - Application shutdown complete.
+2025-12-16 23:32:42,547 - uvicorn.error - INFO - Finished server process [12520]
+2025-12-16 23:32:47,346 - lightrag - INFO - Ollama LLM Options: {'num_ctx': 32768}
+2025-12-16 23:32:47,346 - lightrag - INFO - Ollama Embedding Options: {'num_ctx': 8192}
+2025-12-16 23:32:47,347 - lightrag - INFO - Reranking is disabled
+2025-12-16 23:32:47,620 - lightrag - INFO - [_] Loaded graph from /Users/jacob/Code/personal/lightrag/rag_storage/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-12-16 23:32:47,671 - uvicorn.error - INFO - Started server process [12556]
+2025-12-16 23:32:47,671 - uvicorn.error - INFO - Waiting for application startup.
+2025-12-16 23:32:47,671 - lightrag - INFO - [_] Process 12556 KV load full_docs with 0 records
+2025-12-16 23:32:47,671 - lightrag - INFO - [_] Process 12556 KV load text_chunks with 0 records
+2025-12-16 23:32:47,671 - lightrag - INFO - [_] Process 12556 KV load full_entities with 0 records
+2025-12-16 23:32:47,671 - lightrag - INFO - [_] Process 12556 KV load full_relations with 0 records
+2025-12-16 23:32:47,671 - lightrag - INFO - [_] Process 12556 KV load entity_chunks with 0 records
+2025-12-16 23:32:47,671 - lightrag - INFO - [_] Process 12556 KV load relation_chunks with 0 records
+2025-12-16 23:32:47,671 - lightrag - INFO - [_] Process 12556 KV load llm_response_cache with 0 records
+2025-12-16 23:32:47,671 - lightrag - INFO - [_] Process 12556 doc status load doc_status with 0 records
+2025-12-16 23:32:47,672 - uvicorn.error - INFO - Application startup complete.
+2025-12-16 23:32:47,672 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-12-16 23:33:00,207 - uvicorn.access - INFO - 127.0.0.1:58954 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:33:00,217 - uvicorn.access - INFO - 127.0.0.1:58955 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:33:00,363 - uvicorn.access - INFO - 127.0.0.1:58955 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:33:01,386 - uvicorn.access - INFO - 127.0.0.1:58955 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:33:01,405 - uvicorn.access - INFO - 127.0.0.1:58954 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:33:01,441 - uvicorn.access - INFO - 127.0.0.1:58955 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:33:02,667 - uvicorn.access - INFO - 127.0.0.1:58955 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:33:02,673 - uvicorn.access - INFO - 127.0.0.1:58954 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:33:02,713 - uvicorn.access - INFO - 127.0.0.1:58955 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:33:21,378 - uvicorn.access - INFO - 127.0.0.1:58958 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:33:21,386 - uvicorn.access - INFO - 127.0.0.1:58959 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:33:21,435 - uvicorn.access - INFO - 127.0.0.1:58959 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:33:27,371 - uvicorn.access - INFO - 127.0.0.1:58959 - "POST /documents/scan HTTP/1.1" 200
+2025-12-16 23:33:27,383 - lightrag - INFO - Found 1 files to index.
+2025-12-16 23:33:27,458 - lightrag - INFO - Successfully extracted and enqueued file: harry-potter-and-the-philosophers-stone.txt
+2025-12-16 23:33:27,459 - lightrag - INFO - Processing 1 document(s)
+2025-12-16 23:33:27,459 - lightrag - INFO - Extracting stage 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-16 23:33:27,459 - lightrag - INFO - Processing d-id: doc-d22f78b0263981245aae43f611784899
+2025-12-16 23:33:27,519 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-12-16 23:33:41,358 - lightrag - ERROR - Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 1830, in process_document
+    await asyncio.gather(*first_stage_tasks)
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/kg/nano_vector_db_impl.py", line 131, in upsert
+    results = client.upsert(datas=list_data)
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/nano_vectordb/dbs.py", line 116, in upsert
+    self.__storage["matrix"] = np.vstack([self.__storage["matrix"], new_matrix])
+                               ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/numpy/_core/shape_base.py", line 292, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 3072 and the array at index 1 has size 768
+
+2025-12-16 23:33:41,375 - lightrag - ERROR - Failed to extract document 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-16 23:33:41,377 - lightrag - INFO - Enqueued document processing pipeline stopped
+2025-12-16 23:33:41,377 - lightrag - INFO - Scanning process completed: 1 files Processed.
+2025-12-16 23:37:33,968 - uvicorn.error - INFO - Shutting down
+2025-12-16 23:37:34,070 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-12-16 23:37:34,071 - lightrag - INFO - Successfully finalized 12 storages
+2025-12-16 23:37:34,071 - uvicorn.error - INFO - Application shutdown complete.
+2025-12-16 23:37:34,071 - uvicorn.error - INFO - Finished server process [12556]
+2025-12-16 23:38:00,928 - lightrag - INFO - Ollama LLM Options: {'num_ctx': 32768}
+2025-12-16 23:38:00,928 - lightrag - INFO - Ollama Embedding Options: {'num_ctx': 8192}
+2025-12-16 23:38:00,928 - lightrag - INFO - Reranking is disabled
+2025-12-16 23:38:01,199 - lightrag - INFO - [_] Created new empty graph file: /Users/jacob/Code/personal/lightrag/rag_storage/graph_chunk_entity_relation.graphml
+2025-12-16 23:38:01,247 - uvicorn.error - INFO - Started server process [15060]
+2025-12-16 23:38:01,247 - uvicorn.error - INFO - Waiting for application startup.
+2025-12-16 23:38:01,247 - lightrag - INFO - [_] Process 15060 KV load full_docs with 0 records
+2025-12-16 23:38:01,247 - lightrag - INFO - [_] Process 15060 KV load text_chunks with 0 records
+2025-12-16 23:38:01,247 - lightrag - INFO - [_] Process 15060 KV load full_entities with 0 records
+2025-12-16 23:38:01,247 - lightrag - INFO - [_] Process 15060 KV load full_relations with 0 records
+2025-12-16 23:38:01,247 - lightrag - INFO - [_] Process 15060 KV load entity_chunks with 0 records
+2025-12-16 23:38:01,247 - lightrag - INFO - [_] Process 15060 KV load relation_chunks with 0 records
+2025-12-16 23:38:01,247 - lightrag - INFO - [_] Process 15060 KV load llm_response_cache with 0 records
+2025-12-16 23:38:01,248 - lightrag - INFO - [_] Process 15060 doc status load doc_status with 0 records
+2025-12-16 23:38:01,248 - uvicorn.error - INFO - Application startup complete.
+2025-12-16 23:38:01,248 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-12-16 23:38:06,089 - uvicorn.access - INFO - 127.0.0.1:59379 - "GET /webui/assets/index-C8dNBpcg.css HTTP/1.1" 304
+2025-12-16 23:38:06,090 - uvicorn.access - INFO - 127.0.0.1:59378 - "GET /webui/assets/index-CRtuqff2.js HTTP/1.1" 304
+2025-12-16 23:38:06,246 - uvicorn.access - INFO - 127.0.0.1:59378 - "GET /webui/favicon.png HTTP/1.1" 304
+2025-12-16 23:38:06,339 - uvicorn.access - INFO - 127.0.0.1:59379 - "GET /docs HTTP/1.1" 200
+2025-12-16 23:38:06,347 - uvicorn.access - INFO - 127.0.0.1:59379 - "GET /webui/assets/index-CQa5nmds.js HTTP/1.1" 304
+2025-12-16 23:38:06,349 - uvicorn.access - INFO - 127.0.0.1:59380 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:38:06,410 - uvicorn.access - INFO - 127.0.0.1:59380 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 304
+2025-12-16 23:38:06,410 - uvicorn.access - INFO - 127.0.0.1:59378 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 304
+2025-12-16 23:38:06,513 - uvicorn.access - INFO - 127.0.0.1:59378 - "GET /openapi.json HTTP/1.1" 200
+2025-12-16 23:38:07,886 - uvicorn.access - INFO - 127.0.0.1:59378 - "POST /documents/scan HTTP/1.1" 200
+2025-12-16 23:38:07,895 - lightrag - INFO - Found 0 files to index.
+2025-12-16 23:38:07,895 - lightrag - INFO - No upload file found, check if there are any documents in the queue...
+2025-12-16 23:38:07,896 - lightrag - INFO - No documents to process
+2025-12-16 23:38:52,053 - uvicorn.access - INFO - 127.0.0.1:59387 - "POST /documents/scan HTTP/1.1" 200
+2025-12-16 23:38:52,061 - lightrag - INFO - Found 1 files to index.
+2025-12-16 23:38:52,065 - lightrag - ERROR - File processing error: - ID: error-a7bdc31506eb706f308740dde819db62 harry-potter-and-the-philosophers-stone.txt
+2025-12-16 23:38:52,065 - lightrag - ERROR - [File Extraction]File harry-potter-and-the-philosophers-stone.txt is not valid UTF-8 encoded text. Please convert it to UTF-8 before processing.
+2025-12-16 23:38:52,065 - lightrag - INFO - Scanning process completed: 1 files Processed.
+2025-12-16 23:41:09,544 - uvicorn.access - INFO - 127.0.0.1:59698 - "POST /documents/scan HTTP/1.1" 200
+2025-12-16 23:41:09,550 - lightrag - INFO - Found 1 files to index.
+2025-12-16 23:41:09,631 - lightrag - INFO - Successfully extracted and enqueued file: harry-potter-and-the-philosophers-stone.txt
+2025-12-16 23:41:09,632 - lightrag - INFO - Preserving 1 failed document entries for manual review
+2025-12-16 23:41:09,632 - lightrag - INFO - Processing 1 document(s)
+2025-12-16 23:41:09,632 - lightrag - INFO - Extracting stage 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-16 23:41:09,632 - lightrag - INFO - Processing d-id: doc-d22f78b0263981245aae43f611784899
+2025-12-16 23:41:09,692 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-12-16 23:41:21,177 - uvicorn.access - INFO - 127.0.0.1:59727 - "DELETE /documents/delete_document HTTP/1.1" 200
+2025-12-16 23:41:23,447 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2025-12-16 23:41:31,771 - uvicorn.access - INFO - 127.0.0.1:59742 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:41:31,777 - lightrag - INFO - [_] Subgraph query successful | Node count: 0 | Edge count: 0
+2025-12-16 23:41:31,778 - uvicorn.access - INFO - 127.0.0.1:59743 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-12-16 23:44:23,505 - lightrag - ERROR - LLM func: Error in decorated function for task 4493172368_43495.5188825: 
+2025-12-16 23:44:23,510 - lightrag - ERROR - LLM func: Error in decorated function for task 4493173776_43495.531245791: 
+2025-12-16 23:44:23,510 - lightrag - ERROR - LLM func: Error in decorated function for task 4493172720_43495.523676041: 
+2025-12-16 23:44:23,511 - lightrag - ERROR - LLM func: Error in decorated function for task 4493171312_43495.527751708: 
+2025-12-16 23:44:23,556 - lightrag - ERROR - Failed to extract entities and relationships: C[1/97]: chunk-746691d7ae3f2bc179a4b0caacc6cbbc: 
+2025-12-16 23:44:23,602 - lightrag - ERROR - Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.READ_NUM_BYTES, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2932, in _process_with_semaphore
+    return await _process_single_content(chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2817, in _process_single_content
+    final_result, timestamp = await use_llm_func_with_cache(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 1698, in use_llm_func_with_cache
+    res: str = await use_llm_func(
+               ^^^^^^^^^^^^^^^^^^^
+        safe_user_prompt, system_prompt=safe_system_prompt, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 847, in wait_func
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 551, in worker
+    result = await asyncio.wait_for(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+        func(*args, **kwargs), timeout=max_execution_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/llm/ollama.py", line 135, in ollama_model_complete
+    return await _ollama_model_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/llm/ollama.py", line 109, in _ollama_model_if_cache
+    raise e
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/llm/ollama.py", line 72, in _ollama_model_if_cache
+    response = await ollama_client.chat(model=model, messages=messages, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/ollama/_client.py", line 983, in chat
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<16 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/ollama/_client.py", line 767, in _request
+    return cls(**(await self._request_raw(*args, **kwargs)).json())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/ollama/_client.py", line 707, in _request_raw
+    r = await self._client.request(*args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2936, in _process_with_semaphore
+    raise prefixed_exception from e
+httpx.ReadTimeout: chunk-746691d7ae3f2bc179a4b0caacc6cbbc: 
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 1838, in process_document
+    chunk_results = await entity_relation_task
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 2122, in _process_extract_entities
+    raise e
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 2107, in _process_extract_entities
+    chunk_results = await extract_entities(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2978, in extract_entities
+    raise prefixed_exception from first_exception
+httpx.ReadTimeout: C[1/97]: chunk-746691d7ae3f2bc179a4b0caacc6cbbc: 
+
+2025-12-16 23:44:23,604 - lightrag - ERROR - Failed to extract document 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-16 23:44:23,610 - lightrag - INFO - Enqueued document processing pipeline stopped
+2025-12-16 23:44:23,610 - lightrag - INFO - Scanning process completed: 1 files Processed.
+2025-12-16 23:48:07,755 - uvicorn.error - INFO - Shutting down
+2025-12-16 23:48:07,859 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-12-16 23:48:07,861 - lightrag - INFO - Successfully finalized 12 storages
+2025-12-16 23:48:07,862 - uvicorn.error - INFO - Application shutdown complete.
+2025-12-16 23:48:07,862 - uvicorn.error - INFO - Finished server process [15060]
+2025-12-16 23:48:09,049 - lightrag - INFO - Ollama LLM Options: {'num_ctx': 32768, 'num_predict': 4096}
+2025-12-16 23:48:09,049 - lightrag - INFO - Ollama Embedding Options: {'num_ctx': 8192}
+2025-12-16 23:48:09,050 - lightrag - INFO - Reranking is disabled
+2025-12-16 23:48:09,415 - lightrag - INFO - [_] Created new empty graph file: /Users/jacob/Code/personal/lightrag/rag_storage/graph_chunk_entity_relation.graphml
+2025-12-16 23:48:09,469 - uvicorn.error - INFO - Started server process [17628]
+2025-12-16 23:48:09,469 - uvicorn.error - INFO - Waiting for application startup.
+2025-12-16 23:48:09,472 - lightrag - INFO - [_] Process 17628 KV load full_docs with 1 records
+2025-12-16 23:48:09,472 - lightrag - INFO - [_] Process 17628 KV load text_chunks with 0 records
+2025-12-16 23:48:09,472 - lightrag - INFO - [_] Process 17628 KV load full_entities with 0 records
+2025-12-16 23:48:09,473 - lightrag - INFO - [_] Process 17628 KV load full_relations with 0 records
+2025-12-16 23:48:09,473 - lightrag - INFO - [_] Process 17628 KV load entity_chunks with 0 records
+2025-12-16 23:48:09,473 - lightrag - INFO - [_] Process 17628 KV load relation_chunks with 0 records
+2025-12-16 23:48:09,473 - lightrag - INFO - [_] Process 17628 KV load llm_response_cache with 0 records
+2025-12-16 23:48:09,473 - lightrag - INFO - [_] Process 17628 doc status load doc_status with 2 records
+2025-12-16 23:48:09,473 - uvicorn.error - INFO - Application startup complete.
+2025-12-16 23:48:09,474 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-12-16 23:48:11,990 - uvicorn.access - INFO - 127.0.0.1:59934 - "POST /documents/scan HTTP/1.1" 200
+2025-12-16 23:48:12,002 - lightrag - INFO - Found 0 files to index.
+2025-12-16 23:48:12,002 - lightrag - INFO - No upload file found, check if there are any documents in the queue...
+2025-12-16 23:48:12,003 - lightrag - INFO - Preserving 1 failed document entries for manual review
+2025-12-16 23:48:12,004 - lightrag - INFO - Reset 1 documents from PROCESSING/FAILED to PENDING status
+2025-12-16 23:48:12,004 - lightrag - INFO - Processing 1 document(s)
+2025-12-16 23:48:12,004 - lightrag - INFO - Extracting stage 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-16 23:48:12,004 - lightrag - INFO - Processing d-id: doc-d22f78b0263981245aae43f611784899
+2025-12-16 23:48:12,105 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-12-16 23:48:36,038 - lightrag - INFO - LLM func: 2 new workers initialized (Timeouts: Func: 300s, Worker: 600s, Health Check: 615s)
+2025-12-16 23:52:24,723 - uvicorn.access - INFO - 127.0.0.1:60039 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:52:24,729 - lightrag - INFO - [_] Subgraph query successful | Node count: 0 | Edge count: 0
+2025-12-16 23:52:24,730 - uvicorn.access - INFO - 127.0.0.1:60040 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-12-16 23:52:24,732 - uvicorn.access - INFO - 127.0.0.1:60039 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-16 23:53:34,685 - lightrag - INFO -  == LLM cache == saving: default:extract:06eb00a4fd0d4e177bd5f0cdb7f2975d
+2025-12-16 23:53:36,069 - lightrag - ERROR - LLM func: Error in decorated function for task 4561488544_43928.110568416: 
+2025-12-16 23:53:36,089 - lightrag - ERROR - Failed to extract entities and relationships: C[1/97]: chunk-9461793aa128327e2131841410e61c81: 
+2025-12-16 23:53:36,143 - lightrag - ERROR - Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.READ_NUM_BYTES, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2932, in _process_with_semaphore
+    return await _process_single_content(chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2817, in _process_single_content
+    final_result, timestamp = await use_llm_func_with_cache(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 1698, in use_llm_func_with_cache
+    res: str = await use_llm_func(
+               ^^^^^^^^^^^^^^^^^^^
+        safe_user_prompt, system_prompt=safe_system_prompt, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 847, in wait_func
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 551, in worker
+    result = await asyncio.wait_for(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+        func(*args, **kwargs), timeout=max_execution_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/llm/ollama.py", line 135, in ollama_model_complete
+    return await _ollama_model_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/llm/ollama.py", line 109, in _ollama_model_if_cache
+    raise e
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/llm/ollama.py", line 72, in _ollama_model_if_cache
+    response = await ollama_client.chat(model=model, messages=messages, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/ollama/_client.py", line 983, in chat
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<16 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/ollama/_client.py", line 767, in _request
+    return cls(**(await self._request_raw(*args, **kwargs)).json())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/ollama/_client.py", line 707, in _request_raw
+    r = await self._client.request(*args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2936, in _process_with_semaphore
+    raise prefixed_exception from e
+httpx.ReadTimeout: chunk-9461793aa128327e2131841410e61c81: 
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 1838, in process_document
+    chunk_results = await entity_relation_task
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 2122, in _process_extract_entities
+    raise e
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 2107, in _process_extract_entities
+    chunk_results = await extract_entities(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2978, in extract_entities
+    raise prefixed_exception from first_exception
+httpx.ReadTimeout: C[1/97]: chunk-9461793aa128327e2131841410e61c81: 
+
+2025-12-16 23:53:36,145 - lightrag - ERROR - Failed to extract document 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-16 23:53:36,154 - lightrag - INFO - Enqueued document processing pipeline stopped
+2025-12-16 23:57:36,626 - lightrag - ERROR - LLM func: Error in decorated function for task 4561488896_44228.1472795: Server disconnected without sending a response.
+2025-12-17 00:00:08,610 - uvicorn.error - INFO - Shutting down
+2025-12-17 00:00:08,712 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-12-17 00:00:08,714 - lightrag - INFO - Successfully finalized 12 storages
+2025-12-17 00:00:08,715 - uvicorn.error - INFO - Application shutdown complete.
+2025-12-17 00:00:08,715 - uvicorn.error - INFO - Finished server process [17628]
+2025-12-17 00:00:30,481 - lightrag - INFO - Ollama LLM Options: {'num_ctx': 32768, 'num_predict': 4096}
+2025-12-17 00:00:30,481 - lightrag - INFO - Ollama Embedding Options: {'num_ctx': 8192}
+2025-12-17 00:00:30,482 - lightrag - INFO - Reranking is disabled
+2025-12-17 00:00:30,846 - lightrag - INFO - [_] Created new empty graph file: /Users/jacob/Code/personal/lightrag/rag_storage/graph_chunk_entity_relation.graphml
+2025-12-17 00:00:30,902 - uvicorn.error - INFO - Started server process [20568]
+2025-12-17 00:00:30,902 - uvicorn.error - INFO - Waiting for application startup.
+2025-12-17 00:00:30,905 - lightrag - INFO - [_] Process 20568 KV load full_docs with 1 records
+2025-12-17 00:00:30,905 - lightrag - INFO - [_] Process 20568 KV load text_chunks with 0 records
+2025-12-17 00:00:30,906 - lightrag - INFO - [_] Process 20568 KV load full_entities with 0 records
+2025-12-17 00:00:30,906 - lightrag - INFO - [_] Process 20568 KV load full_relations with 0 records
+2025-12-17 00:00:30,906 - lightrag - INFO - [_] Process 20568 KV load entity_chunks with 0 records
+2025-12-17 00:00:30,906 - lightrag - INFO - [_] Process 20568 KV load relation_chunks with 0 records
+2025-12-17 00:00:30,906 - lightrag - INFO - [_] Process 20568 KV load llm_response_cache with 1 records
+2025-12-17 00:00:30,906 - lightrag - INFO - [_] Process 20568 doc status load doc_status with 2 records
+2025-12-17 00:00:30,907 - uvicorn.error - INFO - Application startup complete.
+2025-12-17 00:00:30,907 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-12-17 00:00:35,266 - uvicorn.access - INFO - 127.0.0.1:60710 - "GET /webui/assets/index-C8dNBpcg.css HTTP/1.1" 304
+2025-12-17 00:00:35,270 - uvicorn.access - INFO - 127.0.0.1:60710 - "GET /webui/assets/index-CRtuqff2.js HTTP/1.1" 304
+2025-12-17 00:00:35,487 - uvicorn.access - INFO - 127.0.0.1:60710 - "GET /webui/favicon.png HTTP/1.1" 304
+2025-12-17 00:00:35,646 - uvicorn.access - INFO - 127.0.0.1:60710 - "GET /docs HTTP/1.1" 200
+2025-12-17 00:00:35,676 - uvicorn.access - INFO - 127.0.0.1:60710 - "GET /webui/assets/index-CQa5nmds.js HTTP/1.1" 304
+2025-12-17 00:00:35,708 - uvicorn.access - INFO - 127.0.0.1:60710 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 304
+2025-12-17 00:00:35,758 - uvicorn.access - INFO - 127.0.0.1:60710 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 304
+2025-12-17 00:00:35,862 - uvicorn.access - INFO - 127.0.0.1:60710 - "GET /openapi.json HTTP/1.1" 200
+2025-12-17 00:00:37,754 - uvicorn.access - INFO - 127.0.0.1:60710 - "POST /documents/scan HTTP/1.1" 200
+2025-12-17 00:00:37,764 - lightrag - INFO - Found 0 files to index.
+2025-12-17 00:00:37,764 - lightrag - INFO - No upload file found, check if there are any documents in the queue...
+2025-12-17 00:00:37,765 - lightrag - INFO - Preserving 1 failed document entries for manual review
+2025-12-17 00:00:37,767 - lightrag - INFO - Reset 1 documents from PROCESSING/FAILED to PENDING status
+2025-12-17 00:00:37,767 - lightrag - INFO - Processing 1 document(s)
+2025-12-17 00:00:37,768 - lightrag - INFO - Extracting stage 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-17 00:00:37,768 - lightrag - INFO - Processing d-id: doc-d22f78b0263981245aae43f611784899
+2025-12-17 00:00:37,860 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-12-17 00:00:52,294 - lightrag - INFO - LLM func: 2 new workers initialized (Timeouts: Func: 300s, Worker: 600s, Health Check: 615s)
+2025-12-17 00:03:20,891 - lightrag - INFO -  == LLM cache == saving: default:extract:6be43a01e3bc53bdc9faf12d0dd51b58
+2025-12-17 00:05:52,336 - lightrag - ERROR - LLM func: Error in decorated function for task 4559590816_44664.359607833: 
+2025-12-17 00:05:52,382 - lightrag - ERROR - Failed to extract entities and relationships: C[1/97]: chunk-76e7922c404d0cf81afd73712eeb9fff: 
+2025-12-17 00:05:52,431 - lightrag - ERROR - Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.READ_NUM_BYTES, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2932, in _process_with_semaphore
+    return await _process_single_content(chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2843, in _process_single_content
+    glean_result, timestamp = await use_llm_func_with_cache(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 1698, in use_llm_func_with_cache
+    res: str = await use_llm_func(
+               ^^^^^^^^^^^^^^^^^^^
+        safe_user_prompt, system_prompt=safe_system_prompt, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 847, in wait_func
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 551, in worker
+    result = await asyncio.wait_for(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+        func(*args, **kwargs), timeout=max_execution_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/llm/ollama.py", line 135, in ollama_model_complete
+    return await _ollama_model_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/llm/ollama.py", line 109, in _ollama_model_if_cache
+    raise e
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/llm/ollama.py", line 72, in _ollama_model_if_cache
+    response = await ollama_client.chat(model=model, messages=messages, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/ollama/_client.py", line 983, in chat
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<16 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/ollama/_client.py", line 767, in _request
+    return cls(**(await self._request_raw(*args, **kwargs)).json())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/ollama/_client.py", line 707, in _request_raw
+    r = await self._client.request(*args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2936, in _process_with_semaphore
+    raise prefixed_exception from e
+httpx.ReadTimeout: chunk-76e7922c404d0cf81afd73712eeb9fff: 
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 1838, in process_document
+    chunk_results = await entity_relation_task
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 2122, in _process_extract_entities
+    raise e
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 2107, in _process_extract_entities
+    chunk_results = await extract_entities(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2978, in extract_entities
+    raise prefixed_exception from first_exception
+httpx.ReadTimeout: C[1/97]: chunk-76e7922c404d0cf81afd73712eeb9fff: 
+
+2025-12-17 00:05:52,433 - lightrag - ERROR - Failed to extract document 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-17 00:05:52,441 - lightrag - INFO - Enqueued document processing pipeline stopped
+2025-12-17 00:08:20,956 - lightrag - ERROR - LLM func: Error in decorated function for task 4559592400_44812.953797125: 
+2025-12-17 00:09:03,448 - uvicorn.error - INFO - Shutting down
+2025-12-17 00:09:03,553 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-12-17 00:09:03,554 - lightrag - INFO - Successfully finalized 12 storages
+2025-12-17 00:09:03,555 - uvicorn.error - INFO - Application shutdown complete.
+2025-12-17 00:09:03,555 - uvicorn.error - INFO - Finished server process [20568]
+2025-12-17 00:11:39,879 - lightrag - INFO - Ollama LLM Options: {'num_ctx': 32768, 'num_predict': 4096}
+2025-12-17 00:11:39,879 - lightrag - INFO - Ollama Embedding Options: {'num_ctx': 8192}
+2025-12-17 00:11:39,879 - lightrag - INFO - Reranking is disabled
+2025-12-17 00:11:40,250 - lightrag - INFO - [_] Created new empty graph file: /Users/jacob/Code/personal/lightrag/rag_storage/graph_chunk_entity_relation.graphml
+2025-12-17 00:11:40,304 - uvicorn.error - INFO - Started server process [22413]
+2025-12-17 00:11:40,304 - uvicorn.error - INFO - Waiting for application startup.
+2025-12-17 00:11:40,306 - lightrag - INFO - [_] Process 22413 KV load full_docs with 1 records
+2025-12-17 00:11:40,306 - lightrag - INFO - [_] Process 22413 KV load text_chunks with 0 records
+2025-12-17 00:11:40,307 - lightrag - INFO - [_] Process 22413 KV load full_entities with 0 records
+2025-12-17 00:11:40,307 - lightrag - INFO - [_] Process 22413 KV load full_relations with 0 records
+2025-12-17 00:11:40,307 - lightrag - INFO - [_] Process 22413 KV load entity_chunks with 0 records
+2025-12-17 00:11:40,307 - lightrag - INFO - [_] Process 22413 KV load relation_chunks with 0 records
+2025-12-17 00:11:40,307 - lightrag - INFO - [_] Process 22413 KV load llm_response_cache with 2 records
+2025-12-17 00:11:40,309 - lightrag - INFO - [_] Process 22413 doc status load doc_status with 2 records
+2025-12-17 00:11:40,309 - uvicorn.error - INFO - Application startup complete.
+2025-12-17 00:11:40,309 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-12-17 00:11:48,836 - uvicorn.access - INFO - 127.0.0.1:60974 - "GET /webui/assets/index-C8dNBpcg.css HTTP/1.1" 304
+2025-12-17 00:11:48,841 - uvicorn.access - INFO - 127.0.0.1:60974 - "GET /webui/assets/index-CRtuqff2.js HTTP/1.1" 304
+2025-12-17 00:11:49,020 - uvicorn.access - INFO - 127.0.0.1:60974 - "GET /webui/favicon.png HTTP/1.1" 304
+2025-12-17 00:11:49,145 - uvicorn.access - INFO - 127.0.0.1:60974 - "GET /docs HTTP/1.1" 200
+2025-12-17 00:11:49,175 - uvicorn.access - INFO - 127.0.0.1:60974 - "GET /webui/assets/index-CQa5nmds.js HTTP/1.1" 304
+2025-12-17 00:11:49,236 - uvicorn.access - INFO - 127.0.0.1:60974 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 304
+2025-12-17 00:11:49,296 - uvicorn.access - INFO - 127.0.0.1:60974 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 304
+2025-12-17 00:11:49,398 - uvicorn.access - INFO - 127.0.0.1:60974 - "GET /openapi.json HTTP/1.1" 200
+2025-12-17 00:11:49,618 - uvicorn.access - INFO - 127.0.0.1:60974 - "POST /documents/scan HTTP/1.1" 200
+2025-12-17 00:11:49,625 - lightrag - INFO - Found 0 files to index.
+2025-12-17 00:11:49,625 - lightrag - INFO - No upload file found, check if there are any documents in the queue...
+2025-12-17 00:11:49,626 - lightrag - INFO - Preserving 1 failed document entries for manual review
+2025-12-17 00:11:49,627 - lightrag - INFO - Reset 1 documents from PROCESSING/FAILED to PENDING status
+2025-12-17 00:11:49,628 - lightrag - INFO - Processing 1 document(s)
+2025-12-17 00:11:49,628 - lightrag - INFO - Extracting stage 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-17 00:11:49,628 - lightrag - INFO - Processing d-id: doc-d22f78b0263981245aae43f611784899
+2025-12-17 00:11:49,705 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-12-17 00:12:49,708 - lightrag - WARNING - Embedding func: Worker timeout for task 4560003936_45321.750173583 after 60s
+2025-12-17 00:12:49,722 - lightrag - ERROR - Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 847, in wait_func
+    return await future
+           ^^^^^^^^^^^^
+lightrag.utils.WorkerTimeoutError: Worker execution timeout after 60s
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 1830, in process_document
+    await asyncio.gather(*first_stage_tasks)
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/kg/nano_vector_db_impl.py", line 119, in upsert
+    embeddings_list = await asyncio.gather(*embedding_tasks)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 873, in wait_func
+    raise TimeoutError(f"{queue_name}: {str(e)}")
+TimeoutError: Embedding func: Worker execution timeout after 60s
+
+2025-12-17 00:12:49,722 - lightrag - ERROR - Failed to extract document 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-17 00:12:49,726 - lightrag - INFO - Enqueued document processing pipeline stopped
+2025-12-17 00:12:49,727 - lightrag - WARNING - Embedding func: Worker timeout for task 4560002000_45321.75020075 after 60s
+2025-12-17 00:12:51,859 - lightrag - WARNING - Embedding func: Worker timeout for task 4560003232_45321.750229041 after 60s
+2025-12-17 00:12:55,920 - lightrag - WARNING - Embedding func: Worker timeout for task 4560003408_45321.750232208 after 60s
+2025-12-17 00:17:30,701 - uvicorn.error - INFO - Shutting down
+2025-12-17 00:17:30,804 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-12-17 00:17:30,805 - lightrag - INFO - Successfully finalized 12 storages
+2025-12-17 00:17:30,806 - uvicorn.error - INFO - Application shutdown complete.
+2025-12-17 00:17:30,806 - uvicorn.error - INFO - Finished server process [22413]
+2025-12-17 00:17:31,692 - lightrag - INFO - Ollama LLM Options: {'num_ctx': 32768, 'num_predict': 4096}
+2025-12-17 00:17:31,692 - lightrag - INFO - Ollama Embedding Options: {'num_ctx': 8192}
+2025-12-17 00:17:31,692 - lightrag - INFO - Reranking is disabled
+2025-12-17 00:17:32,013 - lightrag - INFO - [_] Created new empty graph file: /Users/jacob/Code/personal/lightrag/rag_storage/graph_chunk_entity_relation.graphml
+2025-12-17 00:17:32,065 - uvicorn.error - INFO - Started server process [22950]
+2025-12-17 00:17:32,065 - uvicorn.error - INFO - Waiting for application startup.
+2025-12-17 00:17:32,067 - lightrag - INFO - [_] Process 22950 KV load full_docs with 1 records
+2025-12-17 00:17:32,067 - lightrag - INFO - [_] Process 22950 KV load text_chunks with 0 records
+2025-12-17 00:17:32,067 - lightrag - INFO - [_] Process 22950 KV load full_entities with 0 records
+2025-12-17 00:17:32,067 - lightrag - INFO - [_] Process 22950 KV load full_relations with 0 records
+2025-12-17 00:17:32,067 - lightrag - INFO - [_] Process 22950 KV load entity_chunks with 0 records
+2025-12-17 00:17:32,067 - lightrag - INFO - [_] Process 22950 KV load relation_chunks with 0 records
+2025-12-17 00:17:32,067 - lightrag - INFO - [_] Process 22950 KV load llm_response_cache with 2 records
+2025-12-17 00:17:32,068 - lightrag - INFO - [_] Process 22950 doc status load doc_status with 2 records
+2025-12-17 00:17:32,068 - uvicorn.error - INFO - Application startup complete.
+2025-12-17 00:17:32,068 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-12-17 00:17:36,290 - uvicorn.access - INFO - 127.0.0.1:61142 - "POST /documents/scan HTTP/1.1" 200
+2025-12-17 00:17:36,298 - lightrag - INFO - Found 0 files to index.
+2025-12-17 00:17:36,299 - lightrag - INFO - No upload file found, check if there are any documents in the queue...
+2025-12-17 00:17:36,299 - lightrag - INFO - Preserving 1 failed document entries for manual review
+2025-12-17 00:17:36,300 - lightrag - INFO - Reset 1 documents from PROCESSING/FAILED to PENDING status
+2025-12-17 00:17:36,301 - lightrag - INFO - Processing 1 document(s)
+2025-12-17 00:17:36,301 - lightrag - INFO - Extracting stage 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-17 00:17:36,301 - lightrag - INFO - Processing d-id: doc-d22f78b0263981245aae43f611784899
+2025-12-17 00:17:36,393 - lightrag - INFO - Embedding func: 2 new workers initialized (Timeouts: Func: 120s, Worker: 240s, Health Check: 255s)
+2025-12-17 00:17:50,048 - lightrag - INFO - LLM func: 2 new workers initialized (Timeouts: Func: 300s, Worker: 600s, Health Check: 615s)
+2025-12-17 00:18:19,234 - lightrag - INFO -  == LLM cache == saving: default:extract:962f95b333c5e848909c00ff429a2804
+2025-12-17 00:18:19,238 - lightrag - INFO - Chunk 1 of 97 extracted 9 Ent + 8 Rel chunk-76e7922c404d0cf81afd73712eeb9fff
+2025-12-17 00:18:33,240 - lightrag - INFO -  == LLM cache == saving: default:extract:4fbe9c6c95fe3fd84d4e891ca4f954f6
+2025-12-17 00:18:33,241 - lightrag - INFO - Chunk 2 of 97 extracted 10 Ent + 11 Rel chunk-9461793aa128327e2131841410e61c81
+2025-12-17 00:18:50,670 - lightrag - INFO -  == LLM cache == saving: default:extract:f5c23127911966d58170c1420956bab4
+2025-12-17 00:19:08,216 - lightrag - INFO -  == LLM cache == saving: default:extract:d277413d3c9ada153296191a1b29969a
+2025-12-17 00:19:20,123 - lightrag - INFO -  == LLM cache == saving: default:extract:181965957f6a1579f23ad4fe67374fc8
+2025-12-17 00:19:20,124 - lightrag - INFO - Chunk 3 of 97 extracted 9 Ent + 9 Rel chunk-e8a81d1f39fd8727b5365fd055e22a32
+2025-12-17 00:19:35,610 - lightrag - INFO -  == LLM cache == saving: default:extract:f907269b92b61b673c70881fc085afbc
+2025-12-17 00:19:35,611 - lightrag - INFO - Chunk 4 of 97 extracted 11 Ent + 8 Rel chunk-746691d7ae3f2bc179a4b0caacc6cbbc
+2025-12-17 00:19:55,291 - lightrag - INFO -  == LLM cache == saving: default:extract:43de73025f48ed7557b60bf778b5e947
+2025-12-17 00:20:48,405 - lightrag - INFO -  == LLM cache == saving: default:extract:4a524652d71d67bc1f8eecbf2480684d
+2025-12-17 00:21:10,971 - lightrag - INFO -  == LLM cache == saving: default:extract:32006dcbf861c1e64ad431f16ec10673
+2025-12-17 00:21:10,972 - lightrag - INFO - Chunk 5 of 97 extracted 12 Ent + 9 Rel chunk-f0270598c32527be04e161d0a9a80fba
+2025-12-17 00:21:34,271 - lightrag - INFO -  == LLM cache == saving: default:extract:e201340aea9212b446f453d792df4ecd
+2025-12-17 00:21:34,271 - lightrag - INFO - Chunk 6 of 97 extracted 11 Ent + 9 Rel chunk-ddb53f26eaebf09db480e73777c7c51f
+2025-12-17 00:22:12,731 - lightrag - INFO -  == LLM cache == saving: default:extract:06cd072c6faac20738150e013b05bcf4
+2025-12-17 00:22:34,713 - lightrag - INFO -  == LLM cache == saving: default:extract:073210a7f42bbb35a34005198dad12f6
+2025-12-17 00:23:03,266 - lightrag - INFO -  == LLM cache == saving: default:extract:266b83b94f7a683ab247edbe186feff9
+2025-12-17 00:23:03,271 - lightrag - INFO - Chunk 7 of 97 extracted 14 Ent + 10 Rel chunk-5531cf6402a3e4653c3077094b15d4f3
+2025-12-17 00:23:18,052 - lightrag - INFO -  == LLM cache == saving: default:extract:867345ed23df3f25641cda2fb3623357
+2025-12-17 00:23:18,052 - lightrag - INFO - Chunk 8 of 97 extracted 9 Ent + 8 Rel chunk-c9748903cbed5b6ffe5efcf7c58176d1
+2025-12-17 00:23:35,426 - lightrag - INFO -  == LLM cache == saving: default:extract:cd2bb5666970c385dc04c78648063f66
+2025-12-17 00:23:54,866 - lightrag - INFO -  == LLM cache == saving: default:extract:3606499bcf1868f39a2247dd8e1faae8
+2025-12-17 00:24:11,105 - lightrag - INFO -  == LLM cache == saving: default:extract:69711251cf8601d19594be330816f066
+2025-12-17 00:24:11,105 - lightrag - INFO - Chunk 9 of 97 extracted 9 Ent + 7 Rel chunk-cb8797eba6d7778158ba5ad34f7d4df2
+2025-12-17 00:24:31,861 - lightrag - INFO -  == LLM cache == saving: default:extract:8b85de39db7d5839df5e9e68e89d09cf
+2025-12-17 00:24:31,862 - lightrag - INFO - Chunk 10 of 97 extracted 11 Ent + 7 Rel chunk-34bcafebe9388eed82c93809dde2351b
+2025-12-17 00:24:54,388 - lightrag - INFO -  == LLM cache == saving: default:extract:0e9acf472f0a5ab4e6061c78fa36fbd1
+2025-12-17 00:25:12,748 - lightrag - INFO -  == LLM cache == saving: default:extract:21d501ed52443968c55ab52ca2372a4f
+2025-12-17 00:25:35,182 - lightrag - INFO -  == LLM cache == saving: default:extract:82f53151b50ee6b46f1b8a7714e080a7
+2025-12-17 00:25:35,183 - lightrag - INFO - Chunk 11 of 97 extracted 12 Ent + 10 Rel chunk-810023b929f1214f979f490b52d442b4
+2025-12-17 00:25:50,409 - lightrag - INFO -  == LLM cache == saving: default:extract:2abbbbcaf033daf7f96689338cb52d28
+2025-12-17 00:25:50,411 - lightrag - INFO - Chunk 12 of 97 extracted 9 Ent + 13 Rel chunk-a43c506ef5adb803ea21269101c95379
+2025-12-17 00:26:15,281 - lightrag - INFO -  == LLM cache == saving: default:extract:6b9cf6ea42acf0113360dbdc3333ae75
+2025-12-17 00:26:39,853 - lightrag - INFO -  == LLM cache == saving: default:extract:c798d4bc6407c183e21204618dbc4a61
+2025-12-17 00:26:45,543 - uvicorn.access - INFO - 127.0.0.1:61422 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-17 00:26:45,547 - lightrag - INFO - [_] Subgraph query successful | Node count: 0 | Edge count: 0
+2025-12-17 00:26:45,547 - uvicorn.access - INFO - 127.0.0.1:61426 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-12-17 00:26:45,549 - uvicorn.access - INFO - 127.0.0.1:61422 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-17 00:27:01,824 - lightrag - INFO -  == LLM cache == saving: default:extract:fd1f6d66d9d907c35c4fbb664b36925a
+2025-12-17 00:27:01,825 - lightrag - INFO - Chunk 13 of 97 extracted 11 Ent + 10 Rel chunk-052de7e30b68d92cd907bf705af2824e
+2025-12-17 00:27:17,415 - lightrag - INFO -  == LLM cache == saving: default:extract:6a851b2a8813039d0a11a37432c760a3
+2025-12-17 00:27:17,415 - lightrag - INFO - Chunk 14 of 97 extracted 12 Ent + 5 Rel chunk-6162f9444558418f4715f5a5f1a05cde
+2025-12-17 00:27:49,398 - lightrag - INFO -  == LLM cache == saving: default:extract:5491813f4161da78ada95fbc9b39dcd6
+2025-12-17 00:28:19,712 - lightrag - INFO -  == LLM cache == saving: default:extract:14562f1d27bedf343c694f82121259dc
+2025-12-17 00:28:38,982 - lightrag - INFO -  == LLM cache == saving: default:extract:ff74c80770f314958a7e470effdb5770
+2025-12-17 00:28:38,983 - lightrag - INFO - Chunk 15 of 97 extracted 7 Ent + 8 Rel chunk-cadf48141063c053bb80cefd3a8e9a32
+2025-12-17 00:28:52,177 - lightrag - INFO -  == LLM cache == saving: default:extract:edf6a605f034e300937a3a31cb7d9dfe
+2025-12-17 00:28:52,178 - lightrag - INFO - Chunk 16 of 97 extracted 15 Ent + 11 Rel chunk-b1933e7d575e081c02341580ca0a57f6
+2025-12-17 00:29:20,255 - lightrag - INFO -  == LLM cache == saving: default:extract:fc616096317721bd6f86eb3aa9990d3b
+2025-12-17 00:29:40,221 - lightrag - INFO -  == LLM cache == saving: default:extract:cae30a1158c9e226ac51ecb13c946082
+2025-12-17 00:30:01,200 - lightrag - INFO -  == LLM cache == saving: default:extract:b5bd8476a3fccaccdbf121f08a614b73
+2025-12-17 00:30:01,201 - lightrag - INFO - Chunk 17 of 97 extracted 12 Ent + 12 Rel chunk-33c538e081a520bfc6d2f023a5079916
+2025-12-17 00:30:14,509 - lightrag - INFO -  == LLM cache == saving: default:extract:43b2448793cad40845c37d4491a09021
+2025-12-17 00:30:14,509 - lightrag - INFO - Chunk 18 of 97 extracted 13 Ent + 10 Rel chunk-344e4a85851ed57d90efad3ce4e66787
+2025-12-17 00:30:45,413 - lightrag - INFO -  == LLM cache == saving: default:extract:ea84a94ae97338f3c505cf2d656c76df
+2025-12-17 00:31:00,606 - lightrag - INFO -  == LLM cache == saving: default:extract:5c67937d009cf1053468720d1b343009
+2025-12-17 00:31:19,911 - lightrag - INFO -  == LLM cache == saving: default:extract:387d45d1dda8b686de64a20205e59e9a
+2025-12-17 00:31:19,913 - lightrag - INFO - Chunk 19 of 97 extracted 9 Ent + 8 Rel chunk-8818fd05a6db38e59d1c2343a5353aa8
+2025-12-17 00:31:40,364 - lightrag - INFO -  == LLM cache == saving: default:extract:5c726162a5a39bfa9c6e8fe74ef1cfc1
+2025-12-17 00:31:40,366 - lightrag - INFO - Chunk 20 of 97 extracted 12 Ent + 11 Rel chunk-a438678b0000ca14bb87d728a2677f83
+2025-12-17 00:31:59,189 - lightrag - INFO -  == LLM cache == saving: default:extract:c845ed5dd143925bbcfeb7d1efbbd0af
+2025-12-17 00:32:18,483 - lightrag - INFO -  == LLM cache == saving: default:extract:150162f4e18b131451cada83b02eae80
+2025-12-17 00:32:38,859 - lightrag - INFO -  == LLM cache == saving: default:extract:1c2049cd47716c7a2029511a544ec953
+2025-12-17 00:32:38,860 - lightrag - INFO - Chunk 21 of 97 extracted 12 Ent + 7 Rel chunk-bec7c08a79137709dd304a4da0937f6b
+2025-12-17 00:32:54,215 - lightrag - INFO -  == LLM cache == saving: default:extract:747a7febfbfc257022b4d0b2a4efbd1a
+2025-12-17 00:32:54,216 - lightrag - INFO - Chunk 22 of 97 extracted 9 Ent + 8 Rel chunk-d2299362e3780a2aee1344b8eb848385
+2025-12-17 00:33:12,965 - lightrag - INFO -  == LLM cache == saving: default:extract:0696e3b2793caeb29ead0a932c6e8e43
+2025-12-17 00:33:27,100 - lightrag - INFO -  == LLM cache == saving: default:extract:6350d8c5f6b8dc3a9b15294453c69b2e
+2025-12-17 00:34:08,465 - lightrag - INFO -  == LLM cache == saving: default:extract:f3c3602813fc2e48dc828767405a2408
+2025-12-17 00:34:08,467 - lightrag - INFO - Chunk 23 of 97 extracted 6 Ent + 6 Rel chunk-da10339eb861282ba3310f3cd75044c3
+2025-12-17 00:34:24,015 - lightrag - INFO -  == LLM cache == saving: default:extract:1151faf79457525947ba4d337d22f86b
+2025-12-17 00:34:24,015 - lightrag - INFO - Chunk 24 of 97 extracted 9 Ent + 6 Rel chunk-340d7868467b1e6f7b86781b55f9630b
+2025-12-17 00:34:51,771 - lightrag - INFO -  == LLM cache == saving: default:extract:3543147d614ed604e06a89ad0a8afdf7
+2025-12-17 00:35:16,066 - lightrag - INFO -  == LLM cache == saving: default:extract:38603779a1e315948687efede1b0c949
+2025-12-17 00:35:46,911 - lightrag - INFO -  == LLM cache == saving: default:extract:444027569ffadd4f5ed8e38a7d6878d9
+2025-12-17 00:35:46,915 - lightrag - INFO - Chunk 25 of 97 extracted 11 Ent + 14 Rel chunk-e00958151369005df317f7104a0266df
+2025-12-17 00:36:08,689 - lightrag - INFO -  == LLM cache == saving: default:extract:a243cd522cc7d8a0ab05e8b725e442cc
+2025-12-17 00:36:08,689 - lightrag - INFO - Chunk 26 of 97 extracted 14 Ent + 9 Rel chunk-80aa3984dd0f2b9a18b805724bdb1735
+2025-12-17 00:36:23,894 - lightrag - INFO -  == LLM cache == saving: default:extract:32f72762397c3269ba2419999573fd91
+2025-12-17 00:36:46,905 - lightrag - INFO -  == LLM cache == saving: default:extract:908c9442b58d6ac2ffd0b5d6e50213c4
+2025-12-17 00:37:35,094 - lightrag - INFO -  == LLM cache == saving: default:extract:46d9a6ff55b92d27ef1ec165b1d5c36b
+2025-12-17 00:37:35,097 - lightrag - INFO - Chunk 27 of 97 extracted 7 Ent + 6 Rel chunk-25493a5903a11e711bd54a2bc8d48124
+2025-12-17 00:37:52,226 - lightrag - INFO -  == LLM cache == saving: default:extract:0d042c8c9dd18a92b7995524aa3ff680
+2025-12-17 00:37:52,227 - lightrag - INFO - Chunk 28 of 97 extracted 10 Ent + 7 Rel chunk-548ee513c21847a7597005dae658cbd2
+2025-12-17 00:38:09,068 - lightrag - INFO -  == LLM cache == saving: default:extract:567f1872427678424cc5dc2c858b39d5
+2025-12-17 00:38:45,967 - lightrag - INFO -  == LLM cache == saving: default:extract:1060c17e379200372179c457ff9b6b04
+2025-12-17 00:39:08,845 - lightrag - INFO -  == LLM cache == saving: default:extract:c43b3cdf9772d717e33d54070d66de49
+2025-12-17 00:39:08,846 - lightrag - INFO - Chunk 29 of 97 extracted 9 Ent + 7 Rel chunk-4724b8ef5871097ad91b297eba73d12d
+2025-12-17 00:39:27,583 - lightrag - INFO -  == LLM cache == saving: default:extract:6e9588a6a59b754668fffa3835b536fa
+2025-12-17 00:39:27,584 - lightrag - INFO - Chunk 30 of 97 extracted 12 Ent + 14 Rel chunk-dd9a571b8e910b2617c511093f60ac98
+2025-12-17 00:40:16,128 - lightrag - INFO -  == LLM cache == saving: default:extract:e4660da5323f1f3f94ee1421819b37f7
+2025-12-17 00:40:32,254 - lightrag - INFO -  == LLM cache == saving: default:extract:e84dc3d278d71b8c5af18df50ad0d92f
+2025-12-17 00:40:48,991 - lightrag - INFO -  == LLM cache == saving: default:extract:866a52772ee8b55ef3d317a1754e59da
+2025-12-17 00:40:48,991 - lightrag - INFO - Chunk 31 of 97 extracted 11 Ent + 12 Rel chunk-a3bad0e163f57242778adbc8ad3cac6f
+2025-12-17 00:41:43,028 - lightrag - INFO -  == LLM cache == saving: default:extract:7dc676002e088b12d8107912e6ace409
+2025-12-17 00:41:43,029 - lightrag - INFO - Chunk 32 of 97 extracted 9 Ent + 8 Rel chunk-9749dbd6d428ab30d5e569589ca2bc86
+2025-12-17 00:42:05,178 - lightrag - INFO -  == LLM cache == saving: default:extract:ace6baa47561905fe7df809d50cc0af2
+2025-12-17 00:42:25,564 - lightrag - INFO -  == LLM cache == saving: default:extract:6eb7c8946d5e636013c59d5b2ad6261b
+2025-12-17 00:42:40,641 - lightrag - INFO -  == LLM cache == saving: default:extract:298b0a5aeb7c5c82eee4b2b74f6cf364
+2025-12-17 00:42:40,642 - lightrag - INFO - Chunk 33 of 97 extracted 10 Ent + 10 Rel chunk-7baff08fc1a62057415255562c075842
+2025-12-17 00:42:58,704 - lightrag - INFO -  == LLM cache == saving: default:extract:852bed22c079fd79e230e56c91e80407
+2025-12-17 00:42:58,706 - lightrag - INFO - Chunk 34 of 97 extracted 12 Ent + 8 Rel chunk-20247aea235535f9fd9b62c18541b98a
+2025-12-17 00:43:16,912 - lightrag - INFO -  == LLM cache == saving: default:extract:8f9426cbddb99c0a00bedeeb8e148a67
+2025-12-17 00:43:33,253 - lightrag - INFO -  == LLM cache == saving: default:extract:108c210e7edbfa3ca9a036b337909308
+2025-12-17 00:43:52,002 - lightrag - INFO -  == LLM cache == saving: default:extract:b7ff8d24e607ba3be5aba24131e216af
+2025-12-17 00:43:52,003 - lightrag - INFO - Chunk 35 of 97 extracted 15 Ent + 12 Rel chunk-6aa2198d90a8687edfbf0b8cb6cbe1f4
+2025-12-17 00:44:17,290 - lightrag - INFO -  == LLM cache == saving: default:extract:1e4340ed097944aeed30c7157a817a74
+2025-12-17 00:44:17,290 - lightrag - INFO - Chunk 36 of 97 extracted 13 Ent + 7 Rel chunk-c3d48821840aab60fccb5b22e04f4fbb
+2025-12-17 00:44:35,025 - lightrag - INFO -  == LLM cache == saving: default:extract:175b38669440138c06c49ac9082ac029
+2025-12-17 00:44:54,115 - uvicorn.access - INFO - 127.0.0.1:61834 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-17 00:44:54,117 - lightrag - INFO - [_] Subgraph query successful | Node count: 0 | Edge count: 0
+2025-12-17 00:44:54,118 - uvicorn.access - INFO - 127.0.0.1:61857 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-12-17 00:45:00,189 - lightrag - INFO -  == LLM cache == saving: default:extract:668e833c8104f1f033a478a0699c74f1
+2025-12-17 00:45:00,553 - uvicorn.access - INFO - 127.0.0.1:61858 - "GET /docs HTTP/1.1" 200
+2025-12-17 00:45:00,587 - uvicorn.access - INFO - 127.0.0.1:61858 - "GET /webui/assets/index-CQa5nmds.js HTTP/1.1" 304
+2025-12-17 00:45:00,608 - uvicorn.access - INFO - 127.0.0.1:61858 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 304
+2025-12-17 00:45:00,682 - uvicorn.access - INFO - 127.0.0.1:61858 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 304
+2025-12-17 00:45:00,820 - uvicorn.access - INFO - 127.0.0.1:61858 - "GET /openapi.json HTTP/1.1" 200
+2025-12-17 00:45:28,511 - lightrag - INFO -  == LLM cache == saving: default:extract:37965d59696fd4cd584bba5d23b48219
+2025-12-17 00:45:28,513 - lightrag - INFO - Chunk 37 of 97 extracted 10 Ent + 8 Rel chunk-30ad03d03697f182b85596d61ce8e371
+2025-12-17 00:46:07,267 - lightrag - INFO -  == LLM cache == saving: default:extract:5b5227d474592ee7ab1cd4a5dbbaae86
+2025-12-17 00:46:07,272 - lightrag - INFO - Chunk 38 of 97 extracted 15 Ent + 10 Rel chunk-85b4ed024a680c7f61e8fa5e7eeb77f9
+2025-12-17 00:46:30,835 - lightrag - INFO -  == LLM cache == saving: default:extract:6e1d1113a163ae508a5454c2111e1f62
+2025-12-17 00:47:39,997 - lightrag - WARNING - chunk-9d39524d3d3b0663ddd5b93662200460: Complete delimiter can not be found in extraction result
+2025-12-17 00:48:00,300 - lightrag - INFO -  == LLM cache == saving: default:extract:1ba78d050fce0e46ca0ebc9a09a460a1
+2025-12-17 00:48:00,301 - lightrag - INFO - Chunk 39 of 97 extracted 21 Ent + 12 Rel chunk-4434ce5f33609245966dafd491110071
+2025-12-17 00:48:15,854 - lightrag - INFO -  == LLM cache == saving: default:extract:acd25957bc45fb6e978126bbceda3a86
+2025-12-17 00:48:15,858 - lightrag - INFO - Chunk 40 of 97 extracted 5 Ent + 4 Rel chunk-9d39524d3d3b0663ddd5b93662200460
+2025-12-17 00:49:25,136 - lightrag - INFO -  == LLM cache == saving: default:extract:221216ba01c0845a7b8dab8801a6ab11
+2025-12-17 00:49:25,137 - lightrag - WARNING - chunk-b7c5e32662c97284f99da36dd65a8a0e: Complete delimiter can not be found in extraction result
+2025-12-17 00:49:25,141 - lightrag - WARNING - chunk-b7c5e32662c97284f99da36dd65a8a0e: LLM output format error; found 4/5 fields on REALTION `Peeves`~`The Bloody Baron`
+2025-12-17 00:49:48,280 - lightrag - INFO -  == LLM cache == saving: default:extract:ffb21ce07ae92fcdafae644703aa13ed
+2025-12-17 00:50:25,151 - lightrag - INFO -  == LLM cache == saving: default:extract:a7896728efb2d42fa41a91c8142d9c5b
+2025-12-17 00:50:25,153 - lightrag - INFO - Chunk 41 of 97 extracted 18 Ent + 6 Rel chunk-b7c5e32662c97284f99da36dd65a8a0e
+2025-12-17 00:50:50,142 - lightrag - INFO -  == LLM cache == saving: default:extract:3e09f17cea47a5586ca0b50c9a6c30ab
+2025-12-17 00:50:50,144 - lightrag - INFO - Chunk 42 of 97 extracted 19 Ent + 10 Rel chunk-cf9543163c8ae9b9696db9cf2b9906aa
+2025-12-17 00:51:59,446 - lightrag - WARNING - chunk-d5f06c1efd51739bc5f5b065a0da8e32: Complete delimiter can not be found in extraction result
+2025-12-17 00:52:21,498 - lightrag - INFO -  == LLM cache == saving: default:extract:0e24076445f05ff237f0e9a7333469df
+2025-12-17 00:53:04,583 - lightrag - INFO -  == LLM cache == saving: default:extract:1f7e596ea463b544ad2b57a69a0730f6
+2025-12-17 00:53:04,585 - lightrag - INFO - Chunk 43 of 97 extracted 4 Ent + 2 Rel chunk-d5f06c1efd51739bc5f5b065a0da8e32
+2025-12-17 00:53:26,740 - lightrag - INFO -  == LLM cache == saving: default:extract:15d14bc5e1f5a788e85c26cbd7f3d334
+2025-12-17 00:53:26,740 - lightrag - INFO - Chunk 44 of 97 extracted 17 Ent + 11 Rel chunk-003bc0416f4772ad783d780b120488d0
+2025-12-17 00:53:49,698 - lightrag - INFO -  == LLM cache == saving: default:extract:e6a2cd928b48b15dce8a572de19372e8
+2025-12-17 00:54:10,852 - lightrag - INFO -  == LLM cache == saving: default:extract:a1bb778f3e4e4c9d2aff25fb1ac6e8cb
+2025-12-17 00:54:39,114 - lightrag - INFO -  == LLM cache == saving: default:extract:5830d1ca24c998859048b4ec4defb2c2
+2025-12-17 00:54:39,114 - lightrag - INFO - Chunk 45 of 97 extracted 12 Ent + 8 Rel chunk-7fc632f881f105f1c8f44c94f444a5b1
+2025-12-17 00:55:03,572 - lightrag - INFO -  == LLM cache == saving: default:extract:7abe1584aef43d2354937bcc9bed7a6c
+2025-12-17 00:55:03,572 - lightrag - INFO - Chunk 46 of 97 extracted 12 Ent + 8 Rel chunk-c44ba2aa335a857c444542793b669e1d
+2025-12-17 00:55:22,367 - lightrag - INFO -  == LLM cache == saving: default:extract:5b6d4b8c73d3a1af7b4a40387bcc7002
+2025-12-17 00:59:36,339 - lightrag - INFO -  == LLM cache == saving: default:extract:25e4e21f2b670f5df2671b0b20e358ed
+2025-12-17 01:01:21,440 - lightrag - INFO -  == LLM cache == saving: default:extract:2afe0b6adf5decf24bfd79fd2a248a8c
+2025-12-17 01:01:21,441 - lightrag - INFO - Chunk 47 of 97 extracted 14 Ent + 9 Rel chunk-9c95df50a22658a6bbccf8558135c433
+2025-12-17 01:06:09,051 - lightrag - INFO -  == LLM cache == saving: default:extract:883b8d95f8f42bdd0c0f2048e5522da3
+2025-12-17 01:06:09,060 - lightrag - INFO - Chunk 48 of 97 extracted 16 Ent + 10 Rel chunk-61ed740b13031c38216dfe6609f16bfc
+2025-12-17 01:07:01,031 - lightrag - INFO -  == LLM cache == saving: default:extract:598fc1255a06953ebf59fc9851eaf2b2
+2025-12-17 01:10:17,322 - lightrag - INFO -  == LLM cache == saving: default:extract:dbb495c30531e3bceaec7017240a8fd1
+2025-12-17 01:13:43,404 - lightrag - INFO -  == LLM cache == saving: default:extract:49a12c3754ab892989f81999bbae8732
+2025-12-17 01:13:43,405 - lightrag - INFO - Chunk 49 of 97 extracted 15 Ent + 8 Rel chunk-c0bf252db8b194f7ccc00d31ec5442a9
+2025-12-17 01:13:59,156 - lightrag - INFO -  == LLM cache == saving: default:extract:0515d512a65dd9856191f630b6c5e409
+2025-12-17 01:13:59,158 - lightrag - INFO - Chunk 50 of 97 extracted 13 Ent + 9 Rel chunk-5a4097f3e615861cfc7a72fbd55e3e79
+2025-12-17 01:18:07,734 - lightrag - INFO -  == LLM cache == saving: default:extract:698d3f9a63fec334a0fee75e4d06d158
+2025-12-17 01:18:28,820 - lightrag - INFO -  == LLM cache == saving: default:extract:08a13ca188457b474321e5c927ed41c4
+2025-12-17 01:18:47,939 - lightrag - INFO -  == LLM cache == saving: default:extract:650d8826143fb4ff1d0134d1648a91fd
+2025-12-17 01:18:47,940 - lightrag - INFO - Chunk 51 of 97 extracted 13 Ent + 8 Rel chunk-f5a7e68c3c976227614867c1e1452526
+2025-12-17 01:19:07,413 - lightrag - INFO -  == LLM cache == saving: default:extract:c65d51d7fab371b2d8d47e3f4e5aced5
+2025-12-17 01:19:07,415 - lightrag - INFO - Chunk 52 of 97 extracted 10 Ent + 9 Rel chunk-349eb3331181154726e90cf7825a4918
+2025-12-17 01:19:24,863 - lightrag - INFO -  == LLM cache == saving: default:extract:4b0f21fdb37bcd08fe10632362a3e496
+2025-12-17 01:19:44,809 - lightrag - INFO -  == LLM cache == saving: default:extract:2ea65c45b45f4f4bef39ae6012bb4b76
+2025-12-17 01:31:20,734 - lightrag - INFO -  == LLM cache == saving: default:extract:a9ec67030e13c3ec910f8623e5120806
+2025-12-17 01:31:20,735 - lightrag - INFO - Chunk 53 of 97 extracted 10 Ent + 10 Rel chunk-4229a66cd0c390ad43dcfe9a0dd9d2a2
+2025-12-17 01:33:21,554 - lightrag - INFO -  == LLM cache == saving: default:extract:6550bc91c5727093d88ca88cbd631b29
+2025-12-17 01:33:21,555 - lightrag - INFO - Chunk 54 of 97 extracted 11 Ent + 10 Rel chunk-055bb9665a566490cc51db95288f13a9
+2025-12-17 01:39:33,129 - lightrag - INFO -  == LLM cache == saving: default:extract:106f049e793ccc41dc53dbba102a920c
+2025-12-17 01:40:00,557 - lightrag - INFO -  == LLM cache == saving: default:extract:7b384cba6e8b8b0a30315c05c6f48c2d
+2025-12-17 01:44:43,522 - lightrag - INFO -  == LLM cache == saving: default:extract:ef103bedde3b7dccc5888f6c45dca7b1
+2025-12-17 01:44:43,523 - lightrag - INFO - Chunk 55 of 97 extracted 12 Ent + 8 Rel chunk-380b9c963edfdf0b9122ed6b3bd50a56
+2025-12-17 01:45:12,585 - lightrag - INFO -  == LLM cache == saving: default:extract:a36c233d9b5bf2b90baf571cfcf50797
+2025-12-17 01:45:12,586 - lightrag - INFO - Chunk 56 of 97 extracted 10 Ent + 11 Rel chunk-a730bcbfabb9df248009d791a8b75b25
+2025-12-17 02:29:31,440 - lightrag - INFO -  == LLM cache == saving: default:extract:aaf350dec201b57574dbe71c16d17820
+2025-12-17 03:36:34,252 - lightrag - WARNING - chunk-da8604de6a39ee64ee295260e7c1ec06: Complete delimiter can not be found in extraction result
+2025-12-17 03:38:10,301 - lightrag - INFO -  == LLM cache == saving: default:extract:97cf6ef7c95e4f7fc53eb717feca0339
+2025-12-17 03:38:10,302 - lightrag - INFO - Chunk 57 of 97 extracted 15 Ent + 10 Rel chunk-51987e328401797578384b806fa99079
+2025-12-17 03:39:25,389 - lightrag - INFO -  == LLM cache == saving: default:extract:4437d845d66e17ab2a46f0380287d36f
+2025-12-17 03:39:25,392 - lightrag - INFO - Chunk 58 of 97 extracted 3 Ent + 2 Rel chunk-da8604de6a39ee64ee295260e7c1ec06
+2025-12-17 04:14:17,895 - lightrag - INFO -  == LLM cache == saving: default:extract:b6e47b361d927b46a5a041a1bd25a1e3
+2025-12-17 07:11:28,920 - lightrag - WARNING - chunk-2887fb1521a7a309042bc2cf75b8cd4d: Complete delimiter can not be found in extraction result
+2025-12-17 08:15:16,581 - lightrag - INFO -  == LLM cache == saving: default:extract:eed64606c43affa8042d55e62f27b585
+2025-12-17 08:15:16,582 - lightrag - INFO - Chunk 59 of 97 extracted 17 Ent + 13 Rel chunk-3d68b2568cae8ff49f27f000978b864e
+2025-12-17 09:01:37,802 - lightrag - WARNING - chunk-2887fb1521a7a309042bc2cf75b8cd4d: Complete delimiter can not be found in extraction result
+2025-12-17 09:01:37,804 - lightrag - INFO - Chunk 60 of 97 extracted 0 Ent + 0 Rel chunk-2887fb1521a7a309042bc2cf75b8cd4d
+2025-12-17 09:02:45,522 - lightrag - INFO -  == LLM cache == saving: default:extract:5cd77c3ba00d78b03e5446f1dd7db538
+2025-12-17 09:03:11,565 - lightrag - INFO -  == LLM cache == saving: default:extract:219d1f33e18c6097ec49a48b64b91f53
+2025-12-17 09:03:11,569 - lightrag - WARNING - chunk-018bf41cf62b0d12156780012c81a081: LLM output format error; found 4/5 fields on REALTION `World Athletics Federation`~`Event`
+2025-12-17 09:03:11,569 - lightrag - WARNING - chunk-018bf41cf62b0d12156780012c81a081: LLM output format error; found 4/5 fields on REALTION `Tokyo`~`Event`
+2025-12-17 09:03:11,570 - lightrag - WARNING - chunk-018bf41cf62b0d12156780012c81a081: LLM output format error; found 4/5 fields on REALTION `World Athletics Championship`~`Event`
+2025-12-17 09:03:11,571 - lightrag - WARNING - chunk-018bf41cf62b0d12156780012c81a081: LLM output format error; found 4/5 fields on REALTION `World Athletics Federation`~`Event`
+2025-12-17 09:03:34,110 - lightrag - INFO -  == LLM cache == saving: default:extract:087e77ff9363f06695790bf235533022
+2025-12-17 09:03:34,112 - lightrag - INFO - Chunk 61 of 97 extracted 12 Ent + 9 Rel chunk-01ae9eeb5e98ea8300c3e31d0a39daaf
+2025-12-17 09:04:01,587 - lightrag - INFO -  == LLM cache == saving: default:extract:624afa7c080cd3880b4475080fb00297
+2025-12-17 09:04:01,587 - lightrag - INFO - Chunk 62 of 97 extracted 14 Ent + 9 Rel chunk-018bf41cf62b0d12156780012c81a081
+2025-12-17 09:04:42,745 - lightrag - INFO -  == LLM cache == saving: default:extract:657a07405e0b6eaaee8d2f36b08b8802
+2025-12-17 09:05:15,933 - lightrag - INFO -  == LLM cache == saving: default:extract:de2fa39d6f784bc975f617cb6fdb32fb
+2025-12-17 09:05:36,445 - lightrag - INFO -  == LLM cache == saving: default:extract:592386212f0afcae06dc46234f64a2c3
+2025-12-17 09:05:36,447 - lightrag - INFO - Chunk 63 of 97 extracted 18 Ent + 11 Rel chunk-042addefca4ad5cd133f84d747e9cd4c
+2025-12-17 09:05:51,221 - lightrag - INFO -  == LLM cache == saving: default:extract:a36056007c8733593e20f9d416199c16
+2025-12-17 09:05:51,222 - lightrag - INFO - Chunk 64 of 97 extracted 20 Ent + 12 Rel chunk-56a268e8fc4b40d1bdb9cd3171ba09dd
+2025-12-17 09:06:06,801 - lightrag - INFO -  == LLM cache == saving: default:extract:30df5a313b8c084c16834391a50339e1
+2025-12-17 09:06:20,956 - lightrag - INFO -  == LLM cache == saving: default:extract:4dad9bdacef37c03a9406cbe8ef954ca
+2025-12-17 09:06:56,632 - lightrag - INFO -  == LLM cache == saving: default:extract:6c318eca6e6914926d39b2207ae0b977
+2025-12-17 09:06:56,633 - lightrag - INFO - Chunk 65 of 97 extracted 11 Ent + 8 Rel chunk-ca4d2f4fb25ebed6f3e0a5636a6f7d70
+2025-12-17 09:07:28,597 - lightrag - INFO -  == LLM cache == saving: default:extract:71f4a204b966a84a26183e535e8d449d
+2025-12-17 09:07:28,597 - lightrag - INFO - Chunk 66 of 97 extracted 8 Ent + 6 Rel chunk-e493f036c121cdba58c2be5fd52086e7
+2025-12-17 09:07:50,156 - lightrag - INFO -  == LLM cache == saving: default:extract:4094f579b224ffd7367da0f001f1b497
+2025-12-17 09:08:22,425 - lightrag - INFO -  == LLM cache == saving: default:extract:956ac43eb11794ea3d34c019bf882428
+2025-12-17 09:09:36,121 - lightrag - INFO -  == LLM cache == saving: default:extract:79ba92bc84bfdb2f67fdfcd4524bd5d2
+2025-12-17 09:09:36,122 - lightrag - INFO - Chunk 67 of 97 extracted 11 Ent + 8 Rel chunk-c3398b2762aee035b782f54884c3fd3d
+2025-12-17 09:09:52,959 - lightrag - INFO -  == LLM cache == saving: default:extract:864cd3f49691ab8c3e246edad388f967
+2025-12-17 09:09:52,960 - lightrag - INFO - Chunk 68 of 97 extracted 13 Ent + 8 Rel chunk-2cc3e1cfb77d9edd34414c29af8a50e3
+2025-12-17 09:11:50,987 - lightrag - INFO -  == LLM cache == saving: default:extract:2e63a38c54e53da08300b42140a123f4
+2025-12-17 09:23:30,529 - lightrag - INFO -  == LLM cache == saving: default:extract:b955c41b44548554f8d856582b2fc66c
+2025-12-17 09:25:59,357 - lightrag - ERROR - LLM func: Error in decorated function for task 4592595056_49351.207916791: 
+2025-12-17 09:25:59,381 - lightrag - ERROR - Failed to extract entities and relationships: C[69/97]: chunk-a79b80299e80601919b201435e326b12: 
+2025-12-17 09:25:59,444 - lightrag - ERROR - Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.READ_NUM_BYTES, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2932, in _process_with_semaphore
+    return await _process_single_content(chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2843, in _process_single_content
+    glean_result, timestamp = await use_llm_func_with_cache(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 1698, in use_llm_func_with_cache
+    res: str = await use_llm_func(
+               ^^^^^^^^^^^^^^^^^^^
+        safe_user_prompt, system_prompt=safe_system_prompt, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 847, in wait_func
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/utils.py", line 551, in worker
+    result = await asyncio.wait_for(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+        func(*args, **kwargs), timeout=max_execution_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/llm/ollama.py", line 135, in ollama_model_complete
+    return await _ollama_model_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/llm/ollama.py", line 109, in _ollama_model_if_cache
+    raise e
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/llm/ollama.py", line 72, in _ollama_model_if_cache
+    response = await ollama_client.chat(model=model, messages=messages, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/ollama/_client.py", line 983, in chat
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<16 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/ollama/_client.py", line 767, in _request
+    return cls(**(await self._request_raw(*args, **kwargs)).json())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/ollama/_client.py", line 707, in _request_raw
+    r = await self._client.request(*args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2936, in _process_with_semaphore
+    raise prefixed_exception from e
+httpx.ReadTimeout: chunk-a79b80299e80601919b201435e326b12: 
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 1838, in process_document
+    chunk_results = await entity_relation_task
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 2122, in _process_extract_entities
+    raise e
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/lightrag.py", line 2107, in _process_extract_entities
+    chunk_results = await extract_entities(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/jacob/Code/personal/lightrag/.venv/lib/python3.13/site-packages/lightrag/operate.py", line 2978, in extract_entities
+    raise prefixed_exception from first_exception
+httpx.ReadTimeout: C[69/97]: chunk-a79b80299e80601919b201435e326b12: 
+
+2025-12-17 09:25:59,447 - lightrag - ERROR - Failed to extract document 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-17 09:25:59,521 - lightrag - INFO - Enqueued document processing pipeline stopped
+2025-12-17 09:31:48,314 - uvicorn.access - INFO - 127.0.0.1:63039 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-17 09:31:48,317 - lightrag - INFO - [_] Subgraph query successful | Node count: 0 | Edge count: 0
+2025-12-17 09:31:48,318 - uvicorn.access - INFO - 127.0.0.1:63168 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-12-17 09:31:48,322 - uvicorn.access - INFO - 127.0.0.1:63039 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-17 09:31:52,136 - uvicorn.access - INFO - 127.0.0.1:63039 - "POST /documents/scan HTTP/1.1" 200
+2025-12-17 09:31:52,143 - lightrag - INFO - Found 0 files to index.
+2025-12-17 09:31:52,144 - lightrag - INFO - No upload file found, check if there are any documents in the queue...
+2025-12-17 09:31:52,146 - lightrag - INFO - Preserving 1 failed document entries for manual review
+2025-12-17 09:31:52,147 - lightrag - INFO - Reset 1 documents from PROCESSING/FAILED to PENDING status
+2025-12-17 09:31:52,148 - lightrag - INFO - Processing 1 document(s)
+2025-12-17 09:31:52,148 - lightrag - INFO - Extracting stage 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-17 09:31:52,148 - lightrag - INFO - Processing d-id: doc-d22f78b0263981245aae43f611784899
+2025-12-17 09:32:06,638 - lightrag - INFO - Chunk 1 of 97 extracted 10 Ent + 11 Rel chunk-9461793aa128327e2131841410e61c81
+2025-12-17 09:32:06,649 - lightrag - INFO - Chunk 2 of 97 extracted 9 Ent + 8 Rel chunk-76e7922c404d0cf81afd73712eeb9fff
+2025-12-17 09:32:06,657 - lightrag - INFO - Chunk 3 of 97 extracted 9 Ent + 9 Rel chunk-e8a81d1f39fd8727b5365fd055e22a32
+2025-12-17 09:32:06,664 - lightrag - INFO - Chunk 4 of 97 extracted 11 Ent + 8 Rel chunk-746691d7ae3f2bc179a4b0caacc6cbbc
+2025-12-17 09:32:06,671 - lightrag - INFO - Chunk 5 of 97 extracted 12 Ent + 9 Rel chunk-f0270598c32527be04e161d0a9a80fba
+2025-12-17 09:32:06,677 - lightrag - INFO - Chunk 6 of 97 extracted 11 Ent + 9 Rel chunk-ddb53f26eaebf09db480e73777c7c51f
+2025-12-17 09:32:06,690 - lightrag - INFO - Chunk 7 of 97 extracted 14 Ent + 10 Rel chunk-5531cf6402a3e4653c3077094b15d4f3
+2025-12-17 09:32:06,695 - lightrag - INFO - Chunk 8 of 97 extracted 9 Ent + 8 Rel chunk-c9748903cbed5b6ffe5efcf7c58176d1
+2025-12-17 09:32:06,701 - lightrag - INFO - Chunk 9 of 97 extracted 9 Ent + 7 Rel chunk-cb8797eba6d7778158ba5ad34f7d4df2
+2025-12-17 09:32:06,706 - lightrag - INFO - Chunk 10 of 97 extracted 11 Ent + 7 Rel chunk-34bcafebe9388eed82c93809dde2351b
+2025-12-17 09:32:06,711 - lightrag - INFO - Chunk 11 of 97 extracted 12 Ent + 10 Rel chunk-810023b929f1214f979f490b52d442b4
+2025-12-17 09:32:06,716 - lightrag - INFO - Chunk 12 of 97 extracted 9 Ent + 13 Rel chunk-a43c506ef5adb803ea21269101c95379
+2025-12-17 09:32:06,721 - lightrag - INFO - Chunk 13 of 97 extracted 11 Ent + 10 Rel chunk-052de7e30b68d92cd907bf705af2824e
+2025-12-17 09:32:06,726 - lightrag - INFO - Chunk 14 of 97 extracted 12 Ent + 5 Rel chunk-6162f9444558418f4715f5a5f1a05cde
+2025-12-17 09:32:06,730 - lightrag - INFO - Chunk 15 of 97 extracted 7 Ent + 8 Rel chunk-cadf48141063c053bb80cefd3a8e9a32
+2025-12-17 09:32:06,736 - lightrag - INFO - Chunk 16 of 97 extracted 15 Ent + 11 Rel chunk-b1933e7d575e081c02341580ca0a57f6
+2025-12-17 09:32:06,741 - lightrag - INFO - Chunk 17 of 97 extracted 12 Ent + 12 Rel chunk-33c538e081a520bfc6d2f023a5079916
+2025-12-17 09:32:06,752 - lightrag - INFO - Chunk 18 of 97 extracted 13 Ent + 10 Rel chunk-344e4a85851ed57d90efad3ce4e66787
+2025-12-17 09:32:06,756 - lightrag - INFO - Chunk 19 of 97 extracted 9 Ent + 8 Rel chunk-8818fd05a6db38e59d1c2343a5353aa8
+2025-12-17 09:32:06,761 - lightrag - INFO - Chunk 20 of 97 extracted 12 Ent + 11 Rel chunk-a438678b0000ca14bb87d728a2677f83
+2025-12-17 09:32:06,766 - lightrag - INFO - Chunk 21 of 97 extracted 12 Ent + 7 Rel chunk-bec7c08a79137709dd304a4da0937f6b
+2025-12-17 09:32:06,771 - lightrag - INFO - Chunk 22 of 97 extracted 9 Ent + 8 Rel chunk-d2299362e3780a2aee1344b8eb848385
+2025-12-17 09:32:06,776 - lightrag - INFO - Chunk 23 of 97 extracted 6 Ent + 6 Rel chunk-da10339eb861282ba3310f3cd75044c3
+2025-12-17 09:32:06,780 - lightrag - INFO - Chunk 24 of 97 extracted 9 Ent + 6 Rel chunk-340d7868467b1e6f7b86781b55f9630b
+2025-12-17 09:32:06,786 - lightrag - INFO - Chunk 25 of 97 extracted 11 Ent + 14 Rel chunk-e00958151369005df317f7104a0266df
+2025-12-17 09:32:06,791 - lightrag - INFO - Chunk 26 of 97 extracted 14 Ent + 9 Rel chunk-80aa3984dd0f2b9a18b805724bdb1735
+2025-12-17 09:32:06,796 - lightrag - INFO - Chunk 27 of 97 extracted 7 Ent + 6 Rel chunk-25493a5903a11e711bd54a2bc8d48124
+2025-12-17 09:32:06,801 - lightrag - INFO - Chunk 28 of 97 extracted 10 Ent + 7 Rel chunk-548ee513c21847a7597005dae658cbd2
+2025-12-17 09:32:06,806 - lightrag - INFO - Chunk 29 of 97 extracted 9 Ent + 7 Rel chunk-4724b8ef5871097ad91b297eba73d12d
+2025-12-17 09:32:06,811 - lightrag - INFO - Chunk 30 of 97 extracted 12 Ent + 14 Rel chunk-dd9a571b8e910b2617c511093f60ac98
+2025-12-17 09:32:06,816 - lightrag - INFO - Chunk 31 of 97 extracted 11 Ent + 12 Rel chunk-a3bad0e163f57242778adbc8ad3cac6f
+2025-12-17 09:32:06,821 - lightrag - INFO - Chunk 32 of 97 extracted 9 Ent + 8 Rel chunk-9749dbd6d428ab30d5e569589ca2bc86
+2025-12-17 09:32:06,826 - lightrag - INFO - Chunk 33 of 97 extracted 10 Ent + 10 Rel chunk-7baff08fc1a62057415255562c075842
+2025-12-17 09:32:06,831 - lightrag - INFO - Chunk 34 of 97 extracted 12 Ent + 8 Rel chunk-20247aea235535f9fd9b62c18541b98a
+2025-12-17 09:32:06,836 - lightrag - INFO - Chunk 35 of 97 extracted 15 Ent + 12 Rel chunk-6aa2198d90a8687edfbf0b8cb6cbe1f4
+2025-12-17 09:32:06,841 - lightrag - INFO - Chunk 36 of 97 extracted 13 Ent + 7 Rel chunk-c3d48821840aab60fccb5b22e04f4fbb
+2025-12-17 09:32:06,846 - lightrag - INFO - Chunk 37 of 97 extracted 10 Ent + 8 Rel chunk-30ad03d03697f182b85596d61ce8e371
+2025-12-17 09:32:06,852 - lightrag - INFO - Chunk 38 of 97 extracted 15 Ent + 10 Rel chunk-85b4ed024a680c7f61e8fa5e7eeb77f9
+2025-12-17 09:32:06,858 - lightrag - INFO - Chunk 39 of 97 extracted 21 Ent + 12 Rel chunk-4434ce5f33609245966dafd491110071
+2025-12-17 09:32:06,861 - lightrag - WARNING - chunk-b7c5e32662c97284f99da36dd65a8a0e: Complete delimiter can not be found in extraction result
+2025-12-17 09:32:06,863 - lightrag - WARNING - chunk-b7c5e32662c97284f99da36dd65a8a0e: LLM output format error; found 4/5 fields on REALTION `Peeves`~`The Bloody Baron`
+2025-12-17 09:32:06,865 - lightrag - INFO - Chunk 40 of 97 extracted 18 Ent + 6 Rel chunk-b7c5e32662c97284f99da36dd65a8a0e
+2025-12-17 09:32:06,870 - lightrag - INFO - Chunk 41 of 97 extracted 19 Ent + 10 Rel chunk-cf9543163c8ae9b9696db9cf2b9906aa
+2025-12-17 09:32:43,190 - lightrag - INFO -  == LLM cache == saving: default:extract:6cb32e91204f90c8fabff9f09951ac6d
+2025-12-17 09:33:29,021 - lightrag - INFO -  == LLM cache == saving: default:extract:c032d4c96c2ab592cc7875fd07362a5d
+2025-12-17 09:33:51,328 - lightrag - INFO -  == LLM cache == saving: default:extract:310099fb29143a9a109a79a0813bc7e1
+2025-12-17 09:33:51,330 - lightrag - INFO - Chunk 42 of 97 extracted 23 Ent + 12 Rel chunk-9d39524d3d3b0663ddd5b93662200460
+2025-12-17 09:33:51,346 - lightrag - INFO - Chunk 43 of 97 extracted 17 Ent + 11 Rel chunk-003bc0416f4772ad783d780b120488d0
+2025-12-17 09:33:51,358 - lightrag - INFO - Chunk 44 of 97 extracted 12 Ent + 8 Rel chunk-7fc632f881f105f1c8f44c94f444a5b1
+2025-12-17 09:33:51,363 - lightrag - INFO - Chunk 45 of 97 extracted 12 Ent + 8 Rel chunk-c44ba2aa335a857c444542793b669e1d
+2025-12-17 09:33:51,369 - lightrag - INFO - Chunk 46 of 97 extracted 14 Ent + 9 Rel chunk-9c95df50a22658a6bbccf8558135c433
+2025-12-17 09:33:51,384 - lightrag - INFO - Chunk 47 of 97 extracted 16 Ent + 10 Rel chunk-61ed740b13031c38216dfe6609f16bfc
+2025-12-17 09:33:51,393 - lightrag - INFO - Chunk 48 of 97 extracted 15 Ent + 8 Rel chunk-c0bf252db8b194f7ccc00d31ec5442a9
+2025-12-17 09:33:51,400 - lightrag - INFO - Chunk 49 of 97 extracted 13 Ent + 9 Rel chunk-5a4097f3e615861cfc7a72fbd55e3e79
+2025-12-17 09:33:51,406 - lightrag - INFO - Chunk 50 of 97 extracted 13 Ent + 8 Rel chunk-f5a7e68c3c976227614867c1e1452526
+2025-12-17 09:33:51,412 - lightrag - INFO - Chunk 51 of 97 extracted 10 Ent + 9 Rel chunk-349eb3331181154726e90cf7825a4918
+2025-12-17 09:33:51,418 - lightrag - INFO - Chunk 52 of 97 extracted 10 Ent + 10 Rel chunk-4229a66cd0c390ad43dcfe9a0dd9d2a2
+2025-12-17 09:33:51,423 - lightrag - INFO - Chunk 53 of 97 extracted 11 Ent + 10 Rel chunk-055bb9665a566490cc51db95288f13a9
+2025-12-17 09:33:51,428 - lightrag - INFO - Chunk 54 of 97 extracted 12 Ent + 8 Rel chunk-380b9c963edfdf0b9122ed6b3bd50a56
+2025-12-17 09:33:51,433 - lightrag - INFO - Chunk 55 of 97 extracted 10 Ent + 11 Rel chunk-a730bcbfabb9df248009d791a8b75b25
+2025-12-17 09:33:51,438 - lightrag - INFO - Chunk 56 of 97 extracted 15 Ent + 10 Rel chunk-51987e328401797578384b806fa99079
+2025-12-17 09:34:10,976 - lightrag - INFO -  == LLM cache == saving: default:extract:32f48fb68361309c483da9ebd6ee0fd7
+2025-12-17 09:34:10,978 - lightrag - INFO - Chunk 57 of 97 extracted 16 Ent + 10 Rel chunk-d5f06c1efd51739bc5f5b065a0da8e32
+2025-12-17 09:34:10,994 - lightrag - INFO - Chunk 58 of 97 extracted 17 Ent + 13 Rel chunk-3d68b2568cae8ff49f27f000978b864e
+2025-12-17 09:34:34,946 - lightrag - INFO -  == LLM cache == saving: default:extract:49fd2038660944b1d55b27f8110dda9d
+2025-12-17 09:34:54,724 - lightrag - INFO -  == LLM cache == saving: default:extract:e3c447f8b04315973f34244b12453497
+2025-12-17 09:35:31,892 - lightrag - INFO -  == LLM cache == saving: default:extract:b310361e47c9f616636d5068f321beb0
+2025-12-17 09:35:31,893 - lightrag - INFO - Chunk 59 of 97 extracted 17 Ent + 9 Rel chunk-da8604de6a39ee64ee295260e7c1ec06
+2025-12-17 09:35:31,907 - lightrag - INFO - Chunk 60 of 97 extracted 12 Ent + 9 Rel chunk-01ae9eeb5e98ea8300c3e31d0a39daaf
+2025-12-17 09:35:31,915 - lightrag - WARNING - chunk-018bf41cf62b0d12156780012c81a081: LLM output format error; found 4/5 fields on REALTION `World Athletics Federation`~`Event`
+2025-12-17 09:35:31,915 - lightrag - WARNING - chunk-018bf41cf62b0d12156780012c81a081: LLM output format error; found 4/5 fields on REALTION `Tokyo`~`Event`
+2025-12-17 09:35:31,915 - lightrag - WARNING - chunk-018bf41cf62b0d12156780012c81a081: LLM output format error; found 4/5 fields on REALTION `World Athletics Championship`~`Event`
+2025-12-17 09:35:31,916 - lightrag - WARNING - chunk-018bf41cf62b0d12156780012c81a081: LLM output format error; found 4/5 fields on REALTION `World Athletics Federation`~`Event`
+2025-12-17 09:35:31,918 - lightrag - INFO - Chunk 61 of 97 extracted 14 Ent + 9 Rel chunk-018bf41cf62b0d12156780012c81a081
+2025-12-17 09:35:31,924 - lightrag - INFO - Chunk 62 of 97 extracted 18 Ent + 11 Rel chunk-042addefca4ad5cd133f84d747e9cd4c
+2025-12-17 09:35:31,933 - lightrag - INFO - Chunk 63 of 97 extracted 20 Ent + 12 Rel chunk-56a268e8fc4b40d1bdb9cd3171ba09dd
+2025-12-17 09:35:31,942 - lightrag - INFO - Chunk 64 of 97 extracted 11 Ent + 8 Rel chunk-ca4d2f4fb25ebed6f3e0a5636a6f7d70
+2025-12-17 09:35:31,948 - lightrag - INFO - Chunk 65 of 97 extracted 8 Ent + 6 Rel chunk-e493f036c121cdba58c2be5fd52086e7
+2025-12-17 09:35:31,956 - lightrag - INFO - Chunk 66 of 97 extracted 11 Ent + 8 Rel chunk-c3398b2762aee035b782f54884c3fd3d
+2025-12-17 09:35:31,963 - lightrag - INFO - Chunk 67 of 97 extracted 13 Ent + 8 Rel chunk-2cc3e1cfb77d9edd34414c29af8a50e3
+2025-12-17 09:35:49,841 - lightrag - INFO -  == LLM cache == saving: default:extract:58af417984f459a59243da966ac278d2
+2025-12-17 09:35:49,843 - lightrag - INFO - Chunk 68 of 97 extracted 14 Ent + 10 Rel chunk-2887fb1521a7a309042bc2cf75b8cd4d
+2025-12-17 09:36:13,343 - lightrag - INFO -  == LLM cache == saving: default:extract:26583229fb40179998a070aed92fc49f
+2025-12-17 09:36:13,343 - lightrag - INFO - Chunk 69 of 97 extracted 5 Ent + 5 Rel chunk-a79b80299e80601919b201435e326b12
+2025-12-17 09:36:41,602 - lightrag - INFO -  == LLM cache == saving: default:extract:6257c33018794eba3d987197b0873a07
+2025-12-17 09:36:41,605 - lightrag - INFO - Chunk 70 of 97 extracted 12 Ent + 9 Rel chunk-24a4f8e0093598d2799bb1db0215aa42
+2025-12-17 09:37:01,798 - lightrag - INFO -  == LLM cache == saving: default:extract:2399f0d1d22c53060a75a7f28371df76
+2025-12-17 09:37:20,934 - lightrag - INFO -  == LLM cache == saving: default:extract:713de1e973a3a2cf68aab4e148946faf
+2025-12-17 09:37:35,150 - lightrag - INFO -  == LLM cache == saving: default:extract:c728f0c72a8fa6161e2a7794eb7bba0c
+2025-12-17 09:37:35,152 - lightrag - INFO - Chunk 71 of 97 extracted 11 Ent + 7 Rel chunk-d9e8930a31376d4edf879e6451d20048
+2025-12-17 09:37:54,404 - lightrag - INFO -  == LLM cache == saving: default:extract:1aca0c3fc8a16269b1440f3978c05d6b
+2025-12-17 09:37:54,405 - lightrag - INFO - Chunk 72 of 97 extracted 5 Ent + 9 Rel chunk-4ccd617eb624241dde09ca942424439a
+2025-12-17 09:38:22,369 - lightrag - INFO -  == LLM cache == saving: default:extract:1d77aad7c82fcf3b57748a3a727bbf38
+2025-12-17 09:38:45,544 - lightrag - INFO -  == LLM cache == saving: default:extract:eed45dde686f4ca37dcf7b5cd6bcc081
+2025-12-17 09:39:11,388 - lightrag - INFO -  == LLM cache == saving: default:extract:5720b0bf57d478b15be7ac0705aefaba
+2025-12-17 09:39:11,391 - lightrag - INFO - Chunk 73 of 97 extracted 16 Ent + 13 Rel chunk-2017a81d08f117adfa9c276a44c4e202
+2025-12-17 09:39:32,091 - lightrag - INFO -  == LLM cache == saving: default:extract:8706faa522dd0e23635f67b31d51c8df
+2025-12-17 09:39:32,091 - lightrag - INFO - Chunk 74 of 97 extracted 12 Ent + 12 Rel chunk-905c7ee8d45ece04893d39fb2ba87c3b
+2025-12-17 09:39:50,547 - lightrag - INFO -  == LLM cache == saving: default:extract:e9ff5b6e7abfebd63d019853a0cc4952
+2025-12-17 09:40:29,068 - lightrag - INFO -  == LLM cache == saving: default:extract:ba1ac50dfa348ff9c46d922bf8ca16b9
+2025-12-17 09:40:58,743 - lightrag - INFO -  == LLM cache == saving: default:extract:cf0e449da77f58ea9c26a7d351f70942
+2025-12-17 09:40:58,745 - lightrag - INFO - Chunk 75 of 97 extracted 18 Ent + 9 Rel chunk-4e9175cfd651656db0ca52bee91ee5a1
+2025-12-17 09:41:11,257 - lightrag - INFO -  == LLM cache == saving: default:extract:8498381c0f7a56c3dcb2353213f958ae
+2025-12-17 09:41:11,258 - lightrag - INFO - Chunk 76 of 97 extracted 10 Ent + 10 Rel chunk-8f424b81b6364cc1c72b806ebdd0c2cd
+2025-12-17 09:41:37,339 - lightrag - INFO -  == LLM cache == saving: default:extract:059a992c5f9d11298b3b5d2d27523c18
+2025-12-17 09:41:56,836 - lightrag - INFO -  == LLM cache == saving: default:extract:a012dbe83f7a3aff11dc44c1074a6cdb
+2025-12-17 09:42:18,115 - lightrag - INFO -  == LLM cache == saving: default:extract:64c897dede18742a946b866b8ad63f9d
+2025-12-17 09:42:18,116 - lightrag - INFO - Chunk 77 of 97 extracted 13 Ent + 12 Rel chunk-f330d355ff56c68f0530e80186aba2e5
+2025-12-17 09:42:37,681 - lightrag - INFO -  == LLM cache == saving: default:extract:d03bc797343fb18e26818c290bfe2975
+2025-12-17 09:42:37,682 - lightrag - INFO - Chunk 78 of 97 extracted 11 Ent + 8 Rel chunk-77bc4972904ff4718ed164f2c8824d5f
+2025-12-17 09:42:57,079 - lightrag - INFO -  == LLM cache == saving: default:extract:20108b1b0fce3cd861426f543fc1e78f
+2025-12-17 09:44:06,221 - lightrag - WARNING - chunk-a45ff933e92575a415ec31d8d8077031: Complete delimiter can not be found in extraction result
+2025-12-17 09:44:22,193 - lightrag - INFO -  == LLM cache == saving: default:extract:733822cd10a6caef4721ea97bed6c487
+2025-12-17 09:44:22,194 - lightrag - INFO - Chunk 79 of 97 extracted 10 Ent + 9 Rel chunk-88b256120e031067d16e2c41ec6268d2
+2025-12-17 09:44:42,745 - lightrag - INFO -  == LLM cache == saving: default:extract:92feb1ff4ac6b4bb2f62101c0fc75fc8
+2025-12-17 09:44:42,748 - lightrag - INFO - Chunk 80 of 97 extracted 7 Ent + 5 Rel chunk-a45ff933e92575a415ec31d8d8077031
+2025-12-17 09:45:47,338 - lightrag - INFO -  == LLM cache == saving: default:extract:12550c0a688c42020064d32949b1d180
+2025-12-17 09:46:22,722 - lightrag - INFO -  == LLM cache == saving: default:extract:49c75a117a3cee179ab267efbe7e6d2a
+2025-12-17 09:46:39,154 - lightrag - INFO -  == LLM cache == saving: default:extract:d21145df375e0f6549dde73d59269039
+2025-12-17 09:46:39,155 - lightrag - INFO - Chunk 81 of 97 extracted 19 Ent + 9 Rel chunk-3d7bd3131fb44845c42bedfff322be27
+2025-12-17 09:47:07,571 - lightrag - INFO -  == LLM cache == saving: default:extract:e84447430e9c8bf930162f4b136800f6
+2025-12-17 09:47:07,571 - lightrag - INFO - Chunk 82 of 97 extracted 15 Ent + 15 Rel chunk-bbd74926028d58be6b8765af87ea2c94
+2025-12-17 09:47:30,260 - lightrag - INFO -  == LLM cache == saving: default:extract:15458e594d08b50ef8813662040bd42d
+2025-12-17 09:48:10,264 - lightrag - INFO -  == LLM cache == saving: default:extract:ff3cd06dda4eae75eeaa92be379c3df9
+2025-12-17 09:48:29,037 - lightrag - INFO -  == LLM cache == saving: default:extract:26df079187690bc295817e7850f5ded3
+2025-12-17 09:48:29,038 - lightrag - INFO - Chunk 83 of 97 extracted 12 Ent + 7 Rel chunk-c522b9e92f722d71e7e78cc206b45f66
+2025-12-17 09:48:49,387 - lightrag - INFO -  == LLM cache == saving: default:extract:e220fbe566e7ff45cb78e81a32899ec1
+2025-12-17 09:48:49,387 - lightrag - INFO - Chunk 84 of 97 extracted 11 Ent + 8 Rel chunk-fb0926768f00b66cf2498919bd46d5be
+2025-12-17 09:49:09,518 - lightrag - INFO -  == LLM cache == saving: default:extract:befbb7108632ea327597b488f3111195
+2025-12-17 09:50:19,023 - lightrag - WARNING - chunk-2e6337e981813eca4c7b4374b7b81588: Complete delimiter can not be found in extraction result
+2025-12-17 09:50:39,352 - lightrag - INFO -  == LLM cache == saving: default:extract:645200bb18542359ebd0390a8b0f7030
+2025-12-17 09:50:39,353 - lightrag - INFO - Chunk 85 of 97 extracted 11 Ent + 9 Rel chunk-c9b0e4acf6b015cbfc1558ebd08a99a8
+2025-12-17 09:51:10,362 - lightrag - INFO -  == LLM cache == saving: default:extract:f8959a544e1407bdfecf8f5ae0eef7a3
+2025-12-17 09:51:10,363 - lightrag - INFO - Chunk 86 of 97 extracted 3 Ent + 1 Rel chunk-2e6337e981813eca4c7b4374b7b81588
+2025-12-17 09:51:29,526 - lightrag - INFO -  == LLM cache == saving: default:extract:8a524e7f5413abb7cbfdb94b2db2ccf8
+2025-12-17 09:51:57,885 - lightrag - INFO -  == LLM cache == saving: default:extract:b82960c321a1f0c228a20982e7648891
+2025-12-17 09:52:22,872 - lightrag - INFO -  == LLM cache == saving: default:extract:eda21ae91023971c0b3dae393de18e1d
+2025-12-17 09:52:22,874 - lightrag - INFO - Chunk 87 of 97 extracted 11 Ent + 10 Rel chunk-5a5029431c3e2a90c55271d2bec403bb
+2025-12-17 09:52:41,268 - lightrag - INFO -  == LLM cache == saving: default:extract:58bd802592bfdf824e0399dc77c2648e
+2025-12-17 09:52:41,270 - lightrag - INFO - Chunk 88 of 97 extracted 9 Ent + 13 Rel chunk-85f5cc7cb53d85b8797e7ee361186d86
+2025-12-17 09:53:03,912 - lightrag - INFO -  == LLM cache == saving: default:extract:a0a07a19d172a4d66b18be3c50bc5795
+2025-12-17 09:53:23,652 - lightrag - INFO -  == LLM cache == saving: default:extract:2926605e43de6a3dae82a36cb5d9aed0
+2025-12-17 09:53:56,110 - lightrag - INFO -  == LLM cache == saving: default:extract:83ffdc6b8143d43ec83764f8adf0c085
+2025-12-17 09:53:56,111 - lightrag - INFO - Chunk 89 of 97 extracted 15 Ent + 8 Rel chunk-030fce8bbf4309222418507d26b0613d
+2025-12-17 09:54:21,029 - lightrag - INFO -  == LLM cache == saving: default:extract:afe1c573cbf0e8e5f931439fbb944e1d
+2025-12-17 09:54:21,030 - lightrag - INFO - Chunk 90 of 97 extracted 9 Ent + 9 Rel chunk-4dae9f51da4e3b6440ea77b3406e7101
+2025-12-17 09:54:42,734 - lightrag - INFO -  == LLM cache == saving: default:extract:d230f2a972d7a7b284f2e1d01818993a
+2025-12-17 09:55:06,029 - lightrag - INFO -  == LLM cache == saving: default:extract:f24b44e6701dfa91558582e46c531c71
+2025-12-17 09:55:26,318 - lightrag - INFO -  == LLM cache == saving: default:extract:aaa6bddbbb2f34882a7f86c9064acbca
+2025-12-17 09:55:26,319 - lightrag - INFO - Chunk 91 of 97 extracted 10 Ent + 10 Rel chunk-e4116592fc620aecd2e9cdb6913c1e69
+2025-12-17 09:55:52,046 - lightrag - INFO -  == LLM cache == saving: default:extract:09a51c8c1c4bc64adbb8e13ad28e790a
+2025-12-17 09:55:52,047 - lightrag - INFO - Chunk 92 of 97 extracted 9 Ent + 7 Rel chunk-d7135ba53d5a79b1f19cb939a0107959
+2025-12-17 09:56:25,651 - lightrag - INFO -  == LLM cache == saving: default:extract:d9a654867959525ca9c8d999a0780223
+2025-12-17 09:57:35,722 - lightrag - WARNING - chunk-f4d1d51670d6255f095ab2926af01be3: Complete delimiter can not be found in extraction result
+2025-12-17 09:57:50,074 - lightrag - INFO -  == LLM cache == saving: default:extract:66cd20632150b7508b366f585992e6a6
+2025-12-17 09:57:50,074 - lightrag - INFO - Chunk 93 of 97 extracted 11 Ent + 8 Rel chunk-ef3bf92dc18bfd7317b76ee136756d35
+2025-12-17 09:58:33,534 - lightrag - INFO -  == LLM cache == saving: default:extract:42e8c574cff32359503e8f6c2210910b
+2025-12-17 09:58:33,535 - lightrag - INFO - Chunk 94 of 97 extracted 0 Ent + 0 Rel chunk-f4d1d51670d6255f095ab2926af01be3
+2025-12-17 09:58:55,765 - lightrag - INFO -  == LLM cache == saving: default:extract:1339d0862d54ba75982c884229adeda4
+2025-12-17 09:58:55,765 - lightrag - WARNING - chunk-f33af4987bb4afd00dc03bec0c08b4e4: Complete delimiter can not be found in extraction result
+2025-12-17 09:59:59,612 - lightrag - INFO -  == LLM cache == saving: default:extract:77b5174ab69222d1c3ba6d70cbc2a04d
+2025-12-17 10:00:19,756 - lightrag - INFO -  == LLM cache == saving: default:extract:7c5542872532776440f55c11fdb1c82c
+2025-12-17 10:00:19,757 - lightrag - INFO - Chunk 95 of 97 extracted 10 Ent + 6 Rel chunk-f33af4987bb4afd00dc03bec0c08b4e4
+2025-12-17 10:00:44,230 - lightrag - INFO -  == LLM cache == saving: default:extract:41cf36e9be65e67bc3a4176625e89aab
+2025-12-17 10:00:44,231 - lightrag - INFO - Chunk 96 of 97 extracted 21 Ent + 11 Rel chunk-6d86eda6da88aaff839db359b797ce21
+2025-12-17 10:00:56,647 - lightrag - INFO -  == LLM cache == saving: default:extract:c9cb2860915d77ee5f6b3ff1c1ba69a0
+2025-12-17 10:01:10,530 - lightrag - INFO -  == LLM cache == saving: default:extract:c8a4fb1c3fb4b019d0f725f2ea18bc3f
+2025-12-17 10:01:10,533 - lightrag - INFO - Chunk 97 of 97 extracted 6 Ent + 4 Rel chunk-7fdfebaa61c0f4436e076493300f39a0
+2025-12-17 10:01:10,560 - lightrag - INFO - Merging stage 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-17 10:01:10,560 - lightrag - INFO - Phase 1: Processing 371 entities from doc-d22f78b0263981245aae43f611784899 (async: 4)
+2025-12-17 10:01:33,572 - lightrag - INFO -  == LLM cache == saving: default:summary:dd235033d08b5c41a2978f360ba3f258
+2025-12-17 10:01:33,572 - lightrag - INFO - LLMmrg: `Ron` | 0+51
+2025-12-17 10:01:47,809 - lightrag - INFO -  == LLM cache == saving: default:summary:2b546a099ee1c0dfa55bd39f6b401bc6
+2025-12-17 10:01:47,810 - lightrag - INFO - LLMmrg: `Harry` | 0+72
+2025-12-17 10:01:56,852 - lightrag - INFO -  == LLM cache == saving: default:summary:9705bc733e33a5244aaac73b5cf8838e
+2025-12-17 10:01:56,853 - lightrag - INFO - LLMmrg: `100m Sprint Record` | 0+17 (dd 12)
+2025-12-17 10:02:09,980 - lightrag - INFO -  == LLM cache == saving: default:summary:4e60987c37ced4442f5f11a19877efd8
+2025-12-17 10:02:09,980 - lightrag - INFO - LLMmrg: `Carbon-Fiber Spikes` | 0+36 (dd 6)
+2025-12-17 10:02:16,027 - lightrag - INFO -  == LLM cache == saving: default:summary:f7058da19564b0839f54b6f8fecfba4d
+2025-12-17 10:02:16,027 - lightrag - INFO - LLMmrg: `World Athletics Championship` | 0+31 (dd 21)
+2025-12-17 10:02:29,967 - lightrag - INFO -  == LLM cache == saving: default:summary:7a610e7ae23b3ae61362d266da644a3c
+2025-12-17 10:02:29,967 - lightrag - INFO - LLMmrg: `Dumbledore` | 0+20
+2025-12-17 10:02:55,097 - lightrag - INFO -  == LLM cache == saving: default:summary:fe728e2ea615cf7acdc82ad3dd5c069b
+2025-12-17 10:02:55,098 - lightrag - INFO - LLMmrg: `Hermione` | 0+52
+2025-12-17 10:03:03,065 - lightrag - INFO -  == LLM cache == saving: default:summary:d806ce4065b10b67194a66d710b23013
+2025-12-17 10:03:03,066 - lightrag - INFO - LLMmrg: `Hagrid` | 0+36
+2025-12-17 10:03:11,383 - lightrag - INFO -  == LLM cache == saving: default:summary:52949200ea31889dacaab8d23db976ba
+2025-12-17 10:03:11,384 - lightrag - INFO - LLMmrg: `Tokyo` | 0+10 (dd 22)
+2025-12-17 10:03:24,497 - lightrag - INFO -  == LLM cache == saving: default:summary:41a0f6d2e0d489fbaa7336d296f23b61
+2025-12-17 10:03:24,498 - lightrag - INFO - LLMmrg: `Neville` | 0+21
+2025-12-17 10:03:38,233 - lightrag - INFO -  == LLM cache == saving: default:summary:eac4925a0d6bd9ede8c478e543b3128e
+2025-12-17 10:03:38,234 - lightrag - INFO - LLMmrg: `Malfoy` | 0+13
+2025-12-17 10:04:00,023 - lightrag - INFO -  == LLM cache == saving: default:summary:1a493b15e98c545728605e3aa59ac39d
+2025-12-17 10:04:00,023 - lightrag - INFO - LLMmrg: `World Athletics Federation` | 0+16 (dd 6)
+2025-12-17 10:04:08,001 - lightrag - INFO -  == LLM cache == saving: default:summary:88c48cfb4d33d77e4f1a8b2348f228d6
+2025-12-17 10:04:08,001 - lightrag - INFO - LLMmrg: `Gringotts` | 0+8
+2025-12-17 10:04:17,650 - lightrag - INFO -  == LLM cache == saving: default:summary:964f72c856f1961f90026e8af27d0203
+2025-12-17 10:04:17,651 - lightrag - INFO - LLMmrg: `Snape` | 0+22
+2025-12-17 10:04:27,988 - lightrag - INFO -  == LLM cache == saving: default:summary:2d35a432dc5d3034b179fe0567f724f9
+2025-12-17 10:04:27,989 - lightrag - INFO - LLMmrg: `Professor McGonagall` | 0+14
+2025-12-17 10:04:38,174 - lightrag - INFO -  == LLM cache == saving: default:summary:b1283538866f37e4901501d26b4774d3
+2025-12-17 10:04:38,174 - lightrag - INFO - LLMmrg: `Hogwarts` | 0+9 (dd 2)
+2025-12-17 10:04:45,456 - lightrag - INFO -  == LLM cache == saving: default:summary:0268f1c29dd3c0f5ca96b489b83892d5
+2025-12-17 10:04:45,457 - lightrag - INFO - LLMmrg: `Sorcerer's Stone` | 0+8
+2025-12-17 10:04:52,287 - lightrag - INFO -  == LLM cache == saving: default:summary:8690c052c2f4e2170386f3738fcc1ed3
+2025-12-17 10:04:52,287 - lightrag - INFO - LLMmrg: `Ministry of Magic` | 0+9
+2025-12-17 10:04:59,729 - lightrag - INFO -  == LLM cache == saving: default:summary:d4a4dbefb87364651d0b51ad0ff4e06f
+2025-12-17 10:04:59,730 - lightrag - INFO - LLMmrg: `Great Hall` | 0+9
+2025-12-17 10:05:13,152 - lightrag - INFO -  == LLM cache == saving: default:summary:5ec7196e716a84b475a5e98144dda668
+2025-12-17 10:05:13,152 - lightrag - INFO - LLMmrg: `Hogwarts School of Witchcraft and Wizardry` | 0+9
+2025-12-17 10:05:23,372 - lightrag - INFO -  == LLM cache == saving: default:summary:b02070725d29b924e59e8ccc5aa9332c
+2025-12-17 10:05:23,373 - lightrag - INFO - LLMmrg: `Harry Potter` | 0+19
+2025-12-17 10:05:36,324 - lightrag - INFO -  == LLM cache == saving: default:summary:0325c4f92840bf4f089c9f75ac716bdd
+2025-12-17 10:05:36,325 - lightrag - INFO - LLMmrg: `Uncle Vernon` | 0+12
+2025-12-17 10:05:43,970 - lightrag - INFO -  == LLM cache == saving: default:summary:3aab28acaeb04f0f90121a946a569492
+2025-12-17 10:05:43,970 - lightrag - INFO - LLMmrg: `Aunt Petunia` | 0+12
+2025-12-17 10:05:53,019 - lightrag - INFO -  == LLM cache == saving: default:summary:70cdfc6afd8afe05322800702952c19d
+2025-12-17 10:05:53,020 - lightrag - INFO - LLMmrg: `Dudley` | 0+16
+2025-12-17 10:05:59,715 - lightrag - INFO -  == LLM cache == saving: default:summary:74ee7cecb9dcad3c87dd0d95bc53e4cb
+2025-12-17 10:05:59,716 - lightrag - INFO - LLMmrg: `Dursleys` | 0+9 (dd 1)
+2025-12-17 10:06:07,001 - lightrag - INFO -  == LLM cache == saving: default:summary:5d8fa09f079c76d76850b8254da0da24
+2025-12-17 10:06:07,001 - lightrag - INFO - LLMmrg: `Quirrell` | 0+12
+2025-12-17 10:06:07,063 - lightrag - INFO - Phase 2: Processing 584 relations from doc-d22f78b0263981245aae43f611784899 (async: 4)
+2025-12-17 10:06:16,629 - lightrag - INFO -  == LLM cache == saving: default:summary:ea1ec289d98b453def43b78ef1e35c04
+2025-12-17 10:06:16,631 - lightrag - INFO - LLMmrg: `Harry`~`Ron` | 0+26 (dd 1)
+2025-12-17 10:06:25,825 - lightrag - INFO -  == LLM cache == saving: default:summary:ead9964f3ecb34407bc7b1ae8eca259b
+2025-12-17 10:06:25,825 - lightrag - INFO - LLMmrg: `Harry`~`World Athletics Championship` | 0+10
+2025-12-17 10:06:37,095 - lightrag - INFO -  == LLM cache == saving: default:summary:39679dcb1662ed93c610622aee53493d
+2025-12-17 10:06:37,096 - lightrag - INFO - LLMmrg: `Dumbledore`~`Harry` | 0+10
+2025-12-17 10:06:44,906 - lightrag - INFO -  == LLM cache == saving: default:summary:9c0be6a634dcee3754fe9e38681f26fc
+2025-12-17 10:06:44,907 - lightrag - INFO - LLMmrg: `Hagrid`~`Harry` | 0+21
+2025-12-17 10:06:44,965 - lightrag - INFO - Chunks appended from relation: `Hagrid`
+2025-12-17 10:06:45,312 - lightrag - INFO - Chunks appended from relation: `Noah Carter`
+2025-12-17 10:06:53,760 - lightrag - INFO -  == LLM cache == saving: default:summary:6e04014a9fb2d11c2cb9e801bd9c2c8e
+2025-12-17 10:06:53,761 - lightrag - INFO - LLMmrg: `Harry`~`Hermione` | 0+21
+2025-12-17 10:07:00,960 - lightrag - INFO -  == LLM cache == saving: default:summary:0e5f0fd22e449a4bc7c7bc1ab3d956bb
+2025-12-17 10:07:00,960 - lightrag - INFO - LLMmrg: `Hermione`~`Ron` | 0+15
+2025-12-17 10:07:08,881 - lightrag - INFO -  == LLM cache == saving: default:summary:5e5ce5e0ad686a97ac997152f89f3642
+2025-12-17 10:07:08,882 - lightrag - INFO - LLMmrg: `Carbon-Fiber Spikes`~`Harry` | 0+10 (dd 2)
+2025-12-17 10:07:08,956 - lightrag - INFO - Chunks appended from relation: `Carbon-Fiber Spikes`
+2025-12-17 10:07:09,155 - lightrag - INFO - Chunks appended from relation: `Tokyo`
+2025-12-17 10:07:09,379 - lightrag - INFO - Chunks appended from relation: `Neville`
+2025-12-17 10:07:20,697 - lightrag - INFO -  == LLM cache == saving: default:summary:99679ab045a0104a8bca96643a54a6c4
+2025-12-17 10:07:20,698 - lightrag - INFO - LLMmrg: `Harry`~`Snape` | 0+14
+2025-12-17 10:07:21,105 - lightrag - INFO - Chunks appended from relation: `Toad`
+2025-12-17 10:07:21,324 - lightrag - INFO - Chunks appended from relation: `Professor McGonagall`
+2025-12-17 10:07:21,341 - lightrag - INFO - Chunks appended from relation: `Hogwarts`
+2025-12-17 10:07:21,809 - lightrag - INFO - Chunks appended from relation: `World Athletics Championship`
+2025-12-17 10:07:21,940 - lightrag - INFO - Chunks appended from relation: `Invisibility Cloak`
+2025-12-17 10:07:22,539 - lightrag - INFO - Chunks appended from relation: `Harry`
+2025-12-17 10:07:22,583 - lightrag - INFO - Chunks appended from relation: `Peeves`
+2025-12-17 10:07:23,054 - lightrag - INFO - Chunks appended from relation: `Door`
+2025-12-17 10:07:23,768 - lightrag - INFO - Chunks appended from relation: `Filch`
+2025-12-17 10:07:23,877 - lightrag - INFO - Chunks appended from relation: `McGonagall`
+2025-12-17 10:07:23,967 - lightrag - INFO - Chunks appended from relation: `Quirrell`
+2025-12-17 10:07:24,596 - lightrag - INFO - Chunks appended from relation: `World Athletics Federation`
+2025-12-17 10:07:24,735 - lightrag - INFO - Chunks appended from relation: `Gryffindor`
+2025-12-17 10:07:25,096 - lightrag - INFO - Chunks appended from relation: `Harry`
+2025-12-17 10:07:25,216 - lightrag - INFO - Chunks appended from relation: `Malfoy`
+2025-12-17 10:07:25,481 - lightrag - INFO - Chunks appended from relation: `Wood`
+2025-12-17 10:07:25,818 - lightrag - INFO - Chunks appended from relation: `Dumbledore`
+2025-12-17 10:07:27,283 - lightrag - INFO - Chunks appended from relation: `Hogwarts`
+2025-12-17 10:07:27,952 - lightrag - INFO - Chunks appended from relation: `Staffroom`
+2025-12-17 10:07:28,319 - lightrag - INFO - Chunks appended from relation: `Diagon Alley`
+2025-12-17 10:07:28,480 - lightrag - INFO - Chunks appended from relation: `Quaffle`
+2025-12-17 10:07:28,530 - lightrag - INFO - Chunks appended from relation: `Flint`
+2025-12-17 10:07:29,251 - lightrag - INFO - Chunks appended from relation: `Books`
+2025-12-17 10:07:29,285 - lightrag - INFO - Chunks appended from relation: `Students`
+2025-12-17 10:07:29,393 - lightrag - INFO - Chunks appended from relation: `Letter`
+2025-12-17 10:07:29,838 - lightrag - INFO - Chunks appended from relation: `Dursleys`
+2025-12-17 10:07:30,910 - lightrag - INFO - Chunks appended from relation: `Library`
+2025-12-17 10:07:31,494 - lightrag - INFO - Chunks appended from relation: `Forbidden Forest`
+2025-12-17 10:07:31,829 - lightrag - INFO - Chunks appended from relation: `People in Cloaks`
+2025-12-17 10:07:31,998 - lightrag - INFO - Chunks appended from relation: `Platform Nine and Three-Quarters`
+2025-12-17 10:07:32,147 - lightrag - INFO - Chunks appended from relation: `Crowd`
+2025-12-17 10:07:32,307 - lightrag - INFO - Chunks appended from relation: `Professor Sprout`
+2025-12-17 10:07:32,388 - lightrag - INFO - Chunks appended from relation: `Professor Flitwick`
+2025-12-17 10:07:32,456 - lightrag - INFO - Chunks appended from relation: `Professor Quirrell`
+2025-12-17 10:07:32,526 - lightrag - INFO - Chunks appended from relation: `Professor Snape`
+2025-12-17 10:07:33,395 - lightrag - INFO - Chunks appended from relation: `Train`
+2025-12-17 10:07:33,940 - lightrag - INFO - Chunks appended from relation: `Piers`
+2025-12-17 10:07:34,302 - lightrag - INFO - Chunks appended from relation: `Owl`
+2025-12-17 10:07:34,430 - lightrag - INFO - Chunks appended from relation: `Malfoy`
+2025-12-17 10:07:34,527 - lightrag - INFO - Chunks appended from relation: `Professor McGonagall`
+2025-12-17 10:07:34,579 - lightrag - INFO - Phase 3: Updating final 417(371+46) entities and  584 relations from doc-d22f78b0263981245aae43f611784899
+2025-12-17 10:07:34,580 - lightrag - INFO - Completed merging: 371 entities, 46 extra entities, 584 relations
+2025-12-17 10:07:34,686 - lightrag - INFO - [_] Writing graph with 417 nodes, 584 edges
+2025-12-17 10:07:34,715 - lightrag - INFO - In memory DB persist to disk
+2025-12-17 10:07:34,715 - lightrag - INFO - Completed processing file 1/1: harry-potter-and-the-philosophers-stone.txt
+2025-12-17 10:07:34,716 - lightrag - INFO - Enqueued document processing pipeline stopped
+2025-12-17 10:25:51,407 - uvicorn.access - INFO - 127.0.0.1:49790 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-17 10:25:51,419 - lightrag - INFO - [_] Subgraph query successful | Node count: 417 | Edge count: 584
+2025-12-17 10:25:51,455 - uvicorn.access - INFO - 127.0.0.1:49797 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-12-17 10:25:51,457 - uvicorn.access - INFO - 127.0.0.1:49790 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2025-12-17 10:25:51,563 - lightrag - INFO - [_] Subgraph query successful | Node count: 417 | Edge count: 584
+2025-12-17 10:25:51,585 - uvicorn.access - INFO - 127.0.0.1:49797 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-12-17 10:26:51,754 - lightrag - INFO -  == LLM cache == saving: global:keywords:6a4dfd2d9e2923dcbfc67685bd138700
+2025-12-17 10:26:52,304 - lightrag - INFO - Query edges: wand selection, Harry Potter (top_k:40, cosine:0.2)
+2025-12-17 10:26:52,346 - lightrag - INFO - Global query: 46 entites, 40 relations
+2025-12-17 10:26:52,346 - lightrag - INFO - Raw search results: 46 entities, 40 relations, 0 vector chunks
+2025-12-17 10:26:52,358 - lightrag - INFO - After truncation: 46 entities, 40 relations
+2025-12-17 10:26:52,372 - lightrag - INFO - Selecting 95 from 95 entity-related chunks by vector similarity
+2025-12-17 10:26:52,373 - lightrag - INFO - Find no additional relations-related chunks from 40 relations
+2025-12-17 10:26:52,373 - lightrag - INFO - Round-robin merged chunks: 95 -> 95 (deduplicated 0)
+2025-12-17 10:26:52,381 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-12-17 10:26:52,400 - lightrag - INFO - Final context: 46 entities, 40 relations, 16 chunks
+2025-12-17 10:26:52,400 - lightrag - INFO - Final chunks S+F/O: E6/1 E4/2 E4/3 E7/4 E6/5 E2/6 E4/7 E5/8 E10/9 E1/10 E5/11 E4/12 E6/13 E7/14 E6/15 E3/16
+2025-12-17 10:26:52,462 - uvicorn.access - INFO - 127.0.0.1:49811 - "POST /query/stream HTTP/1.1" 200
+2025-12-17 12:58:08,933 - lightrag - INFO -  == LLM cache == saving: mix:keywords:f965572747094ca3b934f36a560ec86b
+2025-12-17 12:58:09,640 - lightrag - INFO - Query nodes: Harry Potter, Hermione (top_k:40, cosine:0.2)
+2025-12-17 12:58:09,728 - lightrag - INFO - Local query: 40 entites, 59 relations
+2025-12-17 12:58:09,729 - lightrag - INFO - Query edges: Harry Potter, Hermione, Romance (top_k:40, cosine:0.2)
+2025-12-17 12:58:09,771 - lightrag - INFO - Global query: 54 entites, 40 relations
+2025-12-17 12:58:09,779 - lightrag - INFO - Naive query: 20 chunks (chunk_top_k:20 cosine:0.2)
+2025-12-17 12:58:09,779 - lightrag - INFO - Raw search results: 80 entities, 85 relations, 20 vector chunks
+2025-12-17 12:58:09,800 - lightrag - INFO - After truncation: 72 entities, 85 relations
+2025-12-17 12:58:09,812 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2025-12-17 12:58:09,813 - lightrag - INFO - Find no additional relations-related chunks from 85 relations
+2025-12-17 12:58:09,813 - lightrag - INFO - Round-robin merged chunks: 116 -> 96 (deduplicated 20)
+2025-12-17 12:58:09,819 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-12-17 12:58:09,828 - lightrag - INFO - Final context: 72 entities, 85 relations, 15 chunks
+2025-12-17 12:58:09,828 - lightrag - INFO - Final chunks S+F/O: E4/1 E3/2 E4/3 E5/4 E4/5 E3/6 E6/7 E6/8 E4/9 E6/10 E4/11 E8/12 E7/13 E6/14 E3/15
+2025-12-17 12:58:09,901 - uvicorn.access - INFO - 127.0.0.1:52333 - "POST /query/stream HTTP/1.1" 200
+2025-12-17 18:00:08,181 - uvicorn.error - INFO - Shutting down
+2025-12-17 18:00:08,302 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-12-17 18:00:08,318 - lightrag - INFO - Successfully finalized 12 storages
+2025-12-17 18:00:08,371 - uvicorn.error - INFO - Application shutdown complete.
+2025-12-17 18:00:08,377 - uvicorn.error - INFO - Finished server process [22950]
