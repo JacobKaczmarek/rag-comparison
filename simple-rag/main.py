@@ -24,7 +24,7 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        default="qwen3:8b",
+        default="qwen3:1.7b",
         help="Ollama model to use (default: qwen3:8b)"
     )
     parser.add_argument(

@@ -32,7 +32,7 @@ class RAGChain:
         }
 
 
-def create_rag_chain(vector_store: Chroma, model_name: str = "qwen3:8b") -> RAGChain:
+def create_rag_chain(vector_store: Chroma, model_name: str = "qwen3:1.7b", system_prompt: str = None) -> RAGChain:
     """
     Create a RAG chain with Ollama LLM and vector store retriever.
 
@@ -73,13 +73,18 @@ def create_rag_chain(vector_store: Chroma, model_name: str = "qwen3:8b") -> RAGC
     )
 
     # Create custom prompt template
-    template = """Use the following context to answer the question at the end.
-If you don't know the answer based on the context provided, just say that you don't know - don't make up information.
+    default_prompt = """Answer the question based only on the provided context.
+If you don't know the answer based on the context, say "I don't know" - don't make up information.
+Be concise and direct in your response."""
+
+    prompt_instruction = system_prompt if system_prompt else default_prompt
+
+    template = f"""{prompt_instruction}
 
 Context:
-{context}
+{{context}}
 
-Question: {question}
+Question: {{question}}
 
 Answer:"""
 

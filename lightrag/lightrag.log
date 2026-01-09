@@ -1709,3 +1709,571 @@ httpx.ReadTimeout: C[69/97]: chunk-a79b80299e80601919b201435e326b12:
 2025-12-17 18:00:08,318 - lightrag - INFO - Successfully finalized 12 storages
 2025-12-17 18:00:08,371 - uvicorn.error - INFO - Application shutdown complete.
 2025-12-17 18:00:08,377 - uvicorn.error - INFO - Finished server process [22950]
+2026-01-08 14:39:08,653 - lightrag - INFO - Ollama LLM Options: {}
+2026-01-08 14:39:08,653 - lightrag - INFO - Ollama Embedding Options: {}
+2026-01-08 14:39:08,755 - lightrag - INFO - Embedding config: binding=ollama model=nomic-embed-text:latest embedding_dim=768 max_token_size=8192
+2026-01-08 14:39:08,755 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=768, has_param=True, binding=ollama)
+2026-01-08 14:39:08,755 - lightrag - INFO - Embedding max_token_size: 8192 (from env variable)
+2026-01-08 14:39:08,755 - lightrag - INFO - Reranking is disabled
+2026-01-08 14:39:12,383 - lightrag - INFO - [] Loaded graph from /Users/jakub.kaczmarek/Code/growth/rag-comparison/lightrag/rag_storage/graph_chunk_entity_relation.graphml with 417 nodes, 584 edges
+2026-01-08 14:39:12,480 - lightrag - INFO - WebUI assets mounted at /webui
+2026-01-08 14:39:12,706 - uvicorn.error - INFO - Started server process [84329]
+2026-01-08 14:39:12,706 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-08 14:39:12,707 - lightrag - INFO - [] Process 84329 KV load full_docs with 1 records
+2026-01-08 14:39:12,708 - lightrag - INFO - [] Process 84329 KV load text_chunks with 97 records
+2026-01-08 14:39:12,709 - lightrag - INFO - [] Process 84329 KV load full_entities with 1 records
+2026-01-08 14:39:12,709 - lightrag - INFO - [] Process 84329 KV load full_relations with 1 records
+2026-01-08 14:39:12,710 - lightrag - INFO - [] Process 84329 KV load entity_chunks with 417 records
+2026-01-08 14:39:12,711 - lightrag - INFO - [] Process 84329 KV load relation_chunks with 584 records
+2026-01-08 14:39:12,723 - lightrag - INFO - [] Process 84329 KV load llm_response_cache with 230 records
+2026-01-08 14:39:12,723 - lightrag - INFO - [] Process 84329 doc status load doc_status with 2 records
+2026-01-08 14:39:12,724 - uvicorn.error - INFO - Application startup complete.
+2026-01-08 14:39:12,724 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-01-08 14:39:42,174 - uvicorn.access - INFO - 127.0.0.1:59664 - "GET / HTTP/1.1" 307
+2026-01-08 14:39:42,178 - uvicorn.access - INFO - 127.0.0.1:59664 - "GET /webui HTTP/1.1" 307
+2026-01-08 14:39:42,256 - uvicorn.access - INFO - 127.0.0.1:59664 - "GET /webui/assets/index-DD5RZWNY.js HTTP/1.1" 200
+2026-01-08 14:39:42,259 - uvicorn.access - INFO - 127.0.0.1:59665 - "GET /webui/assets/index-DS3Wz1EX.css HTTP/1.1" 200
+2026-01-08 14:39:42,445 - uvicorn.access - INFO - 127.0.0.1:59665 - "GET /auth-status HTTP/1.1" 200
+2026-01-08 14:39:42,445 - uvicorn.access - INFO - 127.0.0.1:59664 - "GET /webui/favicon.png HTTP/1.1" 200
+2026-01-08 14:39:42,913 - uvicorn.access - INFO - 127.0.0.1:59664 - "GET /docs HTTP/1.1" 200
+2026-01-08 14:39:42,928 - uvicorn.access - INFO - 127.0.0.1:59668 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-01-08 14:39:42,938 - lightrag - INFO - [] Subgraph query successful | Node count: 417 | Edge count: 584
+2026-01-08 14:39:42,954 - uvicorn.access - INFO - 127.0.0.1:59669 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2026-01-08 14:39:42,956 - uvicorn.access - INFO - 127.0.0.1:59668 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2026-01-08 14:39:42,956 - uvicorn.access - INFO - 127.0.0.1:59665 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 200
+2026-01-08 14:39:43,149 - uvicorn.access - INFO - 127.0.0.1:59668 - "GET /openapi.json HTTP/1.1" 200
+2026-01-08 14:40:33,646 - lightrag - INFO - LLM func: 2 new workers initialized (Timeouts: Func: 300s, Worker: 600s, Health Check: 615s)
+2026-01-08 14:40:33,662 - uvicorn.access - INFO - 127.0.0.1:59681 - "GET /webui/assets/index-OB-vb0S0.js HTTP/1.1" 200
+2026-01-08 14:40:33,705 - lightrag - ERROR - LLM func: Error in decorated function for task 4599307744_157001.731418041: model 'qwen3:1.7b' not found (status code: 404)
+2026-01-08 14:40:33,706 - lightrag - ERROR - Query failed: model 'qwen3:1.7b' not found (status code: 404)
+2026-01-08 14:40:33,706 - uvicorn.access - INFO - 127.0.0.1:59679 - "POST /query/stream HTTP/1.1" 200
+2026-01-08 15:53:32,925 - lightrag - ERROR - LLM func: Error in decorated function for task 4599307744_161356.164269041: model 'qwen3:1.7b' not found (status code: 404)
+2026-01-08 15:53:32,925 - lightrag - ERROR - Query failed: model 'qwen3:1.7b' not found (status code: 404)
+2026-01-08 15:53:32,925 - uvicorn.access - INFO - 127.0.0.1:64346 - "POST /query/stream HTTP/1.1" 200
+2026-01-08 15:57:52,482 - lightrag - ERROR - LLM func: Error in decorated function for task 4599307744_161615.7263255: model 'qwen3:1.7b' not found (status code: 404)
+2026-01-08 15:57:52,483 - lightrag - ERROR - Query failed: model 'qwen3:1.7b' not found (status code: 404)
+2026-01-08 15:57:52,483 - uvicorn.access - INFO - 127.0.0.1:64384 - "POST /query/stream HTTP/1.1" 200
+2026-01-08 16:03:15,874 - uvicorn.error - INFO - Shutting down
+2026-01-08 16:03:15,976 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-08 16:03:15,977 - lightrag - INFO - Successfully finalized 12 storages
+2026-01-08 16:03:15,977 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-08 16:03:15,978 - uvicorn.error - INFO - Finished server process [84329]
+2026-01-08 16:03:17,887 - lightrag - INFO - Ollama LLM Options: {}
+2026-01-08 16:03:17,887 - lightrag - INFO - Ollama Embedding Options: {}
+2026-01-08 16:03:17,930 - lightrag - INFO - Embedding config: binding=ollama model=nomic-embed-text:latest embedding_dim=768 max_token_size=8192
+2026-01-08 16:03:17,931 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=768, has_param=True, binding=ollama)
+2026-01-08 16:03:17,931 - lightrag - INFO - Embedding max_token_size: 8192 (from env variable)
+2026-01-08 16:03:17,931 - lightrag - INFO - Reranking is disabled
+2026-01-08 16:03:18,142 - lightrag - INFO - [] Loaded graph from /Users/jakub.kaczmarek/Code/growth/rag-comparison/lightrag/rag_storage/graph_chunk_entity_relation.graphml with 417 nodes, 584 edges
+2026-01-08 16:03:18,201 - lightrag - INFO - WebUI assets mounted at /webui
+2026-01-08 16:03:18,212 - uvicorn.error - INFO - Started server process [8738]
+2026-01-08 16:03:18,212 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-08 16:03:18,213 - lightrag - INFO - [] Process 8738 KV load full_docs with 1 records
+2026-01-08 16:03:18,214 - lightrag - INFO - [] Process 8738 KV load text_chunks with 97 records
+2026-01-08 16:03:18,214 - lightrag - INFO - [] Process 8738 KV load full_entities with 1 records
+2026-01-08 16:03:18,215 - lightrag - INFO - [] Process 8738 KV load full_relations with 1 records
+2026-01-08 16:03:18,216 - lightrag - INFO - [] Process 8738 KV load entity_chunks with 417 records
+2026-01-08 16:03:18,217 - lightrag - INFO - [] Process 8738 KV load relation_chunks with 584 records
+2026-01-08 16:03:18,226 - lightrag - INFO - [] Process 8738 KV load llm_response_cache with 230 records
+2026-01-08 16:03:18,227 - lightrag - INFO - [] Process 8738 doc status load doc_status with 2 records
+2026-01-08 16:03:18,227 - uvicorn.error - INFO - Application startup complete.
+2026-01-08 16:03:18,228 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-01-08 16:03:27,993 - lightrag - INFO - LLM func: 2 new workers initialized (Timeouts: Func: 300s, Worker: 600s, Health Check: 615s)
+2026-01-08 16:05:09,186 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:f4bcdbba02f69e7a6dcac40a1de6bd83
+2026-01-08 16:05:09,187 - lightrag - INFO - Embedding func: 2 new workers initialized (Timeouts: Func: 120s, Worker: 240s, Health Check: 255s)
+2026-01-08 16:05:15,685 - lightrag - INFO - Query nodes: Harry potter, Hermiona (top_k:40, cosine:0.2)
+2026-01-08 16:05:15,797 - lightrag - INFO - Local query: 40 entites, 133 relations
+2026-01-08 16:05:15,798 - lightrag - INFO - Query edges: Character relationship, Harry Potter series (top_k:40, cosine:0.2)
+2026-01-08 16:05:15,855 - lightrag - INFO - Global query: 40 entites, 40 relations
+2026-01-08 16:05:15,855 - lightrag - INFO - Raw search results: 70 entities, 154 relations, 0 vector chunks
+2026-01-08 16:05:15,869 - lightrag - INFO - After truncation: 69 entities, 154 relations
+2026-01-08 16:05:15,879 - lightrag - INFO - Selecting 95 from 95 entity-related chunks by vector similarity
+2026-01-08 16:05:15,880 - lightrag - INFO - Find no additional relations-related chunks from 154 relations
+2026-01-08 16:05:15,880 - lightrag - INFO - Round-robin merged chunks: 95 -> 95 (deduplicated 0)
+2026-01-08 16:05:15,889 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-08 16:05:15,898 - lightrag - INFO - Final context: 69 entities, 154 relations, 12 chunks
+2026-01-08 16:05:15,899 - lightrag - INFO - Final chunks S+F/O: E1/1 E4/2 E4/3 E6/4 E4/5 E3/6 E9/7 E2/8 E5/9 E6/10 E5/11 E7/12
+2026-01-08 16:05:48,085 - lightrag - INFO -  == LLM cache == saving: hybrid:query:6e6f53e0778aa843b573d16ab899415c
+2026-01-08 16:13:21,500 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:1f541713978a44afc0be3102c82e8475
+2026-01-08 16:13:21,936 - lightrag - INFO - Query nodes: Ron, Hermiona (top_k:40, cosine:0.2)
+2026-01-08 16:13:22,062 - lightrag - INFO - Local query: 40 entites, 45 relations
+2026-01-08 16:13:22,063 - lightrag - INFO - Query edges: Relationship between Ron and Hermione (top_k:40, cosine:0.2)
+2026-01-08 16:13:22,103 - lightrag - INFO - Global query: 51 entites, 40 relations
+2026-01-08 16:13:22,104 - lightrag - INFO - Raw search results: 80 entities, 75 relations, 0 vector chunks
+2026-01-08 16:13:22,114 - lightrag - INFO - After truncation: 75 entities, 75 relations
+2026-01-08 16:13:22,122 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-08 16:13:22,123 - lightrag - INFO - Find no additional relations-related chunks from 75 relations
+2026-01-08 16:13:22,123 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-08 16:13:22,130 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-08 16:13:22,143 - lightrag - INFO - Final context: 75 entities, 75 relations, 15 chunks
+2026-01-08 16:13:22,143 - lightrag - INFO - Final chunks S+F/O: E4/1 E4/2 E4/3 E3/4 E3/5 E7/6 E2/7 E6/8 E4/9 E3/10 E7/11 E4/12 E5/13 E3/14 E3/15
+2026-01-08 16:14:18,589 - lightrag - INFO -  == LLM cache == saving: hybrid:query:93874a8125e7e5aaf4e8ced9265746ad
+2026-01-08 16:14:18,630 - uvicorn.access - INFO - 127.0.0.1:64772 - "POST /query/stream HTTP/1.1" 200
+2026-01-08 16:32:18,591 - uvicorn.error - INFO - Shutting down
+2026-01-08 16:32:18,694 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-08 16:32:18,695 - lightrag - INFO - Successfully finalized 12 storages
+2026-01-08 16:32:18,695 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-08 16:32:18,695 - uvicorn.error - INFO - Finished server process [8738]
+2026-01-08 16:32:21,518 - lightrag - INFO - Ollama LLM Options: {}
+2026-01-08 16:32:21,518 - lightrag - INFO - Ollama Embedding Options: {}
+2026-01-08 16:32:21,560 - lightrag - INFO - Embedding config: binding=ollama model=nomic-embed-text:latest embedding_dim=768 max_token_size=8192
+2026-01-08 16:32:21,560 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=768, has_param=True, binding=ollama)
+2026-01-08 16:32:21,560 - lightrag - INFO - Embedding max_token_size: 8192 (from env variable)
+2026-01-08 16:32:21,561 - lightrag - INFO - Reranking is disabled
+2026-01-08 16:32:21,767 - lightrag - INFO - [] Loaded graph from /Users/jakub.kaczmarek/Code/growth/rag-comparison/lightrag/rag_storage/graph_chunk_entity_relation.graphml with 417 nodes, 584 edges
+2026-01-08 16:32:21,825 - lightrag - INFO - WebUI assets mounted at /webui
+2026-01-08 16:32:21,836 - uvicorn.error - INFO - Started server process [14075]
+2026-01-08 16:32:21,836 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-08 16:32:21,837 - lightrag - INFO - [] Process 14075 KV load full_docs with 1 records
+2026-01-08 16:32:21,838 - lightrag - INFO - [] Process 14075 KV load text_chunks with 97 records
+2026-01-08 16:32:21,839 - lightrag - INFO - [] Process 14075 KV load full_entities with 1 records
+2026-01-08 16:32:21,839 - lightrag - INFO - [] Process 14075 KV load full_relations with 1 records
+2026-01-08 16:32:21,840 - lightrag - INFO - [] Process 14075 KV load entity_chunks with 417 records
+2026-01-08 16:32:21,841 - lightrag - INFO - [] Process 14075 KV load relation_chunks with 584 records
+2026-01-08 16:32:21,850 - lightrag - INFO - [] Process 14075 KV load llm_response_cache with 234 records
+2026-01-08 16:32:21,850 - lightrag - INFO - [] Process 14075 doc status load doc_status with 2 records
+2026-01-08 16:32:21,851 - uvicorn.error - INFO - Application startup complete.
+2026-01-08 16:32:21,851 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-01-08 16:33:15,888 - lightrag - INFO - LLM func: 2 new workers initialized (Timeouts: Func: 300s, Worker: 600s, Health Check: 615s)
+2026-01-08 16:33:27,736 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:4ad0c2f0cb3f06ed0d80cc715d6e0a67
+2026-01-08 16:33:27,737 - lightrag - INFO - Embedding func: 2 new workers initialized (Timeouts: Func: 120s, Worker: 240s, Health Check: 255s)
+2026-01-08 16:33:28,172 - lightrag - INFO - Query nodes: Ron Weasley, Hermione Granger, Draco Malfoy, Luna Lovegood (top_k:40, cosine:0.2)
+2026-01-08 16:33:28,230 - lightrag - INFO - Local query: 40 entites, 61 relations
+2026-01-08 16:33:28,230 - lightrag - INFO - Query edges: Harry Potter, Romantic relationships (top_k:40, cosine:0.2)
+2026-01-08 16:33:28,259 - lightrag - INFO - Global query: 40 entites, 40 relations
+2026-01-08 16:33:28,259 - lightrag - INFO - Raw search results: 76 entities, 98 relations, 0 vector chunks
+2026-01-08 16:33:28,268 - lightrag - INFO - After truncation: 74 entities, 98 relations
+2026-01-08 16:33:28,276 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-08 16:33:28,277 - lightrag - INFO - Find no additional relations-related chunks from 98 relations
+2026-01-08 16:33:28,277 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-08 16:33:28,283 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-08 16:33:28,294 - lightrag - INFO - Final context: 74 entities, 98 relations, 13 chunks
+2026-01-08 16:33:28,294 - lightrag - INFO - Final chunks S+F/O: E2/1 E3/2 E5/3 E6/4 E7/5 E3/6 E4/7 E3/8 E6/9 E4/10 E7/11 E6/12 E8/13
+2026-01-08 16:33:41,390 - lightrag - INFO -  == LLM cache == saving: hybrid:query:601bc6724da3610431aa52b74c72f2f8
+2026-01-08 16:33:41,422 - uvicorn.access - INFO - 127.0.0.1:65488 - "POST /query/stream HTTP/1.1" 200
+2026-01-08 16:34:15,515 - lightrag - INFO - Query nodes: Ron Weasley, Hermione Granger, Draco Malfoy, Luna Lovegood (top_k:40, cosine:0.2)
+2026-01-08 16:34:15,551 - lightrag - INFO - Local query: 40 entites, 61 relations
+2026-01-08 16:34:15,551 - lightrag - INFO - Query edges: Harry Potter, Romantic relationships (top_k:40, cosine:0.2)
+2026-01-08 16:34:15,577 - lightrag - INFO - Global query: 40 entites, 40 relations
+2026-01-08 16:34:15,577 - lightrag - INFO - Raw search results: 76 entities, 98 relations, 0 vector chunks
+2026-01-08 16:34:15,586 - lightrag - INFO - After truncation: 74 entities, 98 relations
+2026-01-08 16:34:15,593 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-08 16:34:15,593 - lightrag - INFO - Find no additional relations-related chunks from 98 relations
+2026-01-08 16:34:15,593 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-08 16:34:15,599 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-08 16:34:15,609 - lightrag - INFO - Final context: 74 entities, 98 relations, 13 chunks
+2026-01-08 16:34:15,609 - lightrag - INFO - Final chunks S+F/O: E2/1 E3/2 E5/3 E6/4 E7/5 E3/6 E4/7 E3/8 E6/9 E4/10 E7/11 E6/12 E8/13
+2026-01-08 16:34:15,631 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-01-08 16:34:15,631 - uvicorn.access - INFO - 127.0.0.1:65522 - "POST /query/stream HTTP/1.1" 200
+2026-01-08 16:37:03,000 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:ff3250c31e33f53135ad7bb0dd0a4d15
+2026-01-08 16:37:03,029 - lightrag - INFO - Query nodes: Harry Potter (top_k:40, cosine:0.2)
+2026-01-08 16:37:03,061 - lightrag - INFO - Local query: 40 entites, 47 relations
+2026-01-08 16:37:03,062 - lightrag - INFO - Query edges: Harry Potter (top_k:40, cosine:0.2)
+2026-01-08 16:37:03,092 - lightrag - INFO - Global query: 56 entites, 40 relations
+2026-01-08 16:37:03,092 - lightrag - INFO - Raw search results: 86 entities, 76 relations, 0 vector chunks
+2026-01-08 16:37:03,099 - lightrag - INFO - After truncation: 76 entities, 76 relations
+2026-01-08 16:37:03,106 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-08 16:37:03,107 - lightrag - INFO - Find no additional relations-related chunks from 76 relations
+2026-01-08 16:37:03,107 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-08 16:37:03,111 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-08 16:37:03,122 - lightrag - INFO - Final context: 76 entities, 76 relations, 15 chunks
+2026-01-08 16:37:03,122 - lightrag - INFO - Final chunks S+F/O: E4/1 E3/2 E2/3 E4/4 E5/5 E3/6 E10/7 E2/8 E6/9 E8/10 E6/11 E5/12 E3/13 E8/14 E2/15
+2026-01-08 16:37:08,519 - lightrag - INFO -  == LLM cache == saving: hybrid:query:2581aae32bc2479250a21c389a536059
+2026-01-08 16:37:08,545 - uvicorn.access - INFO - 127.0.0.1:49225 - "POST /query/stream HTTP/1.1" 200
+2026-01-08 16:38:15,877 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:fef8aa57772afb72c6420954c4d01e07
+2026-01-08 16:38:15,929 - lightrag - INFO - Query nodes: Harry Potter, Romantic relationships (top_k:40, cosine:0.2)
+2026-01-08 16:38:15,975 - lightrag - INFO - Local query: 40 entites, 65 relations
+2026-01-08 16:38:15,976 - lightrag - INFO - Query edges: Harry Potter, Romantic relationships (top_k:40, cosine:0.2)
+2026-01-08 16:38:16,004 - lightrag - INFO - Global query: 40 entites, 40 relations
+2026-01-08 16:38:16,004 - lightrag - INFO - Raw search results: 73 entities, 95 relations, 0 vector chunks
+2026-01-08 16:38:16,011 - lightrag - INFO - After truncation: 71 entities, 95 relations
+2026-01-08 16:38:16,021 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-08 16:38:16,027 - lightrag - INFO - Find no additional relations-related chunks from 95 relations
+2026-01-08 16:38:16,027 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-08 16:38:16,034 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-08 16:38:16,043 - lightrag - INFO - Final context: 71 entities, 95 relations, 13 chunks
+2026-01-08 16:38:16,043 - lightrag - INFO - Final chunks S+F/O: E4/1 E1/2 E3/3 E7/4 E3/5 E3/6 E6/7 E5/8 E4/9 E4/10 E8/11 E6/12 E4/13
+2026-01-08 16:38:34,174 - lightrag - INFO -  == LLM cache == saving: hybrid:query:68a759617658ad472dae393d4a23f9db
+2026-01-08 16:38:34,211 - uvicorn.access - INFO - 127.0.0.1:49332 - "POST /query/stream HTTP/1.1" 200
+2026-01-08 16:40:02,649 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:04445e0b64682591b1dd3322629b1e44
+2026-01-08 16:40:02,723 - lightrag - INFO - Query nodes: Harry, Ginny (top_k:40, cosine:0.2)
+2026-01-08 16:40:02,806 - lightrag - INFO - Local query: 40 entites, 45 relations
+2026-01-08 16:40:02,806 - lightrag - INFO - Query edges: Romantic relationships (top_k:40, cosine:0.2)
+2026-01-08 16:40:02,858 - lightrag - INFO - Global query: 41 entites, 40 relations
+2026-01-08 16:40:02,858 - lightrag - INFO - Raw search results: 78 entities, 82 relations, 0 vector chunks
+2026-01-08 16:40:02,867 - lightrag - INFO - After truncation: 78 entities, 82 relations
+2026-01-08 16:40:02,875 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-08 16:40:02,875 - lightrag - INFO - Find no additional relations-related chunks from 82 relations
+2026-01-08 16:40:02,875 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-08 16:40:02,882 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-08 16:40:02,891 - lightrag - INFO - Final context: 78 entities, 82 relations, 13 chunks
+2026-01-08 16:40:02,891 - lightrag - INFO - Final chunks S+F/O: E2/1 E3/2 E7/3 E4/4 E2/5 E3/6 E3/7 E6/8 E4/9 E4/10 E6/11 E4/12 E3/13
+2026-01-08 16:40:15,255 - lightrag - INFO -  == LLM cache == saving: hybrid:query:8d89422dfbcee51e3d56696a35aaf559
+2026-01-08 16:40:15,294 - uvicorn.access - INFO - 127.0.0.1:49359 - "POST /query/stream HTTP/1.1" 200
+2026-01-08 17:04:51,895 - uvicorn.access - INFO - 127.0.0.1:49727 - "GET /openapi.json HTTP/1.1" 200
+2026-01-08 17:11:04,799 - uvicorn.error - INFO - Shutting down
+2026-01-08 17:11:04,901 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-08 17:11:04,902 - lightrag - INFO - Successfully finalized 12 storages
+2026-01-08 17:11:04,903 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-08 17:11:04,903 - uvicorn.error - INFO - Finished server process [14075]
+2026-01-08 17:11:06,794 - lightrag - INFO - Ollama LLM Options: {}
+2026-01-08 17:11:06,794 - lightrag - INFO - Ollama Embedding Options: {}
+2026-01-08 17:11:06,828 - lightrag - INFO - Embedding config: binding=ollama model=nomic-embed-text:latest embedding_dim=768 max_token_size=8192
+2026-01-08 17:11:06,828 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=768, has_param=True, binding=ollama)
+2026-01-08 17:11:06,829 - lightrag - INFO - Embedding max_token_size: 8192 (from env variable)
+2026-01-08 17:11:06,829 - lightrag - INFO - Reranking is disabled
+2026-01-08 17:11:07,008 - lightrag - INFO - [] Loaded graph from /Users/jakub.kaczmarek/Code/growth/rag-comparison/lightrag/rag_storage/graph_chunk_entity_relation.graphml with 417 nodes, 584 edges
+2026-01-08 17:11:07,064 - lightrag - INFO - WebUI assets mounted at /webui
+2026-01-08 17:11:07,072 - uvicorn.error - INFO - Started server process [25146]
+2026-01-08 17:11:07,072 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-08 17:11:07,073 - lightrag - INFO - [] Process 25146 KV load full_docs with 1 records
+2026-01-08 17:11:07,073 - lightrag - INFO - [] Process 25146 KV load text_chunks with 97 records
+2026-01-08 17:11:07,074 - lightrag - INFO - [] Process 25146 KV load full_entities with 1 records
+2026-01-08 17:11:07,074 - lightrag - INFO - [] Process 25146 KV load full_relations with 1 records
+2026-01-08 17:11:07,075 - lightrag - INFO - [] Process 25146 KV load entity_chunks with 417 records
+2026-01-08 17:11:07,075 - lightrag - INFO - [] Process 25146 KV load relation_chunks with 584 records
+2026-01-08 17:11:07,085 - lightrag - INFO - [] Process 25146 KV load llm_response_cache with 242 records
+2026-01-08 17:11:07,085 - lightrag - INFO - [] Process 25146 doc status load doc_status with 2 records
+2026-01-08 17:11:07,085 - uvicorn.error - INFO - Application startup complete.
+2026-01-08 17:11:07,086 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-01-08 17:11:35,764 - lightrag - INFO - LLM func: 2 new workers initialized (Timeouts: Func: 300s, Worker: 600s, Health Check: 615s)
+2026-01-08 17:12:08,281 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:805ecef514ea12ac2cc65ebf1def6603
+2026-01-08 17:12:08,282 - lightrag - INFO - Embedding func: 2 new workers initialized (Timeouts: Func: 120s, Worker: 240s, Health Check: 255s)
+2026-01-08 17:12:08,709 - lightrag - INFO - Query nodes: Person, Individual (top_k:40, cosine:0.2)
+2026-01-08 17:12:08,762 - lightrag - INFO - Local query: 40 entites, 45 relations
+2026-01-08 17:12:08,762 - lightrag - INFO - Query edges: Relations, Harry Potter (top_k:40, cosine:0.2)
+2026-01-08 17:12:08,795 - lightrag - INFO - Global query: 55 entites, 40 relations
+2026-01-08 17:12:08,795 - lightrag - INFO - Raw search results: 82 entities, 71 relations, 0 vector chunks
+2026-01-08 17:12:08,801 - lightrag - INFO - After truncation: 73 entities, 71 relations
+2026-01-08 17:12:08,811 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-08 17:12:08,811 - lightrag - INFO - Find no additional relations-related chunks from 71 relations
+2026-01-08 17:12:08,812 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-08 17:12:08,816 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-08 17:12:08,828 - lightrag - INFO - Final context: 73 entities, 71 relations, 14 chunks
+2026-01-08 17:12:08,828 - lightrag - INFO - Final chunks S+F/O: E3/1 E3/2 E6/3 E6/4 E5/5 E4/6 E6/7 E4/8 E5/9 E4/10 E3/11 E6/12 E3/13 E5/14
+2026-01-08 17:12:19,969 - lightrag - INFO -  == LLM cache == saving: hybrid:query:89d4796e1ca65f388be1aee4d9978df5
+2026-01-08 17:12:20,005 - uvicorn.access - INFO - 127.0.0.1:49963 - "POST /query/stream HTTP/1.1" 200
+2026-01-08 17:13:38,970 - lightrag - INFO - Query nodes: Person, Individual (top_k:40, cosine:0.2)
+2026-01-08 17:13:39,004 - lightrag - INFO - Local query: 40 entites, 45 relations
+2026-01-08 17:13:39,004 - lightrag - INFO - Query edges: Relations, Harry Potter (top_k:40, cosine:0.2)
+2026-01-08 17:13:39,035 - lightrag - INFO - Global query: 55 entites, 40 relations
+2026-01-08 17:13:39,035 - lightrag - INFO - Raw search results: 82 entities, 71 relations, 0 vector chunks
+2026-01-08 17:13:39,042 - lightrag - INFO - After truncation: 73 entities, 71 relations
+2026-01-08 17:13:39,050 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-08 17:13:39,051 - lightrag - INFO - Find no additional relations-related chunks from 71 relations
+2026-01-08 17:13:39,051 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-08 17:13:39,057 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-08 17:13:39,067 - lightrag - INFO - Final context: 73 entities, 71 relations, 14 chunks
+2026-01-08 17:13:39,067 - lightrag - INFO - Final chunks S+F/O: E3/1 E3/2 E6/3 E6/4 E5/5 E4/6 E6/7 E4/8 E5/9 E4/10 E3/11 E6/12 E3/13 E5/14
+2026-01-08 17:13:39,090 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-01-08 17:13:39,090 - uvicorn.access - INFO - 127.0.0.1:49993 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 09:35:45,064 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:5fe6e19112cf2be8ae46b11e82a75812
+2026-01-09 09:35:45,518 - lightrag - INFO - Query nodes: threads (top_k:40, cosine:0.2)
+2026-01-09 09:35:45,566 - lightrag - INFO - Local query: 40 entites, 62 relations
+2026-01-09 09:35:45,567 - lightrag - INFO - Query edges: story, main threads (top_k:40, cosine:0.2)
+2026-01-09 09:35:45,599 - lightrag - INFO - Global query: 42 entites, 40 relations
+2026-01-09 09:35:45,599 - lightrag - INFO - Raw search results: 78 entities, 96 relations, 0 vector chunks
+2026-01-09 09:35:45,607 - lightrag - INFO - After truncation: 66 entities, 96 relations
+2026-01-09 09:35:45,615 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-09 09:35:45,616 - lightrag - INFO - Find no additional relations-related chunks from 96 relations
+2026-01-09 09:35:45,616 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-09 09:35:45,622 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 09:35:45,631 - lightrag - INFO - Final context: 66 entities, 96 relations, 13 chunks
+2026-01-09 09:35:45,631 - lightrag - INFO - Final chunks S+F/O: E7/1 E7/2 E8/3 E5/4 E3/5 E11/6 E9/7 E3/8 E7/9 E4/10 E7/11 E5/12 E9/13
+2026-01-09 09:35:52,486 - lightrag - INFO -  == LLM cache == saving: hybrid:query:1dce391e7c99fbc7b6e45ab5fe169afa
+2026-01-09 09:35:52,514 - uvicorn.access - INFO - 127.0.0.1:50942 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 09:37:22,812 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:9b5274f209ee2e561d2be29c49a711a5
+2026-01-09 09:37:22,890 - lightrag - INFO - Query nodes: Main characters, Themes, Magical world, Dark wizard, Friendship, Growth (top_k:40, cosine:0.2)
+2026-01-09 09:37:23,007 - lightrag - INFO - Local query: 40 entites, 364 relations
+2026-01-09 09:37:23,008 - lightrag - INFO - Query edges: Harry Potter and the Philosophers Stone, Journey of a Young Wizard (top_k:40, cosine:0.2)
+2026-01-09 09:37:23,073 - lightrag - INFO - Global query: 48 entites, 40 relations
+2026-01-09 09:37:23,073 - lightrag - INFO - Raw search results: 79 entities, 380 relations, 0 vector chunks
+2026-01-09 09:37:23,083 - lightrag - INFO - After truncation: 56 entities, 168 relations
+2026-01-09 09:37:23,091 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-09 09:37:23,092 - lightrag - INFO - Find no additional relations-related chunks from 168 relations
+2026-01-09 09:37:23,092 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-09 09:37:23,100 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 09:37:23,107 - lightrag - INFO - Final context: 56 entities, 168 relations, 10 chunks
+2026-01-09 09:37:23,107 - lightrag - INFO - Final chunks S+F/O: E3/1 E7/2 E5/3 E5/4 E6/5 E6/6 E5/7 E5/8 E7/9 E7/10
+2026-01-09 09:37:46,254 - lightrag - INFO -  == LLM cache == saving: hybrid:query:1e0b1dc9be455d3887b6334c852e7ffc
+2026-01-09 09:37:46,290 - uvicorn.access - INFO - 127.0.0.1:51163 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 09:41:26,939 - lightrag - INFO - Naive query: 20 chunks (chunk_top_k:20 cosine:0.2)
+2026-01-09 09:41:26,940 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 09:41:26,951 - lightrag - INFO - Final context: 20 chunks
+2026-01-09 09:41:43,688 - lightrag - INFO -  == LLM cache == saving: naive:query:2a82e54d14743b02348d056fbf194108
+2026-01-09 09:41:43,727 - uvicorn.access - INFO - 127.0.0.1:51440 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 10:02:06,968 - lightrag - INFO - Naive query: 20 chunks (chunk_top_k:20 cosine:0.2)
+2026-01-09 10:02:06,969 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 10:02:07,002 - lightrag - INFO - Final context: 20 chunks
+2026-01-09 10:02:18,629 - lightrag - INFO -  == LLM cache == saving: naive:query:8c55f688afde3582f41900f5c9c5f945
+2026-01-09 10:02:18,662 - uvicorn.access - INFO - 127.0.0.1:52118 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 10:11:22,615 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:ca33600d8e287baca92905141c8ed2e1
+2026-01-09 10:11:23,052 - lightrag - INFO - Query nodes: Harry (top_k:40, cosine:0.2)
+2026-01-09 10:11:23,088 - lightrag - INFO - Local query: 40 entites, 40 relations
+2026-01-09 10:11:23,088 - lightrag - INFO - Query edges: Harry (top_k:40, cosine:0.2)
+2026-01-09 10:11:23,120 - lightrag - INFO - Global query: 54 entites, 40 relations
+2026-01-09 10:11:23,120 - lightrag - INFO - Raw search results: 84 entities, 69 relations, 0 vector chunks
+2026-01-09 10:11:23,125 - lightrag - INFO - After truncation: 76 entities, 69 relations
+2026-01-09 10:11:23,132 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-09 10:11:23,135 - lightrag - INFO - Find no additional relations-related chunks from 69 relations
+2026-01-09 10:11:23,135 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-09 10:11:23,140 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 10:11:23,149 - lightrag - INFO - Final context: 76 entities, 69 relations, 15 chunks
+2026-01-09 10:11:23,149 - lightrag - INFO - Final chunks S+F/O: E4/1 E4/2 E5/3 E2/4 E2/5 E13/6 E2/7 E6/8 E6/9 E8/10 E4/11 E6/12 E3/13 E6/14 E4/15
+2026-01-09 10:11:31,448 - lightrag - INFO -  == LLM cache == saving: hybrid:query:498bb949eea793b0d62b45fe2f52f502
+2026-01-09 10:11:31,483 - uvicorn.access - INFO - 127.0.0.1:52326 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 10:14:45,985 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:7ed86e206d181c1889399fe53c4f482e
+2026-01-09 10:14:46,037 - lightrag - INFO - Query nodes: Harry, First wand, Considered, List (top_k:40, cosine:0.2)
+2026-01-09 10:14:46,097 - lightrag - INFO - Local query: 40 entites, 119 relations
+2026-01-09 10:14:46,098 - lightrag - INFO - Query edges: Wands, Harry Potter (top_k:40, cosine:0.2)
+2026-01-09 10:14:46,131 - lightrag - INFO - Global query: 55 entites, 40 relations
+2026-01-09 10:14:46,132 - lightrag - INFO - Raw search results: 89 entities, 149 relations, 0 vector chunks
+2026-01-09 10:14:46,142 - lightrag - INFO - After truncation: 68 entities, 149 relations
+2026-01-09 10:14:46,152 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-09 10:14:46,153 - lightrag - INFO - Find no additional relations-related chunks from 149 relations
+2026-01-09 10:14:46,153 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-09 10:14:46,160 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 10:14:46,169 - lightrag - INFO - Final context: 68 entities, 149 relations, 12 chunks
+2026-01-09 10:14:46,169 - lightrag - INFO - Final chunks S+F/O: E5/1 E6/2 E7/3 E5/4 E6/5 E6/6 E3/7 E6/8 E7/9 E7/10 E4/11 E4/12
+2026-01-09 10:15:09,686 - lightrag - INFO -  == LLM cache == saving: hybrid:query:cb70cc529323fe18308c4b72ea467f57
+2026-01-09 10:15:09,723 - uvicorn.access - INFO - 127.0.0.1:52529 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 10:16:22,253 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:69cb1020e5246c3bf3a659be8beb62f1
+2026-01-09 10:16:22,328 - lightrag - INFO - Query nodes: Harry, wands, who (top_k:40, cosine:0.2)
+2026-01-09 10:16:22,414 - lightrag - INFO - Local query: 40 entites, 163 relations
+2026-01-09 10:16:22,414 - lightrag - INFO - Query edges: Wands, First wand (top_k:40, cosine:0.2)
+2026-01-09 10:16:22,467 - lightrag - INFO - Global query: 51 entites, 40 relations
+2026-01-09 10:16:22,468 - lightrag - INFO - Raw search results: 72 entities, 179 relations, 0 vector chunks
+2026-01-09 10:16:22,482 - lightrag - INFO - After truncation: 69 entities, 179 relations
+2026-01-09 10:16:22,491 - lightrag - INFO - Selecting 95 from 95 entity-related chunks by vector similarity
+2026-01-09 10:16:22,492 - lightrag - INFO - Find no additional relations-related chunks from 179 relations
+2026-01-09 10:16:22,492 - lightrag - INFO - Round-robin merged chunks: 95 -> 95 (deduplicated 0)
+2026-01-09 10:16:22,500 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 10:16:22,509 - lightrag - INFO - Final context: 69 entities, 179 relations, 11 chunks
+2026-01-09 10:16:22,509 - lightrag - INFO - Final chunks S+F/O: E6/1 E7/2 E6/3 E5/4 E7/5 E8/6 E6/7 E7/8 E5/9 E3/10 E6/11
+2026-01-09 10:16:39,160 - lightrag - INFO -  == LLM cache == saving: hybrid:query:1bcf514d074da83a9717e208453c7201
+2026-01-09 10:16:39,193 - uvicorn.access - INFO - 127.0.0.1:52565 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 10:18:23,316 - uvicorn.access - INFO - 127.0.0.1:52653 - "GET / HTTP/1.1" 307
+2026-01-09 10:18:23,320 - uvicorn.access - INFO - 127.0.0.1:52653 - "GET /webui HTTP/1.1" 307
+2026-01-09 10:18:23,344 - uvicorn.access - INFO - 127.0.0.1:52654 - "GET /webui/assets/index-DS3Wz1EX.css HTTP/1.1" 200
+2026-01-09 10:18:23,344 - uvicorn.access - INFO - 127.0.0.1:52653 - "GET /webui/assets/index-DD5RZWNY.js HTTP/1.1" 200
+2026-01-09 10:18:23,672 - uvicorn.access - INFO - 127.0.0.1:52653 - "GET /webui/favicon.png HTTP/1.1" 200
+2026-01-09 10:18:23,932 - uvicorn.access - INFO - 127.0.0.1:52653 - "GET /auth-status HTTP/1.1" 200
+2026-01-09 10:18:24,053 - uvicorn.access - INFO - 127.0.0.1:52653 - "GET /docs HTTP/1.1" 200
+2026-01-09 10:18:24,081 - uvicorn.access - INFO - 127.0.0.1:52657 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-01-09 10:18:24,089 - lightrag - INFO - [] Subgraph query successful | Node count: 417 | Edge count: 584
+2026-01-09 10:18:24,107 - uvicorn.access - INFO - 127.0.0.1:52658 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2026-01-09 10:18:24,110 - uvicorn.access - INFO - 127.0.0.1:52660 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2026-01-09 10:18:24,110 - uvicorn.access - INFO - 127.0.0.1:52653 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 200
+2026-01-09 10:18:24,274 - uvicorn.access - INFO - 127.0.0.1:52660 - "GET /openapi.json HTTP/1.1" 200
+2026-01-09 10:18:24,275 - uvicorn.access - INFO - 127.0.0.1:52653 - "GET /static/swagger-ui/favicon-32x32.png HTTP/1.1" 200
+2026-01-09 10:19:53,105 - uvicorn.access - INFO - 127.0.0.1:52681 - "GET /webui/assets/index-OB-vb0S0.js HTTP/1.1" 200
+2026-01-09 10:20:07,698 - lightrag - INFO -  == LLM cache == saving: global:keywords:2ddd6299348ef65eed73d2d29c150bcd
+2026-01-09 10:20:07,740 - lightrag - INFO - Query edges: Wand (top_k:40, cosine:0.2)
+2026-01-09 10:20:07,777 - lightrag - INFO - Global query: 54 entites, 40 relations
+2026-01-09 10:20:07,777 - lightrag - INFO - Raw search results: 54 entities, 40 relations, 0 vector chunks
+2026-01-09 10:20:07,785 - lightrag - INFO - After truncation: 54 entities, 40 relations
+2026-01-09 10:20:07,797 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-09 10:20:07,798 - lightrag - INFO - Find no additional relations-related chunks from 40 relations
+2026-01-09 10:20:07,798 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-09 10:20:07,804 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 10:20:07,817 - lightrag - INFO - Final context: 54 entities, 40 relations, 15 chunks
+2026-01-09 10:20:07,817 - lightrag - INFO - Final chunks S+F/O: E3/1 E3/2 E5/3 E6/4 E6/5 E5/6 E3/7 E7/8 E3/9 E4/10 E4/11 E3/12 E7/13 E5/14 E6/15
+2026-01-09 10:20:07,860 - uvicorn.access - INFO - 127.0.0.1:52679 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 10:25:59,887 - lightrag - INFO - Naive query: 20 chunks (chunk_top_k:20 cosine:0.2)
+2026-01-09 10:25:59,889 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 10:25:59,919 - lightrag - INFO - Final context: 20 chunks
+2026-01-09 10:26:19,001 - lightrag - INFO -  == LLM cache == saving: naive:query:a6aa255645603e0ff69c37ac31b0a7e6
+2026-01-09 10:26:19,043 - uvicorn.access - INFO - 127.0.0.1:52864 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 10:43:25,274 - lightrag - INFO - Naive query: 20 chunks (chunk_top_k:20 cosine:0.2)
+2026-01-09 10:43:25,275 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 10:43:25,285 - lightrag - INFO - Final context: 20 chunks
+2026-01-09 10:43:30,416 - lightrag - INFO -  == LLM cache == saving: naive:query:00c7cb415df48d52588818623a4cd37d
+2026-01-09 10:43:30,453 - uvicorn.access - INFO - 127.0.0.1:53777 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 10:45:08,027 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:008b31e8084bbb17c313a17e69d7e31d
+2026-01-09 10:45:08,105 - lightrag - INFO - Query nodes: Harry, wand (top_k:40, cosine:0.2)
+2026-01-09 10:45:08,258 - lightrag - INFO - Local query: 40 entites, 82 relations
+2026-01-09 10:45:08,259 - lightrag - INFO - Query edges: Magic (top_k:40, cosine:0.2)
+2026-01-09 10:45:08,339 - lightrag - INFO - Global query: 54 entites, 40 relations
+2026-01-09 10:45:08,340 - lightrag - INFO - Raw search results: 91 entities, 118 relations, 0 vector chunks
+2026-01-09 10:45:08,349 - lightrag - INFO - After truncation: 71 entities, 118 relations
+2026-01-09 10:45:08,356 - lightrag - INFO - Selecting 95 from 95 entity-related chunks by vector similarity
+2026-01-09 10:45:08,357 - lightrag - INFO - Find 1 additional chunks in 1 relations (deduplicated 54)
+2026-01-09 10:45:08,357 - lightrag - INFO - Selecting 1 from 1 relation-related chunks by vector similarity
+2026-01-09 10:45:08,357 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-09 10:45:08,362 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 10:45:08,374 - lightrag - INFO - Final context: 71 entities, 118 relations, 13 chunks
+2026-01-09 10:45:08,374 - lightrag - INFO - Final chunks S+F/O: E4/1 R3/1 E4/2 E5/3 E7/4 E8/5 E8/6 E8/7 E5/8 E2/9 E5/10 E3/11 E5/12
+2026-01-09 10:45:23,630 - lightrag - INFO -  == LLM cache == saving: hybrid:query:d4233d8bd32d10034b36873cde952724
+2026-01-09 10:45:23,673 - uvicorn.access - INFO - 127.0.0.1:53808 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 10:58:28,826 - lightrag - INFO - Naive query: 20 chunks (chunk_top_k:20 cosine:0.2)
+2026-01-09 10:58:28,826 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 10:58:28,837 - lightrag - INFO - Final context: 20 chunks
+2026-01-09 10:58:41,225 - lightrag - INFO -  == LLM cache == saving: naive:query:d6f72a55d7981c72f465c68846be0527
+2026-01-09 10:58:41,265 - uvicorn.access - INFO - 127.0.0.1:54270 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 10:58:47,334 - lightrag - INFO - Naive query: 20 chunks (chunk_top_k:20 cosine:0.2)
+2026-01-09 10:58:47,335 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 10:58:47,353 - lightrag - INFO - Final context: 20 chunks
+2026-01-09 10:58:47,353 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-01-09 10:58:47,354 - uvicorn.access - INFO - 127.0.0.1:54295 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 10:59:46,121 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:94fea760cac1dbd2818740ccf26f313d
+2026-01-09 10:59:46,195 - lightrag - INFO - Query nodes: Harry, wand (top_k:40, cosine:0.2)
+2026-01-09 10:59:46,280 - lightrag - INFO - Local query: 40 entites, 82 relations
+2026-01-09 10:59:46,280 - lightrag - INFO - Query edges: Harry, wand (top_k:40, cosine:0.2)
+2026-01-09 10:59:46,326 - lightrag - INFO - Global query: 48 entites, 40 relations
+2026-01-09 10:59:46,326 - lightrag - INFO - Raw search results: 70 entities, 98 relations, 0 vector chunks
+2026-01-09 10:59:46,332 - lightrag - INFO - After truncation: 70 entities, 98 relations
+2026-01-09 10:59:46,339 - lightrag - INFO - Selecting 94 from 94 entity-related chunks by vector similarity
+2026-01-09 10:59:46,339 - lightrag - INFO - Find no additional relations-related chunks from 98 relations
+2026-01-09 10:59:46,340 - lightrag - INFO - Round-robin merged chunks: 94 -> 94 (deduplicated 0)
+2026-01-09 10:59:46,345 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 10:59:46,354 - lightrag - INFO - Final context: 70 entities, 98 relations, 13 chunks
+2026-01-09 10:59:46,354 - lightrag - INFO - Final chunks S+F/O: E6/1 E7/2 E6/3 E6/4 E11/5 E6/6 E3/7 E4/8 E5/9 E8/10 E9/11 E6/12 E8/13
+2026-01-09 11:00:14,275 - lightrag - INFO -  == LLM cache == saving: hybrid:query:9daba44fb08f537379275a102be757cb
+2026-01-09 11:00:14,307 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 11:00:14,342 - lightrag - INFO - Query nodes: Harry, wand (top_k:40, cosine:0.2)
+2026-01-09 11:00:14,374 - lightrag - INFO - Local query: 40 entites, 82 relations
+2026-01-09 11:00:14,374 - lightrag - INFO - Query edges: Harry, wand (top_k:40, cosine:0.2)
+2026-01-09 11:00:14,402 - lightrag - INFO - Global query: 48 entites, 40 relations
+2026-01-09 11:00:14,402 - lightrag - INFO - Raw search results: 70 entities, 98 relations, 0 vector chunks
+2026-01-09 11:00:14,407 - lightrag - INFO - After truncation: 70 entities, 98 relations
+2026-01-09 11:00:14,414 - lightrag - INFO - Selecting 94 from 94 entity-related chunks by vector similarity
+2026-01-09 11:00:14,414 - lightrag - INFO - Find no additional relations-related chunks from 98 relations
+2026-01-09 11:00:14,414 - lightrag - INFO - Round-robin merged chunks: 94 -> 94 (deduplicated 0)
+2026-01-09 11:00:14,419 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 11:00:14,430 - lightrag - INFO - Final context: 70 entities, 98 relations, 14 chunks
+2026-01-09 11:00:14,430 - lightrag - INFO - Final chunks S+F/O: E6/1 E7/2 E6/3 E6/4 E11/5 E6/6 E3/7 E4/8 E5/9 E8/10 E9/11 E6/12 E8/13 E6/14
+2026-01-09 11:00:14,431 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /query HTTP/1.1" 200
+2026-01-09 11:13:00,353 - uvicorn.access - INFO - 127.0.0.1:54725 - "GET /webui/assets/index-DS3Wz1EX.css HTTP/1.1" 304
+2026-01-09 11:13:00,354 - uvicorn.access - INFO - 127.0.0.1:54726 - "GET /webui/assets/index-DD5RZWNY.js HTTP/1.1" 304
+2026-01-09 11:13:00,578 - uvicorn.access - INFO - 127.0.0.1:54725 - "GET /auth-status HTTP/1.1" 200
+2026-01-09 11:13:00,721 - uvicorn.access - INFO - 127.0.0.1:54725 - "GET /docs HTTP/1.1" 200
+2026-01-09 11:13:00,750 - lightrag - INFO - [] Subgraph query successful | Node count: 417 | Edge count: 584
+2026-01-09 11:13:00,773 - uvicorn.access - INFO - 127.0.0.1:54726 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2026-01-09 11:13:00,774 - uvicorn.access - INFO - 127.0.0.1:54725 - "GET /webui/assets/index-OB-vb0S0.js HTTP/1.1" 304
+2026-01-09 11:13:00,776 - uvicorn.access - INFO - 127.0.0.1:54729 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 304
+2026-01-09 11:13:00,776 - uvicorn.access - INFO - 127.0.0.1:54730 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 304
+2026-01-09 11:13:00,982 - uvicorn.access - INFO - 127.0.0.1:54730 - "GET /openapi.json HTTP/1.1" 200
+2026-01-09 11:18:54,743 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:b51c00bce95893d0c04b642de3e21794
+2026-01-09 11:18:55,223 - lightrag - INFO - Query nodes: Harry Potter (top_k:40, cosine:0.2)
+2026-01-09 11:18:55,299 - lightrag - INFO - Local query: 40 entites, 47 relations
+2026-01-09 11:18:55,299 - lightrag - INFO - Query edges: Who gave the wand, Harry Potter (top_k:40, cosine:0.2)
+2026-01-09 11:18:55,371 - lightrag - INFO - Global query: 44 entites, 40 relations
+2026-01-09 11:18:55,371 - lightrag - INFO - Raw search results: 79 entities, 81 relations, 0 vector chunks
+2026-01-09 11:18:55,381 - lightrag - INFO - After truncation: 79 entities, 81 relations
+2026-01-09 11:18:55,393 - lightrag - INFO - Selecting 95 from 95 entity-related chunks by vector similarity
+2026-01-09 11:18:55,394 - lightrag - INFO - Find no additional relations-related chunks from 81 relations
+2026-01-09 11:18:55,394 - lightrag - INFO - Round-robin merged chunks: 95 -> 95 (deduplicated 0)
+2026-01-09 11:18:55,401 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 11:18:55,413 - lightrag - INFO - Final context: 79 entities, 81 relations, 14 chunks
+2026-01-09 11:18:55,413 - lightrag - INFO - Final chunks S+F/O: E6/1 E5/2 E5/3 E6/4 E2/5 E6/6 E9/7 E5/8 E6/9 E5/10 E8/11 E5/12 E4/13 E4/14
+2026-01-09 11:19:04,593 - uvicorn.access - INFO - 127.0.0.1:54961 - "GET /openapi.json HTTP/1.1" 200
+2026-01-09 11:19:04,607 - uvicorn.access - INFO - 127.0.0.1:54963 - "GET / HTTP/1.1" 307
+2026-01-09 11:19:22,492 - lightrag - INFO -  == LLM cache == saving: hybrid:query:2fd08cf5fb9b1c3604f82e4d99697076
+2026-01-09 11:19:22,526 - uvicorn.access - INFO - 127.0.0.1:54917 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 11:22:24,933 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:959d8a794caf0d4dbb9ad0845b98ca3d
+2026-01-09 11:22:25,007 - lightrag - INFO - Query nodes: Philosopher’s Stone (top_k:40, cosine:0.2)
+2026-01-09 11:22:25,080 - lightrag - INFO - Local query: 40 entites, 47 relations
+2026-01-09 11:22:25,081 - lightrag - INFO - Query edges: Hogwarts, Headmaster (top_k:40, cosine:0.2)
+2026-01-09 11:22:25,131 - lightrag - INFO - Global query: 54 entites, 40 relations
+2026-01-09 11:22:25,131 - lightrag - INFO - Raw search results: 83 entities, 75 relations, 0 vector chunks
+2026-01-09 11:22:25,143 - lightrag - INFO - After truncation: 71 entities, 75 relations
+2026-01-09 11:22:25,153 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-09 11:22:25,153 - lightrag - INFO - Find no additional relations-related chunks from 75 relations
+2026-01-09 11:22:25,153 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-09 11:22:25,159 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 11:22:25,172 - lightrag - INFO - Final context: 71 entities, 75 relations, 15 chunks
+2026-01-09 11:22:25,173 - lightrag - INFO - Final chunks S+F/O: E6/1 E4/2 E4/3 E3/4 E3/5 E3/6 E6/7 E8/8 E4/9 E2/10 E7/11 E4/12 E3/13 E3/14 E8/15
+2026-01-09 11:22:40,345 - lightrag - INFO -  == LLM cache == saving: hybrid:query:26f92491e51b43b349dc96f6d64c9153
+2026-01-09 11:22:40,384 - uvicorn.access - INFO - 127.0.0.1:55077 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 11:24:21,755 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:27e43ccb63dba58f28e0a2cf0fe16e11
+2026-01-09 11:24:21,833 - lightrag - INFO - Query nodes: Hagrid, Gringotts, Philosopher’s Stone (top_k:40, cosine:0.2)
+2026-01-09 11:24:21,923 - lightrag - INFO - Local query: 40 entites, 52 relations
+2026-01-09 11:24:21,924 - lightrag - INFO - Query edges: Trust, Philosopher’s Stone (top_k:40, cosine:0.2)
+2026-01-09 11:24:21,981 - lightrag - INFO - Global query: 55 entites, 40 relations
+2026-01-09 11:24:21,981 - lightrag - INFO - Raw search results: 83 entities, 80 relations, 0 vector chunks
+2026-01-09 11:24:21,993 - lightrag - INFO - After truncation: 71 entities, 80 relations
+2026-01-09 11:24:22,004 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-09 11:24:22,011 - lightrag - INFO - Find no additional relations-related chunks from 80 relations
+2026-01-09 11:24:22,012 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-09 11:24:22,018 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 11:24:22,030 - lightrag - INFO - Final context: 71 entities, 80 relations, 14 chunks
+2026-01-09 11:24:22,030 - lightrag - INFO - Final chunks S+F/O: E3/1 E5/2 E5/3 E2/4 E7/5 E6/6 E7/7 E5/8 E8/9 E5/10 E6/11 E7/12 E5/13 E4/14
+2026-01-09 11:24:45,300 - lightrag - INFO -  == LLM cache == saving: hybrid:query:4f0c754006b9000261d12a41ae128c9c
+2026-01-09 11:24:45,338 - uvicorn.access - INFO - 127.0.0.1:55164 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 11:26:38,166 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:281f3e915668f7dfd304ecbe20793118
+2026-01-09 11:26:38,244 - lightrag - INFO - Query nodes: Nicolas Flamel, Dumbledore, Philosopher's Stone (top_k:40, cosine:0.2)
+2026-01-09 11:26:38,336 - lightrag - INFO - Local query: 40 entites, 48 relations
+2026-01-09 11:26:38,336 - lightrag - INFO - Query edges: Philosopher's Stone, Nicolas Flamel, Dumbledore, Relationship (top_k:40, cosine:0.2)
+2026-01-09 11:26:38,405 - lightrag - INFO - Global query: 52 entites, 40 relations
+2026-01-09 11:26:38,406 - lightrag - INFO - Raw search results: 82 entities, 77 relations, 0 vector chunks
+2026-01-09 11:26:38,416 - lightrag - INFO - After truncation: 71 entities, 77 relations
+2026-01-09 11:26:38,426 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-09 11:26:38,427 - lightrag - INFO - Find no additional relations-related chunks from 77 relations
+2026-01-09 11:26:38,427 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-09 11:26:38,434 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 11:26:38,443 - lightrag - INFO - Final context: 71 entities, 77 relations, 15 chunks
+2026-01-09 11:26:38,443 - lightrag - INFO - Final chunks S+F/O: E4/1 E5/2 E2/3 E5/4 E4/5 E8/6 E4/7 E7/8 E7/9 E3/10 E2/11 E3/12 E2/13 E9/14 E7/15
+2026-01-09 11:27:23,299 - lightrag - INFO -  == LLM cache == saving: hybrid:query:ef1bf9b33abc3e01b82de75350136c79
+2026-01-09 11:27:23,331 - uvicorn.access - INFO - 127.0.0.1:55234 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 11:27:23,363 - lightrag - INFO - Query nodes: Nicolas Flamel, Dumbledore, Philosopher's Stone (top_k:40, cosine:0.2)
+2026-01-09 11:27:23,401 - lightrag - INFO - Local query: 40 entites, 48 relations
+2026-01-09 11:27:23,401 - lightrag - INFO - Query edges: Philosopher's Stone, Nicolas Flamel, Dumbledore, Relationship (top_k:40, cosine:0.2)
+2026-01-09 11:27:23,439 - lightrag - INFO - Global query: 52 entites, 40 relations
+2026-01-09 11:27:23,439 - lightrag - INFO - Raw search results: 82 entities, 77 relations, 0 vector chunks
+2026-01-09 11:27:23,447 - lightrag - INFO - After truncation: 71 entities, 77 relations
+2026-01-09 11:27:23,457 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-09 11:27:23,458 - lightrag - INFO - Find no additional relations-related chunks from 77 relations
+2026-01-09 11:27:23,458 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-09 11:27:23,464 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 11:27:23,475 - lightrag - INFO - Final context: 71 entities, 77 relations, 15 chunks
+2026-01-09 11:27:23,475 - lightrag - INFO - Final chunks S+F/O: E4/1 E5/2 E2/3 E5/4 E4/5 E8/6 E4/7 E7/8 E7/9 E3/10 E2/11 E3/12 E2/13 E9/14 E7/15
+2026-01-09 11:27:23,477 - uvicorn.access - INFO - 127.0.0.1:55234 - "POST /query HTTP/1.1" 200
+2026-01-09 11:30:57,242 - lightrag - INFO - Naive query: 20 chunks (chunk_top_k:20 cosine:0.2)
+2026-01-09 11:30:57,243 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 11:30:57,258 - lightrag - INFO - Final context: 20 chunks
+2026-01-09 11:31:18,505 - lightrag - INFO -  == LLM cache == saving: naive:query:a7f4a8d6c56db28d047001bea93a80ec
+2026-01-09 11:31:18,549 - uvicorn.access - INFO - 127.0.0.1:55429 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 11:38:31,836 - lightrag - INFO - Naive query: 20 chunks (chunk_top_k:20 cosine:0.2)
+2026-01-09 11:38:31,836 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 11:38:31,848 - lightrag - INFO - Final context: 20 chunks
+2026-01-09 11:38:31,849 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-01-09 11:38:31,849 - uvicorn.access - INFO - 127.0.0.1:55734 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 11:40:36,679 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:c88b706c9b4872510dee2cc08e94401c
+2026-01-09 11:40:36,757 - lightrag - INFO - Query nodes: Snape, Quirrell, Harry, Harry Potter story (top_k:40, cosine:0.2)
+2026-01-09 11:40:36,865 - lightrag - INFO - Local query: 40 entites, 192 relations
+2026-01-09 11:40:36,866 - lightrag - INFO - Query edges: Character connections, Harry Potter series (top_k:40, cosine:0.2)
+2026-01-09 11:40:36,975 - lightrag - INFO - Global query: 42 entites, 40 relations
+2026-01-09 11:40:36,975 - lightrag - INFO - Raw search results: 78 entities, 216 relations, 0 vector chunks
+2026-01-09 11:40:36,991 - lightrag - INFO - After truncation: 71 entities, 168 relations
+2026-01-09 11:40:37,003 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-09 11:40:37,010 - lightrag - INFO - Find no additional relations-related chunks from 168 relations
+2026-01-09 11:40:37,010 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-09 11:40:37,019 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 11:40:37,027 - lightrag - INFO - Final context: 71 entities, 168 relations, 11 chunks
+2026-01-09 11:40:37,027 - lightrag - INFO - Final chunks S+F/O: E4/1 E6/2 E2/3 E7/4 E2/5 E4/6 E4/7 E3/8 E5/9 E7/10 E2/11
+2026-01-09 11:40:58,893 - lightrag - INFO -  == LLM cache == saving: hybrid:query:7009bf0aa432917cda904f61cd313fcd
+2026-01-09 11:40:58,936 - uvicorn.access - INFO - 127.0.0.1:55784 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 12:04:15,927 - lightrag - INFO - Naive query: 20 chunks (chunk_top_k:20 cosine:0.2)
+2026-01-09 12:04:15,928 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 12:04:15,939 - lightrag - INFO - Final context: 20 chunks
+2026-01-09 12:04:15,939 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-01-09 12:04:15,940 - uvicorn.access - INFO - 127.0.0.1:56468 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 12:12:38,019 - lightrag - INFO - Naive query: 20 chunks (chunk_top_k:20 cosine:0.2)
+2026-01-09 12:12:38,023 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 12:12:38,051 - lightrag - INFO - Final context: 20 chunks
+2026-01-09 12:13:05,088 - lightrag - INFO -  == LLM cache == saving: naive:query:ba4301f2c34757af438762c7026ac935
+2026-01-09 12:13:05,126 - uvicorn.access - INFO - 127.0.0.1:56709 - "POST /query/stream HTTP/1.1" 200
+2026-01-09 12:13:56,327 - lightrag - INFO - Query nodes: Snape, Quirrell, Harry, Harry Potter story (top_k:40, cosine:0.2)
+2026-01-09 12:13:56,395 - lightrag - INFO - Local query: 40 entites, 192 relations
+2026-01-09 12:13:56,395 - lightrag - INFO - Query edges: Character connections, Harry Potter series (top_k:40, cosine:0.2)
+2026-01-09 12:13:56,521 - lightrag - INFO - Global query: 42 entites, 40 relations
+2026-01-09 12:13:56,522 - lightrag - INFO - Raw search results: 78 entities, 216 relations, 0 vector chunks
+2026-01-09 12:13:56,537 - lightrag - INFO - After truncation: 71 entities, 168 relations
+2026-01-09 12:13:56,546 - lightrag - INFO - Selecting 96 from 96 entity-related chunks by vector similarity
+2026-01-09 12:13:56,547 - lightrag - INFO - Find no additional relations-related chunks from 168 relations
+2026-01-09 12:13:56,547 - lightrag - INFO - Round-robin merged chunks: 96 -> 96 (deduplicated 0)
+2026-01-09 12:13:56,556 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-01-09 12:13:56,566 - lightrag - INFO - Final context: 71 entities, 168 relations, 11 chunks
+2026-01-09 12:13:56,566 - lightrag - INFO - Final chunks S+F/O: E4/1 E6/2 E2/3 E7/4 E2/5 E4/6 E4/7 E3/8 E5/9 E7/10 E2/11
+2026-01-09 12:14:22,158 - lightrag - INFO -  == LLM cache == saving: hybrid:query:974933034e230117227a7d746da02a94
+2026-01-09 12:14:22,198 - uvicorn.access - INFO - 127.0.0.1:56753 - "POST /query/stream HTTP/1.1" 200
